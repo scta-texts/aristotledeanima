@@ -1,0 +1,1403 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 3</title> <!-- De Anima -->
+        <author ref="#Aristotle">Aristotle</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 3</title>
+          <date when="2021-01-16">January 16, 2022</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <!-- manifestation sctar:aristdeanima/cod-dsKs3a-2 in codex sctar:cod-dsKs3a- -->
+          <witness xml:id="J" n="cod-dsKs3a-2">Sophiani Translatio, Venice 1562, volume 11</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+      </div>
+    </front>
+    <body>
+      <div xml:id="aristda-l3">
+        <p xml:id="aristda-l2-gy1Xpo"> <!-- l2-1-soph -->
+          <lb ed="#J" n="20"/>QVa igitur a superioribus de anima tradita sunt dicta sint. Eur 
+          <lb ed="#J" n="21"/>sus autem tanquam ab initio reuertamur, conantes explicare 
+          <lb ed="#J" n="22"/>quid sit anima, &amp; quaenam fuerit communissima ratio eius.
+        </p>
+        <p xml:id="aristda-l2-gy2Xpo"> <!-- l2-2-soph -->
+          <lb ed="#J" n="7"/>Dicimus ergo unum quoddam genus eorum quae sunt, substantiam:  
+          <lb ed="#J" n="8"/>huiusque, aliud ut materia, quod ex se quidem non est hoc aliquid: aliud 
+          <lb ed="#J" n="9"/>formam &amp; speciem, ex qua demum dicitur hoc aliquid: &amp; tertium, 
+          <lb ed="#J" n="10"/>quod ex eis constat. est autem materia, quidem potentia: species uero en 
+          <lb ed="#J" n="11"/>telechia: &amp; hoc bisariam aliud ut scientia, aliud ut contemplari. 
+        </p>
+        <p xml:id="aristda-l2-gy3Xpo"> <!-- l2-3-soph -->
+          <lb ed="#J" n="11"/>Porro autem corpora potissimum esse substantiae uidentur, &amp; ex 
+          <lb ed="#J" n="12"/>his, ea quae naturalia sunt: haec enim caeterorum sunt principia.
+          Natu<lb ed="#J" n="13" break="no"/>ralium autem, alia habent uitam, alia non habent: uita uero dicimus 
+          <lb ed="#J" n="14"/>nutritionem quae per se ipsum fit, &amp; auctionem, &amp; diminutionem: 
+          <lb ed="#J" n="15"/>itaque, omne corpus naturale uitae particeps substantia fuerit, &amp; ita sub 
+          <lb ed="#J" n="16"/>stantia, ut composita. 
+        </p>
+        <p xml:id="aristda-l2-gy4Xpo"> <!-- l2-4-soph -->
+          <lb ed="#J" n="8"/>Quoniam autem corpus est tale, nempe uitam habens, equidem non  
+          <lb ed="#J" n="9"/>fuerit corpus anima: non enim eorum quae sunt de subiecto corpus est, 
+          <lb ed="#J" n="10"/>sed potius ut subiectum &amp; materia. necesse est ergo animam esse
+          sub<lb ed="#J" n="11" break="no"/>stantiam, ut speciem corporis naturalis uitam habentis. 
+        </p>
+        <p xml:id="aristda-l2-gy5Xpo"> <!-- l2-5-soph -->
+          <lb ed="#J" n="12"/>Haec uero substantia est actus. ergo talis corporis est actus: hic autem, 
+          <lb ed="#J" n="13"/>bisariam dicitur, partim ut scientia, partim ut contemplari. constat ergo 
+          <lb ed="#J" n="14"/>eam esse ut scientiam: ex eo enim quod est anima, &amp; somnus et uigilia 
+          <lb ed="#J" n="15"/>est: proportione autem respondet uigilia quidem ipsi contemplari:
+          som<lb ed="#J" n="16" break="no"/>nus autem ipsi habere &amp; non operari. 
+        </p>
+        <p xml:id="aristda-l2-gy6Xpo"> <!-- l2-6-soph -->
+          <lb ed="#J" n="30"/>prior autem generatione in eodem scientia est: qua propter anima 
+          <lb ed="#J" n="31"/>est actus primus coporis naturalis potentia uitam habentis:
+          cuiusmo<lb ed="#J" n="32" break="no"/>di est quodcunque fuerit organicum. sunt porro plantarum quoque, par 
+          <lb ed="#J" n="33"/>tes organa, sed plane simplicia: ut folium integumentum est pulpae, quae  
+          <lb ed="#J" n="34"/>semen complectitur: pulpa autem seminis: radices uero ori proportione 
+          <lb ed="#J" n="35"/>respondent, utraque enim attrahunt alimentum. 
+        </p>
+        <p xml:id="aristda-l2-gy7Xpo"> <!-- l2-7-soph -->
+          <lb ed="#J" n="26"/>Ergo si quid commune de omni anima sit dicendum, ea fuerit actus 
+          <lb ed="#J" n="27"/>primus corporis naturalis organici. idcirco non oportet quaerere an unum 
+          <lb ed="#J" n="28"/>sit anima &amp; corpus, quemaomodum neque, ceram &amp; figuram, nec
+          de<lb ed="#J" n="29" break="no"/>nique, uniuscuiusque materiam, &amp; id cuius est materia: unum enim &amp; esse 
+          <lb ed="#J" n="30"/>cum multisariam dicatur, quod proprie est, actus est. 
+        </p>
+        <p xml:id="aristda-l2-gy8Xpo"> <!-- l2-8-soph -->
+          <lb ed="#J" n="35"/>Vniuerse igitur dictum est quid sit anima: nempe substatia ea quae  
+          <lb ed="#J" n="36"/>in ratione consistit: quod quidem est Quid erat esse tali corpori: ueluti si 
+          <lb ed="#J" n="37"/>quod instrumentu esset naturale corpus, uerbi causa securis: esset enim 
+          <lb ed="#J" n="38"/>fecuri esse substantia eius &amp; anima hoc: ea enim separata, no amplius, 
+          <lb ed="#J" n="39"/>esset securis, nisi aequiuoce: nunc uero est securis: non enim eiusmodi cor 
+          <lb ed="#J" n="40"/>poris Quid erat esse &amp; ratio est anima, sed naturalis, talis scilicet quod 
+          <lb ed="#J" n="41"/>in se motus statusque, principium habeat.
+        </p>
+        <p xml:id="aristda-l2-gy9Xpo"> <!-- l2-9-soph -->
+          <lb ed="#J" n="7"/>Hoc uero quod diximus in partibus etiam considerasse non ab re 
+          fue<lb ed="#J" n="8" break="no"/>rit: nam si oculus esset animal, profecto anima ei esset uisus: is enim est 
+          <lb ed="#J" n="9"/>oculi substantia quae in ratione consistit: oculus autem materia est uisus, 
+          <lb ed="#J" n="10"/>quo deficiente non est amplius oculus, nisi aequiuoce,
+          quemadmodumla<lb ed="#J" n="11" break="no"/>pideus &amp; pictus. Er go quod parti alicui conuenit in totum uiuens
+          cor<lb ed="#J" n="12" break="no"/>pus est transferendum: proportione namque, resfodet, ut pars ad partem, 
+          <lb ed="#J" n="13"/>sic totus sensus ad totum corpus sensitiuum, quatenus eiusmodi est. 
+        </p>
+        <p xml:id="aristda-l2-gy10Xp"> <!-- l2-10-soph -->
+          <lb ed="#J" n="16"/>Caeterum quod amissit animam non est id quod potentia est ad uiuem 
+          <lb ed="#J" n="17"/>dum, sed quod habet: semen uero &amp; fructus id sane est quod potentia 
+          <lb ed="#J" n="18"/>est tale corpus: ergo ut sectio &amp; uisio, sic uigilia est actus: ut uero uisus 
+          <lb ed="#J" n="19"/>&amp; potentia organi, sic anima est: corpus autem est id quod potentia est:  
+          <lb ed="#J" n="20"/>uerum ut pupilla &amp; uisus est oculus, ita etiam illic, anima &amp; corpus, 
+          <lb ed="#J" n="21"/>est animal. 
+        </p>
+        <p xml:id="aristda-l2-gy11Xp"> <!-- l2-11-soph -->
+          <lb ed="#J" n="25"/>Animam igitur non esse separabilem a corpore aut partes quasdam 
+          <lb ed="#J" n="26"/>eius, si partibilis est, non est obscurum: quarundam enim actus partium 
+          <lb ed="#J" n="27"/>est ipsarum: nihil tamen obstat quominus aliquae sint, propterea quod  
+          <lb ed="#J" n="28"/>nullius sunt corporis actus. incertum autem adhuc est, an dia ita sit actus 
+          <lb ed="#J" n="29"/>corporis: ueluti nauta nauigit. Ac de nima quidem adubratione quadam 
+          <lb ed="#J" n="30"/>sic explicatum descriptumque sit. 
+        </p>
+        <p xml:id="aristda-l2-gy12Xp"> <!-- l2-12-soph -->
+          <lb ed="#J" n="30"/>Quoniam autem ex obscuris quidem sed manifestioribus, nascitur id  
+          <lb ed="#J" n="31"/>quod manifestum &amp; ratione notius est, hoc eodem pacto rursus de ea
+          di<lb ed="#J" n="32" break="no"/>serere conandum est: neque, enim solum ipsum Quod definitiuam rationem, 
+          <lb ed="#J" n="33"/>aperire oportet, ut plurimae definitiones explicant, uerum etiam
+          cau<lb ed="#J" n="34" break="no"/>sam inesse &amp; apparere: alioqui, quasi conclusiones orantiones
+          definitio<lb ed="#J" n="35" break="no"/>num sunt, ut quid est quadratios aequale ei quod altera parte est longius, 
+          <lb ed="#J" n="36"/>rectangulum fieri equilaterum: quae sane definitio, ratio est
+          conctusio<lb ed="#J" n="37" break="no"/>nis: at uero quae quadrationem dicit esse mediae inuentionem, ea ret 
+          <lb ed="#J" n="38"/>causam dicit. 
+        </p>
+        <p xml:id="aristda-l2-gy13Xp"> <!-- l2-13-soph -->
+          <lb ed="#J" n="41"/>Dicamus igitur initio considerationis accepto animatum distinctu 
+          <lb ed="#J" n="42"/>esse ab inanimato ipso uiuere: cum autem pluribus modis uiuere dica¬ 
+          <!--Averroes_DeAnima_JuntSecunda_11-0127.xml-->
+          <pb ed="#J" n="56-r"/>
+          <lb ed="#J" n="1"/>tur, si uel unum duntaxat horum insit, uiuere ipsum dicimus: ut
+          intel<lb ed="#J" n="2" break="no"/>lectus, &amp; sensus, &amp; motus &amp; status loci: motusque, item alimenti, &amp;  
+          <lb ed="#J" n="3"/>diminutio &amp; auctio. 
+        </p>
+        <p xml:id="aristda-l2-gy14Xp"> <!-- l2-14-soph -->
+          <lb ed="#J" n="33"/>Quamobrem &amp; quae terra gignit omnia uidentur uiuere apparet 
+          <lb ed="#J" n="34"/>enim ea in se ipsis eiusmodi habere potentiam &amp; principium, quo
+          au<lb ed="#J" n="35" break="no"/>ctionem &amp; diminutionem contrariis capiant locis: neque, enim sursum 
+          <lb ed="#J" n="36"/>uersus augentur: deorsum, non item: sed peraeque in utramque partem 
+          <lb ed="#J" n="37"/>et undique semperque nutriuntur ac pergunt uiuere, dum possunt
+          cape<lb ed="#J" n="38" break="no"/>re alimentum. 
+        </p>
+        <p xml:id="aristda-l2-gy15Xp"> <!-- l2-15-soph -->
+          <lb ed="#J" n="26"/>Atque id quidem ab aliis separari potest: caetera uero ab hoc non
+          pos<lb ed="#J" n="27" break="no"/>sunt in mortalibus. quod perspicuu est in iis quae ex terra oriutur: nulla 
+          <lb ed="#J" n="28"/>enim alia inest eis animae potentia. 
+        </p>
+        <p xml:id="aristda-l2-gy16Xp"> <!-- l2-16-soph -->
+          <lb ed="#J" n="9"/>Ac uiuere quidem ob hoc principium adest omnibus uiuentibus. 
+          <lb ed="#J" n="10"/>Animal autem est ob sensum primo. et enim quae non mouentur, neque, 
+          <lb ed="#J" n="11"/>mutant locum, sensum tamen habent, &amp;oo, idest animalia dicimus, &amp;  
+          <lb ed="#J" n="12"/>non Cy, idest uiuere, solum. 
+        </p>
+        <p xml:id="aristda-l2-gy17Xp"> <!-- l2-17-soph -->
+          <lb ed="#J" n="31"/>Ex sensibus autem primo inest omnibus tactus: atque, ut nutrimentu 
+          <lb ed="#J" n="32"/>potest separari a tactu &amp; omni sensu, sic tactus a caeteris sensibus,
+          nu<lb ed="#J" n="33" break="no"/>tritiuum uero ea partem animae dicimus, cuius etiam plantae
+          partici<lb ed="#J" n="34" break="no"/>pes sunt. animalia autem omnia uidentur tangendi sensum habere. 
+        </p>
+        <p xml:id="aristda-l2-gy18Xp"> <!-- l2-18-soph -->
+          <lb ed="#J" n="15"/>Causam autem cur utrumque horum eueniat post dicemus: nunc hoc 
+          <lb ed="#J" n="16"/>tatum dictum sit, Animam esse principium eorum quae diximus, &amp;  
+          <lb ed="#J" n="17"/>his definitam esse: nutritiuo, sensitiuo, dianoetico, motu. 
+        </p>
+        <p xml:id="aristda-l2-gy19Xp"> <!-- l2-19-soph -->
+          <lb ed="#J" n="33"/>Vtrum autem unumquoda horum sit anima, anpars animae: &amp; si 
+          <lb ed="#J" n="34"/>pars, utrum ita ut sit separabilis ratione solum, an etiam loco, de nonul 
+          <lb ed="#J" n="35"/>lis non est uidere difficile: de aliquibus est quaestio. 
+        </p>
+        <p xml:id="aristda-l2-gy20Xp"> <!-- l2-20-soph -->
+          <lb ed="#J" n="22"/>vt enim in plantis sunt quae cum secantur, et pars alia ab alia sepa 
+          <lb ed="#J" n="23"/>ratur, uideantur uiuere, ut pote cum anima quae in eis est una in
+          una<lb ed="#J" n="24" break="no"/>quaque planta sit, potentia uero plures: sic etiam in aliis animae differen 
+          <lb ed="#J" n="25"/>tis uidemus fieri, ut in uis infectis quae incidutur: et enim sensum utraque 
+          <lb ed="#J" n="26"/>partium habet &amp; motum loci. quod si sensum, &amp; phantasiam etiam 
+          <lb ed="#J" n="27"/>&amp; appetitum: ubi enim sensus est, &amp; dolor &amp; uoluptas consequitur:  
+          <lb ed="#J" n="28"/>ubi autem haec sunt, necessario etiam cupiditas. 
+        </p>
+        <p xml:id="aristda-l2-gy21Xp"> <!-- l2-21-soph -->
+          <lb ed="#J" n="30"/>De intellectu uero &amp; contemplatiua potentia nondum quidquam 
+          <lb ed="#J" n="31"/>est manifestum, sed uidetur animae genus diuersum esse, idque, solum
+          pos<lb ed="#J" n="32" break="no"/>se separari, quemadmodum aeternum a corruptibili. 
+        </p>
+        <p xml:id="aristda-l2-gy22Xp"> <!-- l2-22-soph -->
+          <lb ed="#J" n="21"/>Caeteras autem partes animae ex his perspicuum est non esse
+          sepa<lb ed="#J" n="22" break="no"/>rabiles, ut nonnulli dicunt: quas tamen diuersas esse ratione perspicuum 
+          <lb ed="#J" n="23"/>est: sensitiuo enim esse, &amp; opinatiuo, diuer sum est. si quidem sentire
+          o<lb ed="#J" n="24" break="no"/>opinari: itemque caeterorum quae diximus unum quodque. 
+        </p>
+        <p xml:id="aristda-l2-gy23Xp"> <!-- l2-23-soph -->
+          <lb ed="#J" n="18"/>Praeterea uero nonnullis animalibus ad sunt omnes haet: in quibusdam 
+          <lb ed="#J" n="19"/>nonnullae: in aliis una duntaxat. quae res facit differentiam animalium. 
+          <lb ed="#J" n="20"/>de causa uero post considerabimus. simile quoddam in sensibus euenit, 
+          <lb ed="#J" n="21"/>quaedam enim habent omnes: quaedam nonnullos: quaedam unum qui 
+          <lb ed="#J" n="22"/>maxime necessarius est, tactum. 
+        </p>
+        <p xml:id="aristda-l2-gy24Xp"> <!-- l2-24-soph -->
+          <lb ed="#J" n="7"/>Quoniam autem id quo uiuimus &amp; sentimus duobus modis dicitur, 
+          <lb ed="#J" n="8"/>quemadmodum id quo scimus: horum autem unum dicimus
+          scien<lb ed="#J" n="9" break="no"/>tiam, alterum animam: nam utroque eorum scire dicimus. similiter etiam 
+          <lb ed="#J" n="10"/>id quo sani sumus, tum sanitate, tum parte aliqua corporis, uel etiam 
+          <lb ed="#J" n="11"/>toto: horum autem scientia quidem &amp; sanitas forma est et species quae  
+          <lb ed="#J" n="12"/>dam, &amp; ratio, &amp; ueluti actus receptiuorum, illa quidem eius quod  
+          <lb ed="#J" n="13"/>scire, haec uero eius quod sanari potest: uidetur enim in eo quod patitur, 
+          <lb ed="#J" n="14"/>atque, afficitur effectiuorum inesse actus, Anima uero id est quo
+          uiui<lb ed="#J" n="15" break="no"/>mus &amp; sentimus &amp; Si9 voouuaso. primo, profecto anima ratio quae  
+          <lb ed="#J" n="16"/>dam erit &amp; species, non autem ut materia &amp; subiectum. 
+        </p>
+        <p xml:id="aristda-l2-gy25Xp"> <!-- l2-25-soph -->
+          <lb ed="#J" n="34"/>Cum enim tribus modis substantia dicatur, ut diximus: quorum aliyd 
+          <lb ed="#J" n="35"/>est species, aliud materia, aliud id quod ex utrisque constat: atque horum 
+          <lb ed="#J" n="36"/>quidem materia est potentia, species autem actus: cum id quod ex
+          am<lb ed="#J" n="37" break="no"/>bobus constat animatum sit, profecto corpus non est actus animae, sed  
+          <lb ed="#J" n="38"/>ipsa corporis cuiusdam. 
+        </p>
+        <p xml:id="aristda-l2-gy26Xp"> <!-- l2-26-soph -->
+          <lb ed="#J" n="23"/>Quamobrem probe censent in quibus uidetur neque, sine corpore esse, 
+          <lb ed="#J" n="24"/>neque, corpus aliquod anima: corpus enim non est, sed corporis aliquid: &amp;  
+          <lb ed="#J" n="25"/>propterea inest in corpore, &amp; in corpore tali. &amp; non quemadmodum su 
+          <lb ed="#J" n="26"/>periores in corpus eam conticiebat, nulla praetered addita distinctione, 
+          <lb ed="#J" n="27"/>in quonam illo, &amp; quali: praesertim cum non uideatur quodlibet recipe 
+          <lb ed="#J" n="28"/>re quodlibet. hoc autem pacto res ratione procedit: uniuscuiusque enim 
+          <lb ed="#J" n="29"/>actus in eo quod est potentia, &amp; in sua ac idonea materia, natura
+          com<lb ed="#J" n="30" break="no"/>paratum est ut fiat. Animam ergo actum esse quendam &amp; rationem 
+          <lb ed="#J" n="31"/>eius quod habet potentiam ut tale sit, ex his perspicuum est. 
+        </p>
+        <p xml:id="aristda-l2-gy27Xp"> <!-- l2-27-soph -->
+          <lb ed="#J" n="31"/>Potentiae porto animae quas commemorauimus, in aliis insunt
+          om<lb ed="#J" n="32" break="no"/>nes: in alus nonnullae earum: in aliquibus una duntaxat. potentias autem 
+          <lb ed="#J" n="33"/>diximus, nutritiuum, sensitiuum, appetitiuum, motiuum motu loci, dia 
+          <lb ed="#J" n="34"/>noeticum. ac plantis quidem adest tantum modo nutritiuum: aliis autem, 
+          <lb ed="#J" n="35"/>tum hoc, tum etiam sensitiuum: quod si sensitiuum, &amp; appetitiuum 
+          <lb ed="#J" n="36"/>etiam: appetitus enim cupiditas est, &amp; ira &amp; uoluntas: cuncta autem 
+          <lb ed="#J" n="37"/>animalia unum habent ex sensibus, tactum. cui autem sensus inest huic 
+          <lb ed="#J" n="38"/>&amp; uoluptas &amp; dolor, &amp; iucundum &amp; molestum: in quibus autem haec 
+          <lb ed="#J" n="39"/>insunt, &amp; cupiditas inest: haec enim est appetitus iucundi.
+        </p>
+        <p xml:id="aristda-l2-gy28Xp"> <!-- l2-28-soph -->
+          <lb ed="#J" n="40"/>Praeterea uero sensum habent alimenti: nam tactus, sensus est
+          ali<lb ed="#J" n="41" break="no"/>menti: cuncta enim uiuentia siccis aluntur &amp; humidis &amp; calidis &amp;  
+          <!--Averroes_DeAnima_JuntSecunda_11-0140.xml-->
+          <pb ed="#J" n="63-v"/>
+          <lb ed="#J" n="1"/>frigidis: quorum sensus, tactus est: caeterorum autem sensibilium per ac 
+          <lb ed="#J" n="2"/>cidens: nihil enim ad alimentum confert sonus, nec color, nec odor: sapor 
+          <lb ed="#J" n="3"/>autem unum quoddam est de tangilibus: fames uero &amp; sitis cupiditas 
+          <lb ed="#J" n="4"/>est: ac fames quidem calidi &amp; ficci: sitis uero frigidi &amp; humidi: porro 
+          <lb ed="#J" n="5"/>sapor est ueluti quoddam eorum condimentum. 
+        </p>
+        <p xml:id="aristda-l2-gy29Xp"> <!-- l2-29-soph -->
+          <lb ed="#J" n="18"/>Sed de is postea dilucidius agendum est: nunc hoc tantum dictum 
+          <lb ed="#J" n="19"/>sit, quod animalibus habentibus tactum, appetitus quoque, inest: de phan 
+          <lb ed="#J" n="20"/>tasia autem non patet, sed post considerandum est. quibusdam autem 
+          <lb ed="#J" n="21"/>praeter haec, inest etiam motiuum motuloci: aliis autem &amp; dianoeticum 
+          <lb ed="#J" n="22"/>&amp; intellectus, ut hominibus, &amp; siquid extat eius generis aliud, uel 
+          <lb ed="#J" n="23"/>etiam nobilius. 
+        </p>
+        <p xml:id="aristda-l2-gy30Xp"> <!-- l2-30-soph -->
+          <lb ed="#J" n="13"/>Perspicuum igitur est perinde unam esse animaerationem, atque, figu 
+          <lb ed="#J" n="14"/>rae: neque, enim illic figura ulla est praeter triangulum, &amp; eas que
+          dein<lb ed="#J" n="15" break="no"/>ceps sunt: neque hic anima ulla praeter eas quae dictae sunt. fieri tamen po 
+          <lb ed="#J" n="16"/>terit, &amp; in figuris ratio communis, quae omnibus quidem congruat, pro 
+          <lb ed="#J" n="17"/>pria autem nullius sit figurae: similiter etiam in dictis animabus. Idcir 
+          <lb ed="#J" n="18"/>co ridiculum est &amp; in his &amp; in caeteris comniunem quaerere rationem, 
+          <lb ed="#J" n="19"/>quae nullius eorum quae sunt erit propria ratio, neque, ex propria &amp;
+          indi<lb ed="#J" n="20" break="no"/>uidua specie, hac tali praetermissa ratione. 
+        </p>
+        <p xml:id="aristda-l2-gy31Xp"> <!-- l2-31-soph -->
+          <lb ed="#J" n="41"/>Quaemadmodum autem in figuris, sic etia in anima res habet:
+          sem<lb ed="#J" n="42" break="no"/>per enim in eo quod est deinceps, inest potentia id quod prius est, tum in  
+          <!--Averroes_DeAnima_JuntSecunda_11-0144.xml-->
+          <pb ed="#J" n="65-v"/>
+          <lb ed="#J" n="1"/>figuris tum in animatis: ut in quadrato triangulus, in sensitiuo
+          nutriti<lb ed="#J" n="2" break="no"/>uum. Quare sigillatim quaeredum, quae cuiusque sit anima, uerbi gratia quae  
+          <lb ed="#J" n="3"/>plantae quaeue hominis uel bestiae. cur autem deinceps sic se habeant, con 
+          <lb ed="#J" n="4"/>siderandum est. nam sine nutritiuo, sensitiuum non est: a sensitiuo autem 
+          <lb ed="#J" n="5"/>separatur nutritiuum in plantis: rursus sine tactiuo nullus aliorum est 
+          <lb ed="#J" n="6"/>sensuum: tactus uero sine aliis est: pleraque enim animalia neque, uisum 
+          <lb ed="#J" n="7"/>neque, auditum nec odoris plane sensum fortita sunt. 
+        </p>
+        <p xml:id="aristda-l2-gy32Xp"> <!-- l2-32-soph -->
+          <lb ed="#J" n="32"/>inter sensitiua etiam sunt quae habeant motiuum motu loci, sunt quae  
+          <lb ed="#J" n="33"/>non habeant. ultima autem &amp; minima rationem &amp; dianoeam: in qui 
+          <lb ed="#J" n="34"/>bus enim mortalium inest ratio, iis quoque, reliqua omnia insunt: in
+          qui<lb ed="#J" n="35" break="no"/>bus autem unumquodque illorum, in iis non omnibus inest ratio. sed
+          qui<lb ed="#J" n="36" break="no"/>busdam ne phantasia quidem: quaedam, hac sola uiuunt. De contempla 
+          <lb ed="#J" n="37"/>tiuo aut intellectu alia est ratio. ac disputationem quidem de uno quoqde, 
+          <lb ed="#J" n="38"/>horum maxime etiam ad animam pertinere perspicuum est. 
+        </p>
+        <p xml:id="aristda-l2-gy33Xp"> <!-- l2-33-soph -->
+          <!--Averroes_DeAnima_JuntSecunda_11-0147.xml-->
+          <pb ed="#J" n="66-r"/>
+          <lb ed="#J" n="1"/>Necesse autem est eum qui de his consideraturus est, sumere quid  
+          <lb ed="#J" n="2"/>quodam eorum sit, atque, tunc demum de his quae proxima ab his sunt, ac 
+          <lb ed="#J" n="3"/>de reliquis exquirere. quod si oportet dicere quid quodque, ipsorum sit, ut 
+          <lb ed="#J" n="4"/>quid intellectiuum aut sensitiuum aut nutritiuum, multo ante
+          dicen<lb ed="#J" n="5" break="no"/>dum est quid sit intelligere, &amp; quid sentire: nam operationes &amp;
+          actio<lb ed="#J" n="6" break="no"/>nes potentiis ratione sunt priores: quod si ita est, ac obiecta etiam multo 
+          <lb ed="#J" n="7"/>prius quam haec oportet considerasse, profecto de illis primum ob eandem 
+          <lb ed="#J" n="8"/>causam disserendu fuerit: ut de alimeto, &amp; de sensibili, et de intelligibili. 
+        </p>
+        <p xml:id="aristda-l2-gy34Xp"> <!-- l2-34-soph -->
+          <lb ed="#J" n="16"/>Quare primum de alimento &amp; de generatione dicendum est. nam 
+          <lb ed="#J" n="17"/>nutritiua anima &amp; caeteris inest, &amp; prima &amp; maxime communis est 
+          <lb ed="#J" n="18"/>animae potentia, ex qua inest uiuere in omnibus: cuius officia sunt,
+          ge<lb ed="#J" n="19" break="no"/>nerare &amp; alimento uti: hoc enim est maxime naturale inter omnia oni 
+          <lb ed="#J" n="20"/>ficia uiuentium, quae perfecta sunt &amp; non mutila, aut sponte sua
+          na<lb ed="#J" n="21" break="no"/>scantur, procreare aliud quale ipsum est, animal, animal: planta,
+          plan<lb ed="#J" n="22" break="no"/>tam: ut aeternitatem &amp; diuinitatem participent quoad possunt:
+          cun<lb ed="#J" n="23" break="no"/>cta enim illud appetunt, &amp; illius causa agunt, quaecunque secundum 
+          <lb ed="#J" n="24"/>naturam agunt, 
+        </p>
+        <p xml:id="aristda-l2-gy35Xp"> <!-- l2-35-soph -->
+          <lb ed="#J" n="37"/>Id autem cuius causa res est duplex est, unum, Cuius, alterum, Cui. Er 
+          <lb ed="#J" n="38"/>go quia participare nequeunt aeternitatem &amp; diuinitatem
+          continua<lb ed="#J" n="39" break="no"/>tione: quia fieri non potest ut corruptibilium quiequam idem &amp; unum 
+          <lb ed="#J" n="40"/>numero permaneat, quoad eorum unumquodque participare potest, eate 
+          <lb ed="#J" n="41"/>nus participat: aliud magis, aliud minus: &amp; permanet non ipsum, sed  
+          <lb ed="#J" n="42"/>quale ipsum est: umero quidem non unum, specie uero unum.
+        </p>
+        <p xml:id="aristda-l2-gy36Xp"> <!-- l2-36-soph -->
+          <lb ed="#J" n="28"/>Est autem anima uiuentis corporis causa &amp; principium: haec autem 
+          <lb ed="#J" n="29"/>multisariam dicuntur. Anima item tribus illis expositis modis causa, 
+          <lb ed="#J" n="30"/>dicitur: et enim unde motus, &amp; cuius causa, &amp; ut substantia animato 
+          <lb ed="#J" n="31"/>rum corporum anima causa est. Constat igitur eam esse causam ut sub 
+          <lb ed="#J" n="32"/>stantiam: causa enim omnibus cur sint, substantia est. 
+        </p>
+        <p xml:id="aristda-l2-gy37Xp"> <!-- l2-37-soph -->
+          <lb ed="#J" n="30"/>Viuere autem uiuentibus esse est: quorum causa &amp; principium est 
+          <lb ed="#J" n="31"/>anima. praeterea eius quod est potentia ratio est actus. Constat item, ut 
+          <lb ed="#J" n="32"/>id cuius gratia, animam causam esse. ut enim intellectus gratia
+          alicu<lb ed="#J" n="33" break="no"/>ius facit, sic etiam natura, &amp; hoc est ei finis: eiusmodi autem est in
+          ani<lb ed="#J" n="34" break="no"/>malibus anima, &amp; secundum naturam. cuncta enim naturalia
+          corpo<lb ed="#J" n="35" break="no"/>ra animae sunt instrumenta, vt animalium sic etia plantarum: ut pote 
+          <lb ed="#J" n="36"/>quae gratia animae sint. Bisariam autem dicitur id cuius gratia aliquid 
+          <lb ed="#J" n="37"/>est, scilicet cuius &amp; cui. Quinetiam unde primum est motus loci anima 
+          <lb ed="#J" n="38"/>est: uerum haec potentia non omnibus inest uiuentibus. praeterea uero et 
+          <lb ed="#J" n="39"/>alteratio et auctio ab anima est: uidetur enim sensus alteratio esse quaedam, 
+          <!--Averroes_DeAnima_JuntSecunda_11-0152.xml-->
+          <pb ed="#J" n="69-v"/>
+          <lb ed="#J" n="1"/>nihil autem sentit quod non habeat animam. similiter etiam de auctio 
+          <lb ed="#J" n="2"/>ne &amp; diminutione res habet: nihil enim diminuitur, neque
+          naturali<lb ed="#J" n="3" break="no"/>ter augetur, nisi alatur, nihil autem alitur: quin sit uitae particeps. 
+        </p>
+        <p xml:id="aristda-l2-gy38Xp"> <!-- l2-38-soph -->
+          <lb ed="#J" n="34"/>Empedocles autem non recte dixit hoc addens auctionem fieri in  
+          <lb ed="#J" n="35"/>plantis, deorsum quidem radices agentibus, propterea quod terra sic fe 
+          <lb ed="#J" n="36"/>ratur natura, sursum que itidem propter ignem: neque, enim has differem 
+          <lb ed="#J" n="37"/>tias uidelicet sursum &amp; deorsum, recte usurpat: non enim idem est sur 
+          <lb ed="#J" n="38"/>sum &amp; deorsum omnibus, atque, rerum uniuersitati: sed quam caput
+          ani<lb ed="#J" n="39" break="no"/>malium ea obtinent rationem radices plantarum: siquidem instrumon 
+          <lb ed="#J" n="40"/>ta diuersa &amp; eadem ex eorum officis dicere conuenit. 
+        </p>
+        <p xml:id="aristda-l2-gy39Xp"> <!-- l2-39-soph -->
+          <lb ed="#J" n="13"/>Ad haec quid est quod continet dum ad contrarias partes feruntur 
+          <lb ed="#J" n="14"/>ignem &amp; terramus distrahentur enim nisi aliquid fuerit quod sit prohi 
+          <lb ed="#J" n="15"/>biturum: quod si erit, id ipsum est anima, &amp; causa cur res augescant 
+          <lb ed="#J" n="16"/>&amp; alantur. 
+        </p>
+        <p xml:id="aristda-l2-gy40Xp"> <!-- l2-40-soph -->
+          <lb ed="#J" n="10"/>Sunt autem qui censeant ignis naturam simpliciter causam esse nu 
+          <lb ed="#J" n="11"/>tritionis &amp; auctionis, is namque, solus omnium corporum uel elementoru 
+          <lb ed="#J" n="12"/>uidetur ali &amp; augeri: quamobrem &amp; in plantis &amp; in animalibus 
+          <lb ed="#J" n="13"/>putauerit aliquis eum esse id quod operatur.
+        </p>
+        <p xml:id="aristda-l2-gy41Xp"> <!-- l2-41-soph -->
+          <lb ed="#J" n="33"/>Verum is concausa quodam modo est, non tamen simpliciter causa, 
+          <lb ed="#J" n="34"/>sed anima potius: ignis enim auctio in infinitum procedit, quandiu 
+          <lb ed="#J" n="35"/>sub est res cremabilis: at omnium natura constantium terminus
+          statu<lb ed="#J" n="36" break="no"/>tus est, &amp; ratio magnitudinis &amp; auctionis: haec autem animae sunt, &amp;  
+          <lb ed="#J" n="37"/>non ignis: &amp; rationis potius quam materiae. 
+        </p>
+        <p xml:id="aristda-l2-gy42Xp"> <!-- l2-42-soph -->
+          <lb ed="#J" n="5"/>Cum autem eadem sit animae potentia nutritiua &amp; generatiua, 
+          <lb ed="#J" n="6"/>primum de nutrimento disserere necesse est, hoc enim officio ab aliis
+          di<lb ed="#J" n="7" break="no"/>stinguitur potentiis. 
+        </p>
+        <p xml:id="aristda-l2-gy43Xp"> <!-- l2-43-soph -->
+          <lb ed="#J" n="30"/>Videtur igitur nutrimentum esse contrarium contrario: non tamen 
+          <lb ed="#J" n="31"/>quoduis cuiuis: sed quaecunque contrariorum non solum ex se mutuo o ene 
+          <lb ed="#J" n="32"/>rantur, uerumetiam augentur: fiunt enim multa ex se mutuo, sed non  
+          <lb ed="#J" n="33"/>dia?s auoentur ut sanum ex egrotate. quinimo ne illa quidem eodem modo u  
+          <lb ed="#J" n="34"/>dentur sibi mutus esse alimentum. sed aqua quidem ignis est alimentu: 
+          <lb ed="#J" n="35"/>rgnis autem non alit aquam. Ac in simplicibus quidem corporibus 
+          <lb ed="#J" n="36"/>haec esse uidentur maxime, unum alimentum, alterum quod alitur. 
+        </p>
+        <p xml:id="aristda-l2-gy44Xp"> <!-- l2-44-soph -->
+          <lb ed="#J" n="34"/>Sed quaestio existit: sunt enim qui dicant simile ali simili,
+          quemad<lb ed="#J" n="35" break="no"/>modum etiam augeri: contra aliis, ut diximus, contrarium uidetur com. 
+          <lb ed="#J" n="36"/>trario: utpote cum simile pati non possit, alimentum. uero mutetur ac 
+          <lb ed="#J" n="37"/>concoquatur: mutatio uero omnibus in oppositum siat, aut in medium. 
+        </p>
+        <p xml:id="aristda-l2-gy45Xp"> <!-- l2-45-soph -->
+          <lb ed="#J" n="28"/>Praeterea alimentum patitur aliquid ab eo quod alitur: sed non hoc 
+          <lb ed="#J" n="29"/>ab alimento: quemadmodum neque, faber a materia, sed ea ab illo: saber 
+          <lb ed="#J" n="30"/>autem, ex ocio duntaxat ad negocium mutatur. utrum autem sit
+          ali<lb ed="#J" n="31" break="no"/>mentu id quod ultimo adhibetur, an id quod primo, differentia est: quod si 
+          <lb ed="#J" n="32"/>utrumque, sed alterum crudum, alterum concoctum, utroque, modo
+          possi<lb ed="#J" n="33" break="no"/>mus alimentum dicere: nam quatenus erudum est, contrarium
+          contra<lb ed="#J" n="34" break="no"/>rio alitur: quatenus concoctum, simile simili: itaque, constat utrosque
+          quo<lb ed="#J" n="35" break="no"/>dammodo &amp; recte &amp; non recte dicere. 
+        </p>
+        <p xml:id="aristda-l2-gy46Xp"> <!-- l2-46-soph -->
+          <lb ed="#J" n="4"/>Sed quia nihil alitur, nisi sit uitae particeps, id quod alitur
+          amma<lb ed="#J" n="5" break="no"/>tum corpus fuerit quatenus animatum, quare &amp; alimentum ad
+          ani<lb ed="#J" n="6" break="no"/>matum est &amp; non per accidens. 
+        </p>
+        <p xml:id="aristda-l2-gy47Xp"> <!-- l2-47-soph -->
+          <lb ed="#J" n="24"/>Est autem aliud alimento &amp; auctisico esse: nam quatenus quatum 
+          <lb ed="#J" n="25"/>quoddam est, auctisicum est: quatenus uero hoc aliquid &amp; substantia, 
+          <lb ed="#J" n="26"/>alimentum: conseruat enim substantiam, &amp; tandiu est, quadiu alitur:  
+          <lb ed="#J" n="27"/>effectiuumque generationis est, non eius quod alitur, sed cuiusmodi est id  
+          <lb ed="#J" n="28"/>quod alitur: iam enim est ipsa substantia, &amp; nihil generat se ipsum, 
+          <lb ed="#J" n="29"/>sed conseruat. 
+        </p>
+        <p xml:id="aristda-l2-gy48Xp"> <!-- l2-48-soph -->
+          <lb ed="#J" n="14"/>Quare tale animae principium eiusmodi est potentia, quae coseruet 
+          <lb ed="#J" n="15"/>quod habet ipsam, quatenus tale est. alimentum autem subministrat
+          ap<lb ed="#J" n="16" break="no"/>paratu ad operandum: qua propter si priuetur alimento, esse non potest. 
+        </p>
+        <p xml:id="aristda-l2-gy49Xp"> <!-- l2-49-soph -->
+          <lb ed="#J" n="36"/>Cum autem tria sint, quod nutritur, &amp; quo nutritur, &amp; quod
+          nu<lb ed="#J" n="37" break="no"/>rrit: id quidem quod nutrit, est prima anima: quod ueronutritur,
+          cor<lb ed="#J" n="38" break="no"/>pus quod eam habet: quo autem nutritur, alimentum. sed quia a fine 
+          <lb ed="#J" n="39"/>appellare omnia par est, finis autem est generare quale ipsum est, erit 
+          <lb ed="#J" n="40"/>prima anima generatiuum talis quale ipsum est. 
+        </p>
+        <p xml:id="aristda-l2-gy50Xp"> <!-- l2-50-soph -->
+          <lb ed="#J" n="26"/>Duplex porto est id quo nutrit, ut etiam id quo gubernas scilicet manus, 
+          <lb ed="#J" n="27"/>&amp; temo. aliud quod mouet &amp; mouetur, aliud quod mouet
+          tantummo<lb ed="#J" n="28" break="no"/>do. omne autem alimentum necesse est concoqui posse: efficit autem con 
+          <lb ed="#J" n="29"/>coctionem calidum: quamobrem omne animatum habet calorem. Ac 
+          <lb ed="#J" n="30"/>alimentum quidem quid sit, dictum est adumbratione quadam: de quo 
+          <lb ed="#J" n="31"/>post idoneo loco apertius agemus. 
+        </p>
+        <p xml:id="aristda-l2-gy51Xp"> <!-- l2-51-soph -->
+          <lb ed="#J" n="31"/>His expositis de omni sensu communiter disputemus. sensus sit dum 
+          <lb ed="#J" n="32"/>aliquid mouetur aut patitur, ut dictum est. uidetur enim esse
+          altera<lb ed="#J" n="33" break="no"/>tio quaedam. sunt etiam qui dicant simile a simili pati. id uero quomodo 
+          <lb ed="#J" n="34"/>possibile sit aut impossibi, dleictum est in uniuersalibus sermonibus de 
+          <lb ed="#J" n="35"/>agendo &amp; patiendo.  
+        </p>
+        <p xml:id="aristda-l2-gy52Xp"> <!-- l2-52-soph -->
+          <lb ed="#J" n="30"/>Sed oritur quaestio, cur non sensuum quoque, ipsorum non sit sensus, &amp; cur 
+          <lb ed="#J" n="31"/>sine is quae sunt extra non efficiunt sensum: cum insit &amp; ignis &amp; ter  
+          <lb ed="#J" n="32"/>ra, &amp; reliqua elementa quorum est sensus per se, aut ea quae ipsis
+          acci<lb ed="#J" n="33" break="no"/>dunt: perspicuum igitur est sensitiuum non esse actu sed potentia tantu 
+          <lb ed="#J" n="34"/>modo: qua propter non sentit: quemadmodum res cremabilis non crema 
+          <lb ed="#J" n="35"/>tur ipsa per se, sine eo quod uim habet eremandi: se enim ipsa eremaret, 
+          <lb ed="#J" n="36"/>nec actu ignis indigeret. 
+        </p>
+        <p xml:id="aristda-l2-gy53Xp"> <!-- l2-53-soph -->
+          <lb ed="#J" n="38"/>Sed cum sentire bisaria dicatur, quod enim potentia audit uidetque. 
+          <lb ed="#J" n="39"/>id audire &amp; uidere dicimus, quamuis forte dormiat: &amp; quod iam ope 
+          <lb ed="#J" n="40"/>ratur, sensus quoque, bisariam dicetur, partim ut potentia, partim ut actu. 
+          <lb ed="#J" n="41"/>similiter etiam sentire: &amp; quod potentia est, &amp; quod actu.
+        </p>
+        <p xml:id="aristda-l2-gy55Xp"> <!-- l2-55-soph -->
+          <lb ed="#J" n="37"/>Distinguendum etiam est de potentia &amp; actu: nunc enim simplici 
+          <lb ed="#J" n="38"/>ter de eis loquimur. partim enim ita sciens quidpia est, quasi dicamus 
+          <lb ed="#J" n="39"/>hominem scientem, quoniam eiusmodi est humanum genus, ut sciat &amp;  
+          <lb ed="#J" n="40"/>habeat scientiam: partim iam dicimus scientem, eum qui habet gram 
+          <lb ed="#J" n="41"/>maticam: uterque autem horum non eodem modo potest: sed unus quidem, 
+          <!--Averroes_DeAnima_JuntSecunda_11-0171.xml-->
+          <pb ed="#J" n="78-r"/>
+          <lb ed="#J" n="1"/>quia genus ac materia talis est: alter uero quia cum uoluerit potest
+          conus<lb ed="#J" n="2" break="no"/>templari, nisi aliquid prohibeat externum. 
+        </p>
+        <p xml:id="aristda-l2-gy56Xp"> <!-- l2-56-soph -->
+          <lb ed="#J" n="35"/>Atuero qui iam speculatur, actu est &amp; proprie sciens hoc A. 
+          <lb ed="#J" n="36"/>Ambo igitur priores illi, potentia quidem sunt scientes, sed alter
+          qui<lb ed="#J" n="37" break="no"/>dem per disciplinam alteratus, &amp; saepius ex contrario mutatus habitu: 
+          <lb ed="#J" n="38"/>alter uero ex eo quod habeat sensum uel grammaticam, &amp; non
+          opere<lb ed="#J" n="39" break="no"/>tur, ad operandum alio modo.
+        </p>
+        <p xml:id="aristda-l2-gy57Xp"> <!-- l2-57-soph -->
+          <lb ed="#J" n="27"/>Pati quoque, non est simplex, sed aliud est corruptio quaedam a
+          contra<lb ed="#J" n="28" break="no"/>rio: aliua salus potius eius quod est potentia, ab eo quod est actu &amp; simili: 
+          <lb ed="#J" n="29"/>quomodo potentia se habet ad actum: contemplans enim fit quod habet 
+          <lb ed="#J" n="30"/>scientiam: quod sane aut non est alterari: nam in ipsum sis accessio, &amp;  
+          <lb ed="#J" n="31"/>in actum: aut certe aliud est genus alterationis. 
+        </p>
+        <p xml:id="aristda-l2-gy58Xp"> <!-- l2-58-soph -->
+          <lb ed="#J" n="29"/>Quamobrem non recte se habet dicere id quod scit cumscit, alterari: 
+          <lb ed="#J" n="30"/>quemadmodum nec aedificatorem cum aedificat. Quod igitur ad actum 
+          <lb ed="#J" n="31"/>ducit ex eo quod est potentia intelligens &amp; sciens, id no doctrinam, sed  
+          <lb ed="#J" n="32"/>aliam habere appellationem meretur: quod autem cum sit potentia
+          di<lb ed="#J" n="33" break="no"/>scit &amp; comparat scientiam ab eo quod est actu, &amp; docet, id uel non esse 
+          <lb ed="#J" n="34"/>dicendum pati, quemadmodum diximus, aut certe duos esse
+          alteratio<lb ed="#J" n="35" break="no"/>nis modos: uidelicet mutationem eam quae ad priuatiuas sit
+          dispositio<lb ed="#J" n="36" break="no"/>nes, &amp; eam quae ad habitus &amp; naturam. 
+        </p>
+        <p xml:id="aristda-l2-gy59Xp"> <!-- l2-59-soph -->
+          <lb ed="#J" n="30"/>Sensitiui autem prima quidem mutatio fit ab eo quod generat: cum 
+          <lb ed="#J" n="31"/>cutem generatum est, habet iam tanquam scientiam &amp; sentire. quin 
+          <lb ed="#J" n="32"/>etiam quod actu est perinde dicitur atque, contemplari: differentia tamen 
+          <lb ed="#J" n="33"/>est, quod ea quae actu sensum efficiunt, extra sunt, uisibile scilicet &amp;  
+          <lb ed="#J" n="34"/>audibile, caeteraque, itidem sensibilia. 
+        </p>
+        <p xml:id="aristda-l2-gy60Xp"> <!-- l2-60-soph -->
+          <lb ed="#J" n="22"/>Cuius rei causa est, quia sensus qui actu est, singularium est:
+          scien<lb ed="#J" n="23" break="no"/>tia uero uniuersalium: haec autem in ipsa quodam modo sunt anima: 
+          <lb ed="#J" n="24"/>iccirco intelligere quidem est in ipso cum uocuerit, sentire autem non est 
+          <lb ed="#J" n="25"/>in ipso: necesse enim est adesse sensibile. similiter etiam res se habet in  
+          <lb ed="#J" n="26"/>scientiis sensibilium, &amp; ob eandem causam: quia sensibilia singularia 
+          <lb ed="#J" n="27"/>&amp; extra sunt. sedde his apertius disserendi erit occasio etiam alias. 
+        </p>
+        <p xml:id="aristda-l2-gy61Xp"> <!-- l2-61-soph -->
+          <lb ed="#J" n="34"/>Verum hoc tantum in praesentia sit distinctum: cum non simplex sit 
+          <lb ed="#J" n="35"/>id quod potentia dicitur, sed partim quasi dicamus puerum posse duct 
+          <lb ed="#J" n="36"/>esse: partim ut eum qui per aetatem idoneus sit, sic se habet sensitiuum. 
+        </p>
+        <p xml:id="aristda-l2-gy62Xp"> <!-- l2-62-soph -->
+          <lb ed="#J" n="18"/>Sed quia nomine caret eorum differentia, explicatumque est ea esse 
+          <lb ed="#J" n="19"/>diuersa, &amp; quonam pacto diuersa, necesse est nominibus his, pati scilicet 
+          <lb ed="#J" n="20"/>&amp; alterari, uti tanquam propriis. sensitiuum autem potentia est tale, 
+          <lb ed="#J" n="21"/>quale iam sensibile actu, quemadmodum dictum est. patitur igitur, 
+          <lb ed="#J" n="22"/>cum non est simile: ubi autem passum fuerit, simile factum est, &amp; tale 
+          <lb ed="#J" n="23"/>est quale illud. 
+        </p>
+        <p xml:id="aristda-l2-gy63Xp"> <!-- l2-63-soph -->
+          <lb ed="#J" n="24"/>Igitur in unoquoque, sensu primum de sensibilibus dicendum est. Sensi 
+          <lb ed="#J" n="25"/>tiuum tribus modis dicitur, quorum duo quidem per se unum, uero per
+          acci<lb ed="#J" n="26" break="no"/>dens sentiri dicimus: duorum aut illorum, unum est proprium cuiusque, sen 
+          <lb ed="#J" n="27"/>sus, alterum commune omnium. id autem intelligo proprium, quod non potest 
+          <lb ed="#J" n="28"/>alio sensu sentiri, &amp; in quo non potest fieri error: ut uisus coloris, &amp;
+          au<lb ed="#J" n="29" break="no"/>ditus soni, &amp; gustus saporis: tactus autem plures habet differentias, 
+          <lb ed="#J" n="30"/>sed unusquisque iudicat de eis: neque, decipitur quod color sit, uel quod
+          so<lb ed="#J" n="31" break="no"/>nus: sed quid sit id quod coloratum est, aut ubi: aut quid sit id quod
+          so<lb ed="#J" n="32" break="no"/>nat, aut ubi: Haec igitur dicuntur propria cuius quod.  
+        </p>
+        <p xml:id="aristda-l2-gy64Xp"> <!-- l2-64-soph -->
+          <!--Averroes_DeAnima_JuntSecunda_11-0180.xml-->
+          <pb ed="#J" n="83-v"/>
+          <lb ed="#J" n="1"/>Communia autem, motus, quies, numerus, si figura, magnitudo: haec 
+          <lb ed="#J" n="2"/>enim nullius sunt propria sed omnium communia. etenim &amp; tactu
+          mo<lb ed="#J" n="3" break="no"/>tus quidam sensibilis est, &amp; uisu. Atque haec quidem per se sensibilia sunt. 
+        </p>
+        <p xml:id="aristda-l2-gy65Xp"> <!-- l2-65-soph -->
+          <lb ed="#J" n="26"/>per accidens autem sensibile dicitur, uerbi causa si album sit
+          Dia<lb ed="#J" n="27" break="no"/>ris filius: per accidens enim hoc sentimus, quia accidit albo id quod sen 
+          <lb ed="#J" n="28"/>timus: quocirca nihil quatenus tale est a sensibili patitur. eorum autem, 
+          <lb ed="#J" n="29"/>quae per se sunt sensibilia, ea proprie sensibilia sunt, quae propria sunt, 
+          <lb ed="#J" n="30"/>&amp; ad quae nata atque, apta est cuiusque, sensus substantia. 
+        </p>
+        <p xml:id="aristda-l2-gy66Xp"> <!-- l2-66-soph -->
+          <lb ed="#J" n="3"/>Ergo cuius est uisus, id est uisibile. uisibile autem est color, &amp; quod  
+          <lb ed="#J" n="4"/>oratione quidem exprimi potest, nomine autem caret: uerum in
+          oratio<lb ed="#J" n="5" break="no"/>nis progressu maxime perspicuum fiet quod dicimus. quippe uisibile est 
+          <lb ed="#J" n="6"/>color, qui demum est id quod in eo est, quod est per se uisibile: per se
+          au<lb ed="#J" n="7" break="no"/>tem non ratione, sed quoniam in se habet causam cur sit uisibile. 
+        </p>
+        <p xml:id="aristda-l2-gy67Xp"> <!-- l2-67-soph -->
+          <lb ed="#J" n="36"/>Omnis autem color motiuus est eius quod est actu perlucidum, atque, 
+          <lb ed="#J" n="37"/>id est ipsius natura feccirco non est uisibile sine lumine: sed omnis color 
+          <lb ed="#J" n="38"/>rei cuiusque, in lumine uidetur: quamobrem, de lumine prius quid sit dicen 
+          <lb ed="#J" n="39"/>dum est. est erga aliquid perlucidum.
+        </p>
+        <p xml:id="aristda-l2-gy68Xp"> <!-- l2-68-soph -->
+          <lb ed="#J" n="8"/>Id autem appello perlucidum, quod est quidem uisibile, sed ut uno 
+          <lb ed="#J" n="9"/>uerbo dicam, non per se, sed propter alienum colorem uisibile.
+          cuiusmo<lb ed="#J" n="10" break="no"/>di sunt aer &amp; aqua &amp; complura solidorum. non enim quatenus aqua, 
+          <lb ed="#J" n="11"/>nec quatenus aer, perlucidum est: sed quia eadem inest natura in
+          utro<lb ed="#J" n="12" break="no"/>que eorum, &amp; in aeterno illo supero corpore. 
+        </p>
+        <p xml:id="aristda-l2-gy69Xp"> <!-- l2-69-soph -->
+          <lb ed="#J" n="39"/>Lumen uero est eius actus, nempe perlucidi quatenus perlucidum est: 
+          <lb ed="#J" n="40"/>in quo ante hoc inest potentia, in eodem tenebrae etiam insunt: Lumen 
+          <!--Averroes_DeAnima_JuntSecunda_11-0186.xml-->
+          <pb ed="#J" n="86-v"/>
+          <lb ed="#J" n="1"/>autem ueluti color est perlucidi, quando actu fit perlucidum ab igue 
+          <lb ed="#J" n="2"/>aut eius generis aliquo, cuiusmodi est superum corpus. Quid igitur sit 
+          <lb ed="#J" n="3"/>perluciaum &amp; quidlumen diximus: nimirum quod nec ivnis est, nec 
+          <lb ed="#J" n="4"/>omnino corpus, neque, esstuxio corporis ulliuscils esset enim uel sic corpus
+          ali<lb ed="#J" n="5" break="no"/>quod, sed ignis aut alicuius eiusmodi praesentia in perlucido. neque, enim 
+          <lb ed="#J" n="6"/>duo corpora simul in eodem esse possunt. 
+        </p>
+        <p xml:id="aristda-l2-gy70Xp"> <!-- l2-70-soph -->
+          <lb ed="#J" n="39"/>Videtur etiam lumen esse contrarium tenebris. sunt uero tenebrae 
+          <lb ed="#J" n="40"/>priratio talis habitus a perlucido. Itaque, perspicuum est eius praesentiam 
+          <!--Averroes_DeAnima_JuntSecunda_11-0187.xml-->
+          <pb ed="#J" n="86-r"/>
+          <lb ed="#J" n="1"/>esse lumen neque, recte Empedocles aut si quis alius periude locutus est. 
+          <lb ed="#J" n="2"/>ac silumenferatur, ac demum extendatur inter terram et coelum am 
+          <lb ed="#J" n="3"/>biens, nos uero lateat. hoc enim est praeter ueritatem quae in ratione posi 
+          <lb ed="#J" n="4"/>sa est, &amp; praeter ea quae apparent. in paruo namque interuallo forte nos 
+          <lb ed="#J" n="5"/>lateret. Latere uero ab ortu ad occasum, magnum admodum
+          po<lb ed="#J" n="6" break="no"/>stulatum est. 
+        </p>
+        <p xml:id="aristda-l2-gy71Xp"> <!-- l2-71-soph -->
+          <lb ed="#J" n="38"/>Est autem coloris quidem receptiuum quod colore uacat, soni autem 
+          <lb ed="#J" n="39"/>quod sono. uacat autem colore, perlucidum, &amp; inuisibile, &amp; quod uix 
+          <lb ed="#J" n="40"/>cernitur: cuiusinodi uidetur esse tenebrosum: tale autem perlucidum est 
+          <!--Averroes_DeAnima_JuntSecunda_11-0188.xml-->
+          <pb ed="#J" n="87-v"/>
+          <lb ed="#J" n="1"/>non tamen quando actu, sed quando potentia est perlucidum: eadem enim 
+          <lb ed="#J" n="2"/>natura modo est tenebrae, modo lumen. 
+        </p>
+        <p xml:id="aristda-l2-gy72Xp"> <!-- l2-72-soph -->
+          <lb ed="#J" n="34"/>Neque, uero omnia cerni possunt in lumine, sed suus cuiusque, duntaxat 
+          <lb ed="#J" n="35"/>color. sunt enim nonnulla quae in lumine quidem non cernuntur, in tene 
+          <lb ed="#J" n="36"/>bris autem faciunt sensum, ueluti quae ignea apparent, atque splendent:  
+          <lb ed="#J" n="37"/>uacant autem uno nomine, ut fungus, ut cornu, ut piscium capita &amp;¬  
+          <lb ed="#J" n="38"/>squammae, &amp; oculi. uerum nulltus horum color cernitur suus. causa
+          au<lb ed="#J" n="39" break="no"/>tem quam obrem cernantur ad aliam pertinet disputationem.
+        </p>
+        <p xml:id="aristda-l2-gy73Xp"> <!-- l2-73-soph -->
+          <lb ed="#J" n="36"/>Nunc hoc tantum constat, colorem id esse quod in lumine cernitur: 
+          <lb ed="#J" n="37"/>quamobrem sine lumine non cernitur: hoc enim erat ipsi esse colori.
+          mo<lb ed="#J" n="38" break="no"/>tiuo esse eius quod est actu perl. idum: actus autem perlucidi lumen 
+          <lb ed="#J" n="39"/>est: cuius euidens indicium est, nam siquis rem colore praeditam
+          appo<lb ed="#J" n="40" break="no"/>nat uisui, non uidebit: sed color quidem mouet perlucidum, uerbi causa 
+          <lb ed="#J" n="41"/>aerem: ab eo autem ut pote continuo, mouetur sensus instrumentum.
+        </p>
+        <p xml:id="aristda-l2-gy74Xp"> <!-- l2-74-soph -->
+          <lb ed="#J" n="40"/>Enimuero non recte hoc dicit Democritus, putans si aeris
+          interual<lb ed="#J" n="41" break="no"/>lum fiat uacuum, cerni posse exquisite si uel formica in coelo fuerit: nam 
+          <lb ed="#J" n="42"/>hoc fieri nequit. uisio enim fit sensitiuo aliquid patiente. ut igitur ab ip 
+          <!--Averroes_DeAnima_JuntSecunda_11-0191.xml-->
+          <pb ed="#J" n="88-r"/>
+          <lb ed="#J" n="1"/>so colore qui cernitur, fieri non potest: restat ergo ut ab intermedio:  
+          <lb ed="#J" n="2"/>quamobrem necesse est aliquid esse intermedium. quod si uacuum fiat 
+          <lb ed="#J" n="3"/>non modo non ex quisite, sed prorsus nihil uidebitur. causa igitur cur 
+          <lb ed="#J" n="4"/>necesse sit colorem inlumine uideri dicta est. Ivnis autem in utroque cerni 
+          <lb ed="#J" n="5"/>tur, &amp; in tenebris, &amp; in lumine: idque necessario, nam perlucidum ab 
+          <lb ed="#J" n="6"/>eo fit perlucidum. 
+        </p>
+        <p xml:id="aristda-l2-gy75Xp"> <!-- l2-75-soph -->
+          <lb ed="#J" n="20"/>Eadem de sono &amp; odore ratio est: nihil enim eorum tangendo
+          senso<lb ed="#J" n="21" break="no"/>rium, efficit sensum: sed ab odore quidem et sono mouetur intermedium, 
+          <lb ed="#J" n="22"/>ab eo autem instrumentum utrumque sinautem aliquis ipsi instrumento 
+          <lb ed="#J" n="23"/>rem apppsuerit olentem aut sonantem, nullum sensum faciet: De tactu 
+          <lb ed="#J" n="24"/>etiam &amp; gustatu pari quidem modo res habet, sed non apparet: causa
+          au<lb ed="#J" n="25" break="no"/>tem post declarabitur. 
+        </p>
+        <p xml:id="aristda-l2-gy76Xp"> <!-- l2-76-soph -->
+          <lb ed="#J" n="9"/>Intermedium autem sonorum quidem, est aer: odoris autem uacat 
+          <lb ed="#J" n="10"/>nomine. nam in aere &amp; in aqua communis est quaedam affectio, ut res 
+          <lb ed="#J" n="11"/>perlucida colori, sic colore praedito, id quod in utrisque his inest: nam &amp;  
+          <lb ed="#J" n="12"/>aquatilia animalia habere sensum odoris uidentur: sed homo quidem &amp;  
+          <lb ed="#J" n="13"/>inter pedestria quae spirant, nisi spiritum trahant, olfacere nequeunt:  
+          <lb ed="#J" n="14"/>quorum etiam causam post reddemus. 
+        </p>
+        <p xml:id="aristda-l2-gy77Xp"> <!-- l2-77-soph -->
+          <lb ed="#J" n="14"/>Nunc de sono primum et auditu disseramus. Duplex est sonus, unus 
+          <lb ed="#J" n="15"/>actu, alter potentia: quaedam enim non habere sonum dicimus, ut
+          spon<lb ed="#J" n="16" break="no"/>giam, lanam: quaedam habere, ut aes, &amp; quaecunque, solida sunt &amp; lae 
+          <lb ed="#J" n="17"/>uia, quia possunt sonum edere, idest inter se &amp; auditu actu sonum efficere. 
+        </p>
+        <p xml:id="aristda-l2-gy78Xp"> <!-- l2-78-soph -->
+          <lb ed="#J" n="40"/>Eit autem actu sonus semper alicuius ad aliquid &amp; in aliquo: ictus 
+          <!--Averroes_DeAnima_JuntSecunda_11-0195.xml-->
+          <pb ed="#J" n="90-r"/>
+          <lb ed="#J" n="1"/>enim est qui efficit: itaque fieri non potest, ut si unum sit, sonus siat: aliud, 
+          <lb ed="#J" n="2"/>enim est quod uerberat, aliud quod uerberatur, quare id quod sonat ad  
+          <lb ed="#J" n="3"/>aliquid sonat: ictus au¬ mnon sit sine latione. uerum ut diximus non quo 
+          <lb ed="#J" n="4"/>rumuis ictus, sonus est. nullum enim sonum edit lana si percutiatur. sed  
+          <lb ed="#J" n="5"/>aes, &amp; quaecunque laeuia &amp; concaua sunt. aes quidem quia laeue est: conca 
+          <lb ed="#J" n="6"/>ua autem refractione multos post primum ictus efficiunt, dum quod 
+          <lb ed="#J" n="7"/>motum est exire non potest. 
+        </p>
+        <p xml:id="aristda-l2-gy79Xp"> <!-- l2-79-soph -->
+          <lb ed="#J" n="11"/>Praeterea &amp; in aere auditur &amp; i aqua, sed minus. Neque, uero penes 
+          <lb ed="#J" n="12"/>aerem soni potestas est, nec penes aquam: sed oportet solidorum inter se &amp; cum 
+          <lb ed="#J" n="13"/>aere constictionem ictumque fieri: quod tum contingit, cum percussus aer 
+          <lb ed="#J" n="14"/>perstiterit, nec dissipatus fuerit. itaque, si celeriter &amp; uehementer
+          per<lb ed="#J" n="15" break="no"/>cutiatur, sonum edit: oportet enim ut motus ferientis anticipet
+          dissipa<lb ed="#J" n="16" break="no"/>tionem aeris, non secus ac si quis arenae cumulum, aut certe arenam per  
+          <lb ed="#J" n="17"/>petuo lapsu praecipitantem celeriter diuerberet. 
+        </p>
+        <p xml:id="aristda-l2-gy80Xp"> <!-- l2-80-soph -->
+          <lb ed="#J" n="10"/>Echo autem fit cum ab aere, qui propter uas quod eum terminauit 
+          <lb ed="#J" n="11"/>friarique prohibuit unus efficitur, retro aer ueluti pila pulsus fuerit. iide 
+          <lb ed="#J" n="12"/>tur aut semper Echo fieri, sed non clara. quandoquidem ut inlumine sic 
+          <lb ed="#J" n="13"/>usu uenit in sono: et enim semper lumen refringitur: alioqui non fieret 
+          <lb ed="#J" n="14"/>ubique lumen sed tenebrae, extra locum a sole illustratum: sed non ita re 
+          <lb ed="#J" n="15"/>fringitur, ut ab aqua uel aere uel quouis alio laeuium, ut umbram
+          effi<lb ed="#J" n="16" break="no"/>ciat, qua lumen terminamus. 
+        </p>
+        <p xml:id="aristda-l2-gy81Xp">[Missing]</p><!-- alias="l2-81-soph" -->
+        <p xml:id="aristda-l2-gy82Xp">[Missing]</p> <!-- alias="l2-82-soph" -->
+        <p xml:id="aristda-l2-gy83Xp"> <!-- l2-83-soph -->
+          <!-- End missing pages 92v and 93r -->
+          <!--Averroes_DeAnima_JuntSecunda_11-0199.xml-->
+          <pb ed="#J" n="93-v"/>
+          <!-- likely 93v -->
+          <lb ed="#J" n="1"/>simembrana aegrotauerit: quemadmodum pellis ea qua pupilla obte¬, 
+          <lb ed="#J" n="2"/>gitur, cum aegrotauerit. 
+        </p>
+        <p xml:id="aristda-l2-gy84Xp"> <!-- l2-84-soph -->
+          <lb ed="#J" n="5"/>Quinetiam signum audiendi uel non audiendi est, si auris semper so 
+          <lb ed="#J" n="6"/>net ut cornu: semper enim aer in auribus conditus motu quodam moue 
+          <lb ed="#J" n="7"/>tur suo: at sonus alienus est, &amp; non proprius: &amp; propterea dicunt nos au 
+          <lb ed="#J" n="8"/>dire uacuo &amp; sonante, quia eo audimus quod definitum habet aerem. 
+        </p>
+        <p xml:id="aristda-l2-gy85Xp"> <!-- l2-85-soph -->
+          <lb ed="#J" n="35"/>Vtrum autem sonat id quod uerberat, an quod uerberatur? An &amp; 
+          <lb ed="#J" n="36"/>utrumque, modo tamen diuerso. est enim sonus motus eius quod potest mo 
+          <lb ed="#J" n="37"/>ueri, ueluti quae resiliunt a laeuibus, cum quis percusserit. nam ut
+          dixi<lb ed="#J" n="38" break="no"/>mus, non quiduis sonat dum percutitur &amp; percutit: uerbi causa, si acus  
+          <lb ed="#J" n="39"/>acum feriat: sed oportet ut id quod percutitur planum sit, ita ut aer
+          con<lb ed="#J" n="40" break="no"/>fertim resiliat &amp; quatiatur.
+        </p>
+        <p xml:id="aristda-l2-gy86Xp"> <!-- l2-86-soph -->
+          <lb ed="#J" n="30"/>Differentiae autem sonantium in sono qui actu est patefiunt: ut enim 
+          <lb ed="#J" n="31"/>colores sine lumine non cernuntur, sic nec acutum &amp; graue sine sono. 
+          <lb ed="#J" n="32"/>haec autem per translationem dicuntur a tactilibus: acutum enim mo 
+          <lb ed="#J" n="33"/>uet sensum breui tempore, multum: graue longo tempore, parum: neque, 
+          <lb ed="#J" n="34"/>uerum acutum uelox est, neque, graue tardum. sed motus unius sit talis pro 
+          <lb ed="#J" n="35"/>pter uelocitatem: alterius, propter tarditatem. atque, uidentur proportio 
+          <lb ed="#J" n="36"/>ne respondere ei acuto &amp; obtuso quod in tactu consistit: acutum enim 
+          <lb ed="#J" n="37"/>quasi pungit: obtusum, quasi pellit: propterea quod unum in multo,
+          al<lb ed="#J" n="38" break="no"/>terum in pauco mouet tempore: itaque accidit, ut alterum uelox, alterum 
+          <lb ed="#J" n="39"/>tardum sit. Ac de sono quidem sic expositum sit.
+        </p>
+        <p xml:id="aristda-l2-gy87Xp"> <!-- l2-87-soph -->
+          <lb ed="#J" n="8"/>Vex autem est sonus quidam animati: nullum enim inanimatorum 
+          <lb ed="#J" n="9"/>uoce utitur, sed similitudine quadam dicuntur uocem emittere, ut
+          ti<lb ed="#J" n="10" break="no"/>bia, ut bra: caeterorumque inanimatorum quaecunque habent extensionem, 
+          <lb ed="#J" n="11"/>&amp; melos &amp; locutionem. sunt enim similia, quia &amp; uox haec eadem 
+          <lb ed="#J" n="12"/>habet. multa autem animalia non habent uocem, ut exanguia: &amp;
+          in<lb ed="#J" n="13" break="no"/>ter sanguine praedita, pisces: neque, adeo inturia: siquidem sonus moti
+          quae<lb ed="#J" n="14" break="no"/>dam est aeris. sed quos ferunt uocem mittere, ut in Acheloo amne
+          pus<lb ed="#J" n="15" break="no"/>sces quosdam, u sonant branchiis, uel eius generis alio. 
+        </p>
+        <p xml:id="aristda-l2-gy88Xp"> <!-- l2-88-soph -->
+          <lb ed="#J" n="12"/>Vox autem est sonus animalis, nec quauis parte: sed quoniam
+          om<lb ed="#J" n="13" break="no"/>nia sonant percutiente aliquo, &amp; aliquid, &amp; in aliquo adque, est aer, me 
+          <lb ed="#J" n="14"/>vrito ea sela uocem fundere censendum est, quaecunque, recipiunt aerem. 
+          <lb ed="#J" n="15"/>iam enim spiritu abutitur natura ad duo officia, ut lingua ad gustatum 
+          <lb ed="#J" n="16"/>&amp; ad sermonensquorum gustatus quidem necessarius est, quaobrem plu 
+          <lb ed="#J" n="17"/>ribus etiam inest, sermo uero ut bene sit sic quoque, spiritu tum ad
+          nati<lb ed="#J" n="18" break="no"/>uum calorem ut quod sit necessariums causa autem alias dicetur, 3tum 
+          <lb ed="#J" n="19"/>uero ad uocem, ut id quod bene est, adsit. 
+        </p>
+        <p xml:id="aristda-l2-gy89Xp"> <!-- l2-89-soph -->
+          <lb ed="#J" n="21"/>Instrumentum autem spiritus est guttur: id uero cuius vratia haec 
+          <lb ed="#J" n="22"/>pars est, pulmo est: hac enim parte plus habent caloris pedestria quam 
+          <lb ed="#J" n="23"/>caetera. indiget etiam respiratione locus is qui circa cor est primus. quo 
+          <lb ed="#J" n="24"/>circa necesse est intro spiritu ductum intrare aerem. 
+        </p>
+        <p xml:id="aristda-l2-gy90Xp"> <!-- l2-90-soph -->
+          <lb ed="#J" n="20"/>itaque, ictus spiritu dicti aeris ab anima quae est in his partibus, ad 
+          <lb ed="#J" n="21"/>eam partem quae arteria uocatur, uex est. neque, enim quilibet sonus
+          ani<lb ed="#J" n="22" break="no"/>malis uox est, ut diximus licet enim &amp; lingua sonum edere, ut quitul 
+          <lb ed="#J" n="23"/>siunt. sed oportet id quod uerberat animatum esse &amp; cum phantasia, 
+          <lb ed="#J" n="24"/>quadam. uox enim sonus est significans: &amp; non aeris qui spiritu
+          duci<lb ed="#J" n="25" break="no"/>tur, ut tussis: sed hoc ipso ferit eum qui est in arteria, ad ipsam. Cuius, 
+          <lb ed="#J" n="26"/>rei indicium est, quod nemo posset uocem emittere ducens aut reddens 
+          <lb ed="#J" n="27"/>spiritum, sed retinens: hoc enim ipso mouet, qui retinet. 
+        </p>
+        <p xml:id="aristda-l2-gy91Xp"> <!-- l2-91-soph -->
+          <lb ed="#J" n="30"/>patet etiam causa cumpisces sint uocis expertes: nimirum quia non  
+          <lb ed="#J" n="31"/>habent guttur: hanc porro partem non habent, quia non recipiunt aerem, 
+          <lb ed="#J" n="32"/>neque, spirant: sed qui ita dicunt aberrant: causa autem ad aliam sit
+          re<lb ed="#J" n="33" break="no"/>lecta disputationem. 
+        </p>
+        <p xml:id="aristda-l2-gy92Xp"> <!-- l2-92-soph -->
+          <lb ed="#J" n="8"/>De odore &amp; odorabili minus facile explicare est, quam de iis quae  
+          <lb ed="#J" n="9"/>dicta sunt: non enim constat quale quid sit odor. quomodo sonus aut lu¬. 
+          <lb ed="#J" n="10"/>men aut color: causa est, quia non habemus ex quisitum hunc sensum, 
+          <lb ed="#J" n="11"/>sed deteriorem compluribus animalibus: homo enim exiliter olfacit, 
+          <lb ed="#J" n="12"/>atque, sine dolore &amp; uoluptate nihil sentit odorabilium: ut pote cum non  
+          <lb ed="#J" n="13"/>sit exquisitum hoc instrumentum. 
+        </p>
+        <p xml:id="aristda-l2-gy93Xp"> <!-- l2-93-soph -->
+          <lb ed="#J" n="10"/>Consentaneum etiam est quae durioribus sunt oculis eodem modo  
+          <lb ed="#J" n="11"/>colores sentire, neque perspicuas eis esse colorum differentias, nisi cum 
+          <lb ed="#J" n="12"/>terrore &amp; sine terrore: eodem etiam pacto odores hominum genus.
+          enim<lb ed="#J" n="13" break="no"/>uero species saporum, si ad gustum conferas, cum speciebus odoris habe 
+          <lb ed="#J" n="14"/>re proportionem ac similitudinem uidentur. 
+        </p>
+        <p xml:id="aristda-l2-gy94Xp"> <!-- l2-94-soph -->
+          <lb ed="#J" n="36"/>Sed exquisitiorem habemus gustatum, properea quod tactus sit qui 
+          <lb ed="#J" n="37"/>dam, et hunc sensum homo habeat exquisitis simum. in reliquis enim 
+          <lb ed="#J" n="38"/>longe inferior est caeteris animantibus: atuero tactu, praeter caetera 
+          <lb ed="#J" n="39"/>omnia exequisite suo fungitur munere: &amp; ideo prudentis simum est ani¬ 
+          <!--Averroes_DeAnima_JuntSecunda_11-0210.xml-->
+          <pb ed="#J" n="99-r"/>
+          <lb ed="#J" n="1"/>malium: argumento quod in genere hominum ob instrumentum hoc
+          in<lb ed="#J" n="2" break="no"/>geniosi sunt &amp; tardi, nec ob ulium aliud: qui enim duras habent carnes, 
+          <lb ed="#J" n="3"/>tardo sunt ingenio: qui uero molles ingeniosi. 
+        </p>
+        <p xml:id="aristda-l2-gy95Xp"> <!-- l2-95-soph -->
+          <lb ed="#J" n="37"/>Quemadmodum autem sapor, alius est dulcis, alius amarus: sic etiam 
+          <lb ed="#J" n="38"/>odores. sed alia habent proportionalem odorem &amp; saporem, alia
+          con<lb ed="#J" n="39" break="no"/>tra: uerbi causa dulcem odorem, &amp; dulcem saporem: pariter etiam 
+          <lb ed="#J" n="40"/>atris, &amp; austerus, &amp; acidus, &amp; pinguis est odor. sed quoniam ut
+          di<lb ed="#J" n="41" break="no"/>ximus odores non admodum manifesti sunt, ut sapores, ideo ab eis du¬ 
+          <!--Averroes_DeAnima_JuntSecunda_11-0211.xml-->
+          <pb ed="#J" n="99-v"/>
+          <lb ed="#J" n="1"/>xere nomina pro rerum similitudine: dulcis nimirum a croco &amp;
+          mel<lb ed="#J" n="2" break="no"/>le: acris a thymo atque id genus aliis: Sic etiam in caeteris. 
+        </p>
+        <p xml:id="aristda-l2-gy96Xp"> <!-- l2-96-soph -->
+          <lb ed="#J" n="41"/>Praeterea ut auditus &amp; unusquisque sensuum alius est rei audibilis 
+          <lb ed="#J" n="42"/>&amp; inaudibilis: alius uisibilis &amp; inuisibilis: sic etiam odoratus rei odora¬ 
+          <!--Averroes_DeAnima_JuntSecunda_11-0212.xml-->
+          <pb ed="#J" n="100-r"/>
+          <lb ed="#J" n="1"/>bilis &amp; inodorabilis. Inodorabile autem dicitur, partim quod nullum 
+          <lb ed="#J" n="2"/>prorsus habere potest odorem: partim quod exiguum habet, &amp; exilem. 
+          <lb ed="#J" n="3"/>Similiter gustabile, &amp; ingustabile dicitur. 
+        </p>
+        <p xml:id="aristda-l2-gy97Xp"> <!-- l2-97-soph -->
+          <lb ed="#J" n="25"/>Eit etiam olfactus per intermedium, ut aerem aut aquam. quippe 
+          <lb ed="#J" n="26"/>&amp; aquatilia uidentur odorem sentire, &amp; sanguinea pariter &amp;
+          exan<lb ed="#J" n="27" break="no"/>guia: quemadmodum etiam ea quae in aere degunt. nam &amp; nonnulla
+          eo<lb ed="#J" n="28" break="no"/>rum odore impulsa procud contendunt ad alimentum. 
+        </p>
+        <p xml:id="aristda-l2-gy98Xp"> <!-- l2-98-soph -->
+          <lb ed="#J" n="9"/>Proinde uidetur oriri quaestio, si cuncta quidem peraeque olfaciant, 
+          <lb ed="#J" n="10"/>homo uero spiritum quidem ducens olfacit: quod si non ducat, sed red  
+          <lb ed="#J" n="11"/>dat, aut cohbibeat spiritum, non olfacit, neque, e longinquo, neque, e
+          propin<lb ed="#J" n="12" break="no"/>quo: ne si intra nares quidem apponatur. Ac si quid ipsi quidem
+          appo<lb ed="#J" n="13" break="no"/>natur sensorio, id esse insensibile, commune est omnium: non sentire uero 
+          <lb ed="#J" n="14"/>sine respiratione, peculiare est in hoibus: quod inexperiendo perspicitur. 
+        </p>
+        <p xml:id="aristda-l2-gy99Xp"> <!-- l2-99-soph -->
+          <lb ed="#J" n="5"/>Itaque, sanguine carentia, ut pote quae non spirent, alium quempiam 
+          <lb ed="#J" n="6"/>sensum habere censeas, praeter eos qui uulgo dici consuenere. res tamen 
+          <lb ed="#J" n="7"/>non ita se habet: si quidem odorem sentiunt: sensus enim rei odorabilis 
+          <lb ed="#J" n="8"/>&amp; faetidae &amp; odoratae, omnifactus est. Praeterea uidentur a uehementibus 
+          <lb ed="#J" n="9"/>odoribus corrumpi, a quibus etiam homo corrumpitur, ut bituminis 
+          <lb ed="#J" n="10"/>&amp; sulphuris, atque, id genus aliis. omnifaciant igitur necesse est, non tamen 
+          <lb ed="#J" n="11"/>recipiendo spiritum. 
+        </p>
+        <p xml:id="aristda-l2-gy100X"> <!-- l2-100-soph -->
+          <lb ed="#J" n="7"/>Videtur autem in hominibus differre hoc instrumentum a
+          caetero<lb ed="#J" n="8" break="no"/>rum animalium instrumentis: ut oculi ab oculis eorum quae duros eos 
+          <lb ed="#J" n="9"/>habent: nam illi quidem habent septum &amp; ueluti utriculum quendam, 
+          <lb ed="#J" n="10"/>palpebras: quas nisi moueat, atque attollat, non uidet, quae uero duris sunt, 
+          <lb ed="#J" n="11"/>oculis, nihil habent eiusmodi: sed illico uident quae siunt in translucido. 
+          <lb ed="#J" n="12"/>sic esiam odoratiuum sensorium: aliis sine operculo esse apparet, sicut 
+          <lb ed="#J" n="13"/>ille oculus: in iis autem quae recipiunt aerem adesse uidetur
+          operimen<lb ed="#J" n="14" break="no"/>tum, idque rum spiritum hauriunt aperiri, dilatatis uenulis ac
+          meati<lb ed="#J" n="15" break="no"/>bus. Quamobrem quae spirant in humido non olfaciunt: necesse enim est 
+          <lb ed="#J" n="16"/>spiritum ducendo olfaciant: quod in humido fieri non potest. Est autem 
+          <lb ed="#J" n="17"/>odor sicci, ut sapor humidi: odoratiuum uero sensorium est tale potetia. 
+        </p>
+        <p xml:id="aristda-l2-gy101X"> <!-- l2-101-soph -->
+          <lb ed="#J" n="38"/>Gustabile autem est tactile quiddam: atque hoc in causa est, cur non  
+          <lb ed="#J" n="39"/>sit sensibile per intermedium quod sit alienum corpus. nimirum quia 
+          <lb ed="#J" n="40"/>nec tactus. corpus etiam in quo est sapor gustabile in humido utur mate 
+          <lb ed="#J" n="41"/>ria: id uero est tactile quiddam. idcirco si in aqua essemus, &amp; dulce 
+          <!--Averroes_DeAnima_JuntSecunda_11-0218.xml-->
+          <pb ed="#J" n="103-r"/>
+          <lb ed="#J" n="1"/>quidpiam inuceretur, sentiremus: nec esset nobis sensus per intermediu:  
+          <lb ed="#J" n="2"/>sed quod admixtum esset humido, quemadmodum in potione: at color 
+          <lb ed="#J" n="3"/>non hos modo uidetur, nempe quod misceatur, aut esstuxionibus. 
+        </p>
+        <p xml:id="aristda-l2-gy102X"> <!-- l2-102-soph -->
+          <lb ed="#J" n="10"/>Quod autem ad intermedium attinet, nullum est. vt autem uisibile 
+          <lb ed="#J" n="11"/>est color, sic gustabile sapor. Nihil autem saporis sensum efficit sine
+          hu<lb ed="#J" n="12" break="no"/>miditate: sed habet actu aut potentia humiditatem, ut salsum: nam 
+          <lb ed="#J" n="13"/>et ipsum facile liquefactu est, &amp; colliquefaciendae linguae tum obtinet. 
+        </p>
+        <p xml:id="aristda-l2-gy103X"> <!-- l2-103-soph -->
+          <lb ed="#J" n="5"/>Sed ut uisus est rei uisibilis &amp; inuisibilis. Inam tenebrae inuisibiles 
+          <lb ed="#J" n="6"/>sunt, attamen has etiam uisus diiudicat Ad haec, ualde splendidis na 
+          <lb ed="#J" n="7"/>id quoque, inuisibile est, alio tamen modo atque tenebrae, sic etiam auditus,  
+          <lb ed="#J" n="8"/>&amp; soni &amp; silentii: quorum alterum est audibile, alterum non audibile. 
+          <lb ed="#J" n="9"/>atque etiam magni soni, quemadmodum uisus splendidi. ut enim paruus 
+          <lb ed="#J" n="10"/>sonus inaudibilis quodammodo est, sic etiam magnus ac uiolentus. Inui 
+          <lb ed="#J" n="11"/>sibile autem partim sicut etiam in aliis dicitur quod prorsus impossibi 
+          <lb ed="#J" n="12"/>le est: partim, si cum natum aptumque sit, non habeat, aut certeexiliter 
+          <lb ed="#J" n="13"/>ut apes, &amp; innucleatum. Sic etiam gustatus, rei gastabilis &amp; ingusta 
+          <lb ed="#J" n="14"/>bilis. id uero est, quod aut paruum &amp; exilem, aut gustum
+          corrumpen<lb ed="#J" n="15" break="no"/>tem habet saporem. Videtur autem potabile &amp; impotabile esse princi 
+          <lb ed="#J" n="16"/>pium: sed alterum prauum gustumque corrumpens: alterum secundun 
+          <lb ed="#J" n="17"/>naturam: Est autem potabile commune tactus &amp; gustus. 
+        </p>
+        <p xml:id="aristda-l2-gy104X"> <!-- l2-104-soph -->
+          <lb ed="#J" n="25"/>Cum autem gustabile sit humidum, necesse est sensorium eius nec 
+          <lb ed="#J" n="26"/>actu humidum, nec eiusmodi esse ut humectari nequeat: patitur enim 
+          <lb ed="#J" n="27"/>gustus a gustabili quatenus gustabile. Necesse ergo est id quod
+          hume<lb ed="#J" n="28" break="no"/>ctari potest, humectari ita ut seruetur, nec esse humidum ipsum scilicet gusta 
+          <lb ed="#J" n="29"/>tiuum sensorium. indicium huius est, quod lingua neque, cum praearida, 
+          <lb ed="#J" n="30"/>est, sentit: neque, cum admodum humida: hic enim tactus fit primi
+          hu<lb ed="#J" n="31" break="no"/>midi: ut cum quispiam degustato uehementi sapore, degustat alium: 
+          <lb ed="#J" n="32"/>&amp; quemadmodum aegrotantibus amara omnia uidentur, propterea 
+          <lb ed="#J" n="33"/>quod lingua referta eiusmodi humiditate sentit. 
+        </p>
+        <p xml:id="aristda-l2-gy105X"> <!-- l2-105-soph -->
+          <lb ed="#J" n="4"/>Species autem saporum, ut etiam in coloribus, simplices quidem sunt 
+          <lb ed="#J" n="5"/>quae sunt contrariae, dulce &amp; amarum: proxima aut sunt, ab uno, pin 
+          <lb ed="#J" n="6"/>vue: ab altero, salsum. His interiecta sunt, acre, &amp; austerum, &amp; acec, 
+          <lb ed="#J" n="7"/>bu, &amp; acidum. nam hae propemodum esse saporum differentiae uidentur.. 
+          <lb ed="#J" n="8"/>Quare gustatiuum est, quod est tale potentia: gustabile uero, quod est est 
+          <lb ed="#J" n="9"/>fectiuum actu eius. 
+        </p>
+        <p xml:id="aristda-l2-gy106X"> <!-- l2-106-soph -->
+          <lb ed="#J" n="24"/>De tactili &amp; tactu eadem est ratio: si enim tactus non unus est sen 
+          <lb ed="#J" n="25"/>sus, sed plures: &amp; tactilia etiam plura esse sensibilia necesse est. 
+        </p>
+        <p xml:id="aristda-l2-gy107X"> <!-- l2-107-soph -->
+          <lb ed="#J" n="8"/>Est autem quaestio, utrum plures sint, anunus: &amp; quid sit instrumen 
+          <lb ed="#J" n="9"/>tu enim rei tactilis tactiuum: utrum caro, &amp; in aliis quod ei proportione 
+          <lb ed="#J" n="10"/>respondet: an non, sed hoc quidom sit intermedium, primum uero
+          senso<lb ed="#J" n="11" break="no"/>rium aliud quidpiam intus, sit. quippe omnis sensus unius esse uidetur 
+          <lb ed="#J" n="12"/>contrarietatis, ut uisus albi &amp; nigri, auditus grauis &amp; acuti:
+          gusta<lb ed="#J" n="13" break="no"/>tus amari &amp; dulcis: at in tactili multae sunt contrarietates, caudum, 
+          <lb ed="#J" n="14"/>frigidum, humidum, siccum, durum, molle, &amp; eiusmodi alia. 
+        </p>
+        <p xml:id="aristda-l2-gy108X"> <!-- l2-108-soph -->
+          <lb ed="#J" n="14"/>Sed est solutio quaedam huius quaestionis: et enim &amp; in aliis
+          sensi<lb ed="#J" n="15" break="no"/>bus plures sunt contrarietates, ut in uoce non solum acumen &amp; graui 
+          <lb ed="#J" n="16"/>tas, uerumetiam magnitudo &amp; paruitas, &amp; lenitas, &amp; asperitas
+          uo<lb ed="#J" n="17" break="no"/>tis, caeteraque generis eiusdem. in colore etiam eiusmodi aliae sunt
+          diffe<lb ed="#J" n="18" break="no"/>rentiae: uerum quid sit subiectum: ut auditui sonus, sic etiam tactui, non 
+          <lb ed="#J" n="19"/>est manifestum. 
+        </p>
+        <p xml:id="aristda-l2-gy109X"> <!-- l2-109-soph -->
+          <lb ed="#J" n="37"/>Vtrum autem instrumentum sit intus nec ne, sed protinus caro, nul 
+          <lb ed="#J" n="38"/>lo uidetur esse argmento, quod sensus siat simulatque res. tanguntur. 
+          <lb ed="#J" n="39"/>Et enim si quis circa carnem extenderit quidpiam in speciem membra 
+          <lb ed="#J" n="40"/>nae redactum, statim peraeque sensum imprimet: &amp; tamen constat non 
+          <lb ed="#J" n="41"/>esse in ea sensus instrumentum. quod si etiam coalescat, multo citius 
+          <lb ed="#J" n="42"/>sensus peretret.
+        </p>
+        <p xml:id="aristda-l2-gy110X"> <!-- l2-110-soph -->
+          <lb ed="#J" n="38"/>Itaque pars haec corporis perinde se habere uidetur, ac si circumquaque, 
+          <lb ed="#J" n="39"/>coalitus nobis esset aer: uideremur enim uno: quodam &amp; sonum, &amp;
+          co<lb ed="#J" n="40" break="no"/>lorem, &amp; odorem sentire: &amp; unus esse sensus auditus, &amp; uisus, &amp;
+          ol<lb ed="#J" n="41" break="no"/>factus: at uero quia distinctum est id per quod fiunt motus, perspicuum 
+          <lb ed="#J" n="42"/>est quae diximus instrumenta diuersa esse.
+        </p>
+        <p xml:id="aristda-l2-gy111X"> <!-- l2-111-soph -->
+          <lb ed="#J" n="29"/>in tactu uero id nunc obscurum est: ex aere enim aut aqua corpus 
+          <lb ed="#J" n="30"/>animatum constare non potest: requiritur enim ut solidum quidpia sit. restat 
+          <lb ed="#J" n="31"/>ergout ex terra &amp; his sit mixtum, cuiusmodi uult esse caro, &amp; quod  
+          <lb ed="#J" n="32"/>ei proportione respondet: nam si omnis sensus per intermedium est, etiam 
+          <lb ed="#J" n="33"/>tactus. Quare necesse est &amp; corpus esse inter tactiuum quod adhaereat 
+          <lb ed="#J" n="34"/>coalitumque sit per quod fiunt sensus, qui quidem plures sunt. 
+        </p>
+        <p xml:id="aristda-l2-gy112X"> <!-- l2-112-soph -->
+          <lb ed="#J" n="21"/>indicat autem eos esse plures is tactus qui in lingua consistit: eadem 
+          <lb ed="#J" n="22"/>enim parte cuncta tactilia &amp; saporem sentit: Ergo si reliqua caro
+          sa<lb ed="#J" n="23" break="no"/>porem sentiret, sensus gustatus &amp; tactus idem &amp; vnum esse videretur:  
+          <lb ed="#J" n="24"/>nunc vero duo sunt, quia non fit conuersio. 
+        </p>
+        <p xml:id="aristda-l2-gy113X"> <!-- l2-113-soph -->
+          <lb ed="#J" n="10"/>Verum quaerat quispiam, si omne corpus habet altitudinem, atque 
+          <lb ed="#J" n="11"/>haec est tertia magnitudo: quibus autem duobus corporibus interiacet 
+          <lb ed="#J" n="12"/>corpus aliquod, fieri non potest ut ea se mutuo tangant: humidumque non 
+          <lb ed="#J" n="13"/>est sine corpore, neque, madidum: sed necesse est vel aquam esse, vel aquam 
+          <lb ed="#J" n="14"/>habere: quae vero in aqua se mutuo tangunt, cum extrema ficca non sint, 
+          <lb ed="#J" n="15"/>necesse est aquam habeant interiectam, cuius plenae sunt extremitates:  
+          <lb ed="#J" n="16"/>quod si hoc verum est, fieri non potest vt aliud tangat aliud in aqua:  
+          <lb ed="#J" n="17"/>eodem etiam modo in aere: similiter enim se habet aer ad ea quae sunt, 
+          <lb ed="#J" n="18"/>in ipso, atque aqua: latet tamen magis nos, ut etiam ea animalia qua 
+          <lb ed="#J" n="19"/>in aqua sunt, an madidum tangat madidum. 
+        </p>
+        <p xml:id="aristda-l2-gy114X"> <!-- l2-114-soph -->
+          <lb ed="#J" n="27"/>Vtrum icitur omnium similiter sit sensus, an aliorum aliter, ut nuc 
+          <lb ed="#J" n="28"/>videtur, gustus quidem &amp; tactus tangendo, alii autem e longinquos id  
+          <lb ed="#J" n="29"/>vero non ita se habet: sed durum &amp; molle per alia sentimus,
+          quem<lb ed="#J" n="30" break="no"/>admodum &amp; sonatiuum, &amp; visibile, &amp; odorabile: sed alia es loginquo, 
+          <lb ed="#J" n="31"/>alia e propinquo: quapropter latet: quandoquidem omnia sentimus per  
+          <lb ed="#J" n="32"/>intermedium: uerum in his, latet. Atqui, ut superius diximus, &amp; si per  
+          <lb ed="#J" n="33"/>membranam sentiremus omnia tactilia, nescientes eam intercedere, 
+          <lb ed="#J" n="34"/>aeque afficeremur, atque nunc in aqua &amp; in aere: uidemur enim ea
+          tangi<lb ed="#J" n="35" break="no"/>re, &amp; nihil esse interiectum. 
+        </p>
+        <p xml:id="aristda-l2-gy115X"> <!-- l2-115-soph -->
+          <lb ed="#J" n="32"/>Sed tactile differt a uisibilibus &amp; sonatiuis: quia illa quidem
+          sen<lb ed="#J" n="33" break="no"/>timus medio aliquid in nos agente: tactilia uero non amedio, sed una 
+          <lb ed="#J" n="34"/>cum medio: uelutiis qui tratecto clipeo percussus est. non enim percussus 
+          <lb ed="#J" n="35"/>thypeus percusiit, sed contigit ut ambo simul percuterentur 
+        </p>
+        <p xml:id="aristda-l2-gy116X"> <!-- l2-116-soph -->
+          <lb ed="#J" n="22"/>Omnino uidetur caro &amp; lingua, ut aer &amp; aqua ad uisum &amp; audo  
+          <lb ed="#J" n="23"/>tum &amp; olfactu habet, ita habere ad sensorium, ut illorum ununquodquam. 
+          <lb ed="#J" n="24"/>si autem ipsum tangatur sensorium, neque hic, neque, illic fiat sensus:
+          ue<lb ed="#J" n="25" break="no"/>luti si quis posuerit corpus aliquod album super extremum oculum. Ex 
+          <lb ed="#J" n="26"/>quo etiam perspicuum est intus esse rei tactilis sensorium: hoc enim pa 
+          <lb ed="#J" n="27"/>cto ut in caeteris eueniet: nam si apponantur super fensorium, non  
+          <lb ed="#J" n="28"/>sentiunt: at si apponantur siper carnem, sentiunt. Quare intermedium 
+          <lb ed="#J" n="29"/>tactiui caro est. 
+        </p>
+        <p xml:id="aristda-l2-gy117X"> <!-- l2-117-soph -->
+          <lb ed="#J" n="7"/>Tactiles igitur sunt corporis: ut corpus est differentiae: uoco autem 
+          <lb ed="#J" n="8"/>differentias, quae elementa distinguunt: calidum, srigidum, humidum, 
+          <lb ed="#J" n="9"/>siccum: de quibus in libris de elementis ante diximus: Sensorium aut 
+          <lb ed="#J" n="10"/>ipsorum tactiuum, &amp; in quo primo sensus is quem tactum uocamus
+          in<lb ed="#J" n="11" break="no"/>est, pars ea est quae potentia est talis: 
+        </p>
+        <p xml:id="aristda-l2-gy118X"> <!-- l2-118-soph -->
+          <lb ed="#J" n="39"/>Nam sentire pati quoddam est: quare id quod facit quale est ipsum 
+          <lb ed="#J" n="40"/>actu, tali illud facit, cum sit potentia. Quamobrem id quod aeque cali¬ 
+          <!--Averroes_DeAnima_JuntSecunda_11-0238.xml-->
+          <pb ed="#J" n="113-r"/>
+          <lb ed="#J" n="1"/>dum est ac frigidum aut durum &amp; molle non sentimus, sed excessus:  
+          <lb ed="#J" n="2"/>ut pote cum sensus mediocritas quaedam sit eius contrarietatis, quae in sensi 
+          <lb ed="#J" n="3"/>bilibus reperitur: &amp; propterea iudicat sensibilia: mediu enim uim habet
+          iu<lb ed="#J" n="4" break="no"/>dicandi: fit enim alterum extremorum, ad utrumque ipsorum comparatum. 
+        </p>
+        <p xml:id="aristda-l2-gy119X"> <!-- l2-119-soph -->
+          <lb ed="#J" n="36"/>Et oportet, quemadmodum id quod sensurum est album &amp; nigrum, 
+          <lb ed="#J" n="37"/>neutrum eorum esse actu, sed potentia utrunque sic &amp; in alus &amp; in ta 
+          <lb ed="#J" n="38"/>stu, nec calidum esse nec frigidum. 
+        </p>
+        <p xml:id="aristda-l2-gy120X"> <!-- l2-120-soph -->
+          <lb ed="#J" n="16"/>Praeterea ut rei uisibilis &amp; inuisibilis erat quodam modo uisus,
+          cae<lb ed="#J" n="17" break="no"/>terique itidem oppositorum: sic quoque, tactus, tactilis &amp; intactilis.
+          inta<lb ed="#J" n="18" break="no"/>ctile autem est, tum quod plane leuem habet differentiam tactilium 
+          <lb ed="#J" n="19"/>Iquod usu uenit in aere vtum tactilium excessus. cuiusmodi sunt quae  
+          <lb ed="#J" n="20"/>corrumpendi uim habent. Ac de sensibus quidem sigillatim
+          disferui<lb ed="#J" n="21" break="no"/>mus adumbratione quadam. 
+        </p>
+        <p xml:id="aristda-l2-gy121X"> <!-- l2-121-soph -->
+          <lb ed="#J" n="11"/>Vniuerse autem de omni sensi hoc sumendum est: sensum id esse, 
+          <lb ed="#J" n="12"/>quod est capax sensibilium specierum sine materia: ut cera annuli
+          si<lb ed="#J" n="13" break="no"/>ne ferro, &amp; auro recipit fignum: sed accipit ea quidem aureum uel 
+          <lb ed="#J" n="14"/>aereum signum, non tamen quatenus aes uel aurum est: pariter etiam 
+          <lb ed="#J" n="15"/>sensus uuiuscuiusque ab eo patitur quod nec odorem habeat, aut sapore, 
+          <lb ed="#J" n="16"/>aut sonum: uerum non quat enus unumquodque, illorum dicitur, sed quate 
+          <lb ed="#J" n="17"/>nus eiusmodi est, &amp; ex ratione. 
+        </p>
+        <p xml:id="aristda-l2-gy122X"> <!-- l2-122-soph -->
+          <lb ed="#J" n="9"/>Id uero est primum sensorium, in quo eiusmodi potentia est. sunt
+          er<lb ed="#J" n="10" break="no"/>go idem, esse uero diuersum est: magnitudo enim quaedam fuerit id  
+          <lb ed="#J" n="11"/>quod sentit: non tamen sensitiuo esse, neque, sensus est magnitudo: sed
+          ra<lb ed="#J" n="12" break="no"/>tio quaedam &amp; potentia illius. 
+        </p>
+        <p xml:id="aristda-l2-gy123X"> <!-- l2-123-soph -->
+          <lb ed="#J" n="26"/>Ex quibus etiam perspicuum est, cur sensibilium excessus
+          corrum<lb ed="#J" n="27" break="no"/>pant instrumenta: quippe si motus instrumento ualidior fuerit, dissolui 
+          <lb ed="#J" n="28"/>tur ratio: id autem erat sensus: ueluti etiam concentus &amp; tonus,
+          ue<lb ed="#J" n="29" break="no"/>hementer pulsatis fidibus. 
+        </p>
+        <p xml:id="aristda-l2-gy124X"> <!-- l2-124-soph -->
+          <lb ed="#J" n="7"/>Constat etiam cur plantae no sentiant, cum tamen habeant quandam 
+          <lb ed="#J" n="8"/>partem animae, atque a tactilibus aliquid patiantur, quippe quae &amp; fri 
+          <lb ed="#J" n="9"/>gescant, &amp; calescant: causa huius est, quia non habent mediocritatem, 
+          <lb ed="#J" n="10"/>neque eiusmodi principium, quod sit idoneum ad recipiendas species sensi 
+          <lb ed="#J" n="11"/>bilium, sed patiuntur cum materia. 
+        </p>
+        <p xml:id="aristda-l2-gy125X"> <!-- l2-125-soph -->
+          <lb ed="#J" n="30"/>Verum quaerat quispiam, num pati possit ab odore id quod olfacere 
+          <lb ed="#J" n="31"/>non potest: aut a colore, quod uidere non potest: pari quoque, modo in caete 
+          <lb ed="#J" n="32"/>ris: Sane si odorabile est odor, si quid afficit odoratum, quatenus odo 
+          <lb ed="#J" n="33"/>afficit. itaque, fit ut eorum quae olfacere nequeunt, nullum ab odore
+          pati<lb ed="#J" n="34" break="no"/>possit. Eademque ratio in caeteris est. Sed ne eorum quidem quae possunt, 
+          <lb ed="#J" n="35"/>sed quaetenus quodque, sensitiuum est. 
+        </p>
+        <p xml:id="aristda-l2-gy126X"> <!-- l2-126-soph -->
+          <lb ed="#J" n="34"/>Quod etiam perspicuum uel inde est: na nec lumen &amp; tenebrae, nec, 
+          <lb ed="#J" n="35"/>sonus, nec odor ullo modo afficit corpora, sed ea in quibus sunt: ut aer  
+          <lb ed="#J" n="36"/>comitante tonitru scindit lignum. Atqui certe tactilia &amp; sapores
+          ali<lb ed="#J" n="37" break="no"/>ficiunt: alioquin a quonam paterentur inanimata, &amp; alterarenturs 
+        </p>
+        <p xml:id="aristda-l2-gy127X"> <!-- l2-127-soph -->
+          <lb ed="#J" n="26"/>Num igitur illa quoque, afficiunt T An non ita natura comparatum 
+          <lb ed="#J" n="27"/>est ut omne corpus ab odore &amp; sono patiatur: &amp; ea demum ipsa quae  
+          <lb ed="#J" n="28"/>patiuntur, carent termino, neque perstat, ueluti aer: redolet enim quasi
+          ali<lb ed="#J" n="29" break="no"/>quid passus. Quid ergo erit olfacere, nisi pati aliquidum An olfacere quo 
+          <lb ed="#J" n="30"/>dem est sentire: aer uero ubi passus fuerit, celeriter sensibilis sit. 
+        </p>
+        <p xml:id="aristda-l2-gy128X"> <!-- l2-128-soph -->
+          <lb ed="#J" n="24"/>Nullum autem alium sensum extare praeter illos quinque, intelliga 
+          <lb ed="#J" n="25"/>autem hos, uisum auditum, omnifactum, gustatum, ex his crediderit quis 
+          <lb ed="#J" n="26"/>piam. si enim omnis eius cuius est sensus tactus, nunc quoque, sensum
+          habe<lb ed="#J" n="27" break="no"/>mus: omnes enim rei tactilis ut tactilis est, pas siones, tactu nobis sensibiles 
+          <lb ed="#J" n="28"/>sunt: atque, necesse est, si deest aliquis sensus, sensorium quoque nobis dees 
+          <lb ed="#J" n="29"/>se aliquod:  
+        </p>
+        <p xml:id="aristda-l2-gy129X"> <!-- l2-129-soph -->
+          <lb ed="#J" n="32"/>Et quaecunque quidem ipsi tangentes sentimus, tactu sensibilia sunt 
+          <lb ed="#J" n="33"/>quem habemus: quae uero per intermedia, nec ipsa tangentes,
+          simplici<lb ed="#J" n="34" break="no"/>bus: dico autem ut aere &amp; aqua. ita autem res habet: ut si per unum plu 
+          <lb ed="#J" n="35"/>ra sentiri possunt genere inter se diuersa, necesse sit eum qui eiusmodi ha 
+          <lb ed="#J" n="36"/>bet sensorium, amborum sensitiuum esse: uerbi cuasa si ex aere sit
+          sen<lb ed="#J" n="37" break="no"/>sorium, &amp; aer sit &amp; soni &amp; coloris. quod si plura eiusdem sunt, ut colo 
+          <lb ed="#J" n="38"/>ris &amp; aer &amp; aqua, scilicet ambo enim haec, translucida sunt, 3&amp; qui alterum 
+          <lb ed="#J" n="39"/>duntaxat eorum habet, sentiet id quod per utrumque. 
+        </p>
+        <p xml:id="aristda-l2-gy130X"> <!-- l2-130-soph -->
+          <lb ed="#J" n="21"/>Simplicium autem ex his duobus sensoria tantummodo sunt, uideli 
+          <lb ed="#J" n="22"/>tet ex dere &amp; aqua: pupilla enim aquae, auditus aeris, omnifactus horum 
+          <lb ed="#J" n="23"/>alterius est. ignis autem uel nullius, uel communis omnium est: nihil 
+          <lb ed="#J" n="24"/>enim sine cauiditate sensitiuum est. terra uero aut nullius, aut in tactu 
+          <lb ed="#J" n="25"/>admixta praecipue est. Quapropter relinquitur nullum esse sensorium, 
+          <lb ed="#J" n="26"/>praeter aerem &amp; aquam. 
+        </p>
+        <p xml:id="aristda-l2-gy131X"> <!-- l2-131-soph -->
+          <lb ed="#J" n="21"/>Quae nunc etiam nonnulla habent animalia: ergo omnes sensus
+          ha<lb ed="#J" n="22" break="no"/>bentur a non imperfectis neque, mutilis. nam etiam talpa sub pelle
+          habe<lb ed="#J" n="23" break="no"/>re oculos uidetur. 
+        </p>
+        <p xml:id="aristda-l2-gy132X"> <!-- l2-132-soph -->
+          <!--Averroes_DeAnima_JuntSecunda_11-0250.xml-->
+          <pb ed="#J" n="119-r"/>
+          <lb ed="#J" n="1"/>Quare si non est aliud quidpiam corpus &amp; passio, quae nullius sit cor 
+          <lb ed="#J" n="2"/>porum eorum quae hic sunt, utique nullum sensum deesse censendum est. 
+        </p>
+        <p xml:id="aristda-l2-gy133X"> <!-- l2-133-soph -->
+          <lb ed="#J" n="19"/>Neque, uero communium potest esse sensorium aliquod proprium quae  
+          <lb ed="#J" n="20"/>unoquoque, sensu sentimus per accidens, ut motus, status, si figurae, magnitu 
+          <lb ed="#J" n="21"/>dinis, numeri, unius. Haec enim omnia motu sentimus, ut
+          magnitudi<lb ed="#J" n="22" break="no"/>nem motu: quare etiam figuram. nam figura quoque, magnitudo quaedam 
+          <lb ed="#J" n="23"/>est. quod autem quiescit, eo quod non moueatur. numerus uero
+          negatio<lb ed="#J" n="24" break="no"/>ne continui, &amp; propriis. nam unusquisque, sensus unum sentit. 
+        </p>
+        <p xml:id="aristda-l2-gy134X"> <!-- l2-134-soph -->
+          <lb ed="#J" n="27"/>Quare perspicuum est fieri non posse ut cuiuslibet horum proprius 
+          <lb ed="#J" n="28"/>sit sensus, ut motus: nam hoc modo perinde fuerit, atque nunc uisu dulce 
+          <lb ed="#J" n="29"/>entimus: quod eo fit, quia amborum habemus sensum, quodo cum concur 
+          <lb ed="#J" n="30"/>runt, cognoscimus. alioquin haudquaque nisi per accidens sentiremus: ut 
+          <lb ed="#J" n="31"/>cleonis silium, non quod cleonis silius sed quod albus, cui sane accidit 
+          <lb ed="#J" n="32"/>filio esse cleonis: at uero communium habemus iam sensum
+          commu<lb ed="#J" n="33" break="no"/>nem, non per accidens. non igitur est proprius: nequaquam enim sentire 
+          <lb ed="#J" n="34"/>mus, nisi quo pacto diximus nos clconis uidere filium. alter porto
+          alte<lb ed="#J" n="35" break="no"/>r us propria per accidens sentiunt sensus, non quatenus ipsi, sed quatenus, 
+          <lb ed="#J" n="36"/>unus, cum simul factus fuerit sensus in eodem: exempli gratia bilem 
+          <lb ed="#J" n="37"/>esse amaram &amp; slauam: neque enim alterius est dicere, ambo haec esse 
+          <lb ed="#J" n="38"/>unum, quo fit ut deciptatur: &amp; si stauum fuerit, bilem esse opinatur.
+        </p>
+        <p xml:id="aristda-l2-gy135X"> <!-- l2-135-soph -->
+          <lb ed="#J" n="30"/>Verum quaerat aliquis cur plures sensus &amp; non unum solum habea 
+          <lb ed="#J" n="31"/>mus: an ne lateant consequentia &amp; communia, ut motus, magnitudo 
+          <lb ed="#J" n="32"/>numerus. nam si uisus esset solus, isque, albi, laterent magis atque idem esse 
+          <lb ed="#J" n="33"/>cuncta uiderentur: propterea quod simul se mutuo sequuntur color &amp;  
+          <lb ed="#J" n="34"/>magnitudo: at quia quae sunt communia in alio sunt sensibili, res
+          indi<lb ed="#J" n="35" break="no"/>cat aliud quidpiam esse eorum unumquodque. 
+        </p>
+        <p xml:id="aristda-l2-gy136X"> <!-- l2-136-soph -->
+          <lb ed="#J" n="31"/>Quoniam autem sentimus nos uidere &amp; audire, necesse est aut uisu 
+          <lb ed="#J" n="32"/>sentiat se uidere, aut alio: sed idem etiam erit uisus &amp; subiecti coloris. 
+          <lb ed="#J" n="33"/>Quamobrem aut duo eiusdem erunt, aut ipse sui ipsius. Praeterea si etiam 
+          <lb ed="#J" n="34"/>alius sensus sit uisus, aut in infinitum procedet: aut ipse erit sui ipsius:  
+          <lb ed="#J" n="35"/>itaque, in primo illo hoc faciendum est. 
+        </p>
+        <p xml:id="aristda-l2-gy137X"> <!-- l2-137-soph -->
+          <lb ed="#J" n="32"/>Sed ambiges: nam si uisu sentire est uidere: uidetur uero color, uel 
+          <lb ed="#J" n="33"/>quod est colore praeditum: si quis uidebit id quod uidet, etiam colorem id  
+          <lb ed="#J" n="34"/>nabebit quod uidet primum. 
+        </p>
+        <p xml:id="aristda-l2-gy138X"> <!-- l2-138-soph -->
+          <lb ed="#J" n="19"/>Perspicuum igitur est uisu sentire, non esse unum. etenim cum non  
+          <lb ed="#J" n="20"/>uidemus, uisu tenebras lumenque discernimus, sed non eodem modo. Quin 
+          <lb ed="#J" n="21"/>&amp; id ipsum quod uidet quodam modo coloratum est: nam sensorium 
+          <lb ed="#J" n="22"/>quodque, capax est sensibilis sine materia. idcirco uel amotis sensibilibus 
+          <lb ed="#J" n="23"/>insunt sensus phantasiaeque in sensoriis. Actus porro sensibilis &amp; sensus 
+          <lb ed="#J" n="24"/>idem est &amp; unus, esse autem ipsis non idem: uerbi causa, actu sonus
+          a<lb ed="#J" n="25" break="no"/>ctuque auditus, fi eri enim potest, ut auditum quis habeat, nec audiat: &amp;  
+          <lb ed="#J" n="26"/>quod sonum habet, non semper sonat. cum autem operatur id quod
+          po<lb ed="#J" n="27" break="no"/>test audire, sonatque, quod sonare potest, tunc actu auditus simul fit, actuque. 
+          <lb ed="#J" n="28"/>sonus. quoru dixerit aliquis, alterum, auditionem: alterum, sonationem esse. 
+        </p>
+        <p xml:id="aristda-l2-gy139X"> <!-- l2-139-soph -->
+          <lb ed="#J" n="5"/>Si igitur motus &amp; actio &amp; passio in eo quod mouetur est, necesse. 
+          <lb ed="#J" n="6"/>est &amp; sonum &amp; auditum qui actu est, in eo esse qui est potentia: actiui enim 
+          <lb ed="#J" n="7"/>&amp; motiui operatio in patiente fit. quamoorem necesse non est ut id quod 
+          <lb ed="#J" n="8"/>mouet, moueatur. actus icitur sonatiui sonus est aut sonatio: auditiui, 
+          <lb ed="#J" n="9"/>auditus aut auditio: duplex enim est auditus, ac duplex sonus. 
+        </p>
+        <p xml:id="aristda-l2-gy140X"> <!-- l2-140-soph -->
+          <lb ed="#J" n="39"/>Eadem est in caeteris sensibus ac sensibilibus ratio: ut enim actio &amp;  
+          <lb ed="#J" n="40"/>passio in patiente est. non in agente: sic &amp; rei sensibilis actio in sensitiuo, ue 
+          <lb ed="#J" n="41"/>rum in nonnullis nomina quoque, sunt indita, ut sonatio &amp; auditio: in non  
+          <!--Averroes_DeAnima_JuntSecunda_11-0259.xml-->
+          <pb ed="#J" n="123-v"/>
+          <lb ed="#J" n="1"/>nullis, alterum caret nomine: uisio namque dicitur uisus actio, celoris. 
+          <lb ed="#J" n="2"/>uero caret nomine: sic oustatiuigustatio, saporis uero uacat nomine. 
+        </p>
+        <p xml:id="aristda-l2-gy141X"> <!-- l2-141-soph -->
+          <lb ed="#J" n="32"/>Sed cum unus actus sit rei sensibilis ac sensitiuae, esse autem
+          diuer<lb ed="#J" n="33" break="no"/>sum, necesse est auditu qui hoc modo dicitur, &amp; sonum, simul corrumpi 
+          <lb ed="#J" n="34"/>seruarique sic demum &amp; saporem et gustatum, atque itidem caetera. at 
+          <lb ed="#J" n="35"/>uero quae dicuntur potentia, haud est necesse. 
+        </p>
+        <p xml:id="aristda-l2-gy142X"> <!-- l2-142-soph -->
+          <lb ed="#J" n="18"/>Sed prisci naturales authores non recte hoc asserebant, quippe cum 
+          <lb ed="#J" n="19"/>nullum prorsus nec album nec nigrum sine uisu, nec saporem sine. gusta 
+          <lb ed="#J" n="20"/>tu esse putarent. partim enim recte, partim non recte loquebantur. nam 
+          <lb ed="#J" n="21"/>cum sensus &amp; sensibile bisariam dicatur,, tum potentia, tum actu: in 
+          <lb ed="#J" n="22"/>his quidem fit quod diximus: in illis uero aliis non item: At illi simplici 
+          <lb ed="#J" n="23"/>ter loquebantur de uis quae non simpliciter dicuntur. 
+        </p>
+        <p xml:id="aristda-l2-gy143X"> <!-- l2-143-soph -->
+          <lb ed="#J" n="10"/>Si igitur concentus uox quaedam est: uox autem &amp; auditus, partim 
+          <lb ed="#J" n="11"/>unum, partim non unum aut non idem sunt: concentusque, est ratio,
+          ne<lb ed="#J" n="12" break="no"/>cesse est &amp; auditum rationem esse quandam: &amp; proinde unumquodum, 
+          <lb ed="#J" n="13"/>modum excedens, tum graue, tum acutum, corrumpit auditum: itemque 
+          <lb ed="#J" n="14"/>in saporibus gustatum, &amp; in coloribus uisum quod ualde splendidum, 
+          <lb ed="#J" n="15"/>quodque, tenebrosum. est: &amp; in odoratu uehemens odor, tam dulcis quam 
+          <lb ed="#J" n="16"/>amarus: ut pote cum sensus ratio quaedam sit. ideoque, iucunda sunt, cum 
+          <lb ed="#J" n="17"/>sontera et non mista rediguntur ad rationem: ut acutum, aut dulce,
+          aut<lb ed="#J" n="18" break="no"/>salsum: tunc enim iucunda sunt. denique mixtum magis est concentus, 
+          <lb ed="#J" n="19"/>quam acurum &amp; graue:tactui autem, calidum, aut frigidum: sensus autem 
+          <lb ed="#J" n="20"/>est ratio, cum autem modum excedunt, aut corrupunt, aut molestia afficiunt. 
+        </p>
+        <p xml:id="aristda-l2-gy144X"> <!-- l2-144-soph -->
+          <lb ed="#J" n="35"/>Sensus igitur quisque, subiecti sensibilis est. atque, est in sensorio quatenus 
+          <lb ed="#J" n="36"/>sensorium: discernitque subiecti sensibilis differentias: vt album, &amp;
+          ni<lb ed="#J" n="37" break="no"/>grum, uisus: dulce &amp; amarum, gustus: pari modo res habet in caeteris. 
+        </p>
+        <p xml:id="aristda-l2-gy145X"> <!-- l2-145-soph -->
+          <lb ed="#J" n="20"/>Sed quia &amp; album, &amp; dulce, &amp; unumquodque sensibilium cum 
+          <lb ed="#J" n="21"/>unoquoque comparatum iudicamus aliquo, &amp; differre sentimus,
+          ne<lb ed="#J" n="22" break="no"/>tesse sane est, sensu: sunt enim sensibilia. 
+        </p>
+        <p xml:id="aristda-l2-gy146X"> <!-- l2-146-soph -->
+          <lb ed="#J" n="8"/>Ex quo perspicuum est, carnem non esse ultimum sensorium:
+          neces<lb ed="#J" n="9" break="no"/>se enim esset id quod iudicat, tangendo ipsum iudicare. Haud ergo 
+          <lb ed="#J" n="10"/>fieri potest, ut separatis iudicet diuersum esse dulce ab albo: sed
+          uni<lb ed="#J" n="11" break="no"/>cuipiam ambo cognita esse oportet. alioquin &amp; si ego hoc, tu illud sen 
+          <lb ed="#J" n="12"/>tias, cognitum esset ea diuersa inter se esse. Oportet igitur, ut unum 
+          <lb ed="#J" n="13"/>dicat diuersa esse: diuersum namque est dulce ab albo: dicit ergo idem:  
+          <lb ed="#J" n="14"/>quamobrem ut dicit, sic etiam intelligit &amp; sentit. Eteri igitur non
+          pos<lb ed="#J" n="15" break="no"/>se, ut separatis separata iudicentur, perspicuum est: neque, etiam fieri 
+          <lb ed="#J" n="16"/>posse in separato tempore, hinc patebit. ut enim idem dicitr, diuersum 
+          <lb ed="#J" n="17"/>esse bonum &amp; malum, sic &amp; cum alterum dicit diuersum esse, &amp; al 
+          <lb ed="#J" n="18"/>terum, non per accidens illud quando: uerbi causa nunc dico aliud esse, 
+          <lb ed="#J" n="19"/>uo tamen aliud esse nunc: sed ita dicit &amp; nunc, &amp; quod nuc: ergo simul. 
+          <lb ed="#J" n="20"/>Quare inseparabile, &amp; an tempore inseparabili. 
+        </p>
+        <p xml:id="aristda-l2-gy147X"> <!-- l2-147-soph -->
+          <lb ed="#J" n="5"/>Verum enimuero fieri non potest ut idem simul motibus moueatur 
+          <lb ed="#J" n="6"/>contrarus, quatenus indiuisibile est, &amp; in indiuisibili tempore. si enim 
+          <lb ed="#J" n="7"/>dulce sic mouet sensum &amp; intellectum, amarum autem contrario
+          mo<lb ed="#J" n="8" break="no"/>do, &amp; album diuerso, num igitur simul quidem &amp; numero indiuisibi 
+          <lb ed="#J" n="9"/>se &amp; inseparabile est quod iudicat, ipso esse autem separatumes
+          quo<lb ed="#J" n="10" break="no"/>dammodo igitur ut diuisibile diuisa sentit: quodam modo ut indiuisibi 
+          <lb ed="#J" n="11"/>le: ipso enim esse diuisibile est: leco autem &amp; numeroe indiuisibile. 
+        </p>
+        <p xml:id="aristda-l2-gy148X"> <!-- l2-148-soph -->
+          <lb ed="#J" n="3"/>An fieri non potest: potentia enim idem diuisibile, &amp; indiuisibile, 
+          <lb ed="#J" n="4"/>&amp; contraria est: ipso autem esse nequaquam: sed patiendo diuisibile 
+          <lb ed="#J" n="5"/>est: nec potest simul album &amp; nigrum esse: quare nec eorum speties pa 
+          <lb ed="#J" n="6"/>ti, si talis est sensus &amp; intellectus. 
+        </p>
+        <p xml:id="aristda-l2-gy149X"> <!-- l2-149-soph -->
+          <lb ed="#J" n="38"/>Sed ut id quod punctum nonnulli uocant, qua unum &amp; qua duo, 
+          <lb ed="#J" n="39"/>eatenus etiam diuisibile est. ergo quat enus indiuisibile est, unum est id  
+          <lb ed="#J" n="40"/>quod iudicat, ac simul. quatenus uero diuisibile, non unum: bis enim eodem 
+          <lb ed="#J" n="41"/>utitur signo simul. quatenus igitur duobus utitur termino, duo iudicat 
+          <!--Averroes_DeAnima_JuntSecunda_11-0268.xml-->
+          <pb ed="#J" n="128-r"/>
+          <lb ed="#J" n="1"/>&amp; separata, cum ipsum quodam modo sit separatum. quatenus uero 
+          <lb ed="#J" n="2"/>unum, uno &amp; simul. Ac de principio quidem quo dicimus animal esse 
+          <lb ed="#J" n="3"/>sensitiuum, sic expositum sit. 
+        </p>
+        <p xml:id="aristda-l2-gy150X"> <!-- l2-150-soph -->
+          <lb ed="#J" n="25"/>Quoniam autem duabus potis simum differentiis describunt
+          ani<lb ed="#J" n="26" break="no"/>mam scilicet motuloci, &amp; intelligendo, &amp; iudicando, ac sentiendo: vide 
+          <lb ed="#J" n="27"/>tur autem intelligere &amp; sapere quasi sentire quoddam esse: his enim vtrisque 
+          <lb ed="#J" n="28"/>Anima iudicat &amp; cognoscit aliquid eorum quae sunt. Atque etiam pri 
+          <lb ed="#J" n="29"/>sci idem esse sapere &amp; sentire asserunt, ut etiam Empedocles dixit. 
+          <lb ed="#J" n="30"/>Nam viget ad praesens hominum sapientia semper. 
+          <lb ed="#J" n="31"/>&amp; alio loco.
+          <lb ed="#J" n="32"/>Effigies rerum varias prudentia monstrat. 
+          <lb ed="#J" n="33"/>Hoc idem sibi vult illud Homeri. 
+          <lb ed="#J" n="34"/>Qualis enim mens semper adest mortalibus aegris, 
+          <lb ed="#J" n="35"/>Quales ipse dies dat diuum hominumque ereator. 
+        </p>
+        <p xml:id="aristda-l2-gy151X"> <!-- l2-151-soph -->
+          <lb ed="#J" n="27"/>Hi nanque omnes intelligere quemadmodum etiam sentire, corporeum 
+          <lb ed="#J" n="28"/>esse autumant: ut initio harum disputationum exposuimus: atqui de de 
+          <lb ed="#J" n="29"/>ceptione etiam oportebat eos dicere: magis enim propria est animalium, &amp;  
+          <lb ed="#J" n="30"/>plus temporis in his versatur Anima. Quare necesse est, uel ut quidam 
+          <lb ed="#J" n="31"/>dicunt omnia esse uera quae appareant, uel rei dissimilis tactionem esse 
+          <lb ed="#J" n="32"/>deceptionem. hoc enim contrarium est illi sententiae, simili cognoscere
+          si<lb ed="#J" n="33" break="no"/>mile. uidetur autem &amp; deceptio &amp; scientia contrarioru esse eadem. 
+        </p>
+        <p xml:id="aristda-l2-gy152X"> <!-- l2-152-soph -->
+          <lb ed="#J" n="35"/>Ac sentire quidem &amp; sapere non esse idem perfpicuum est: hoc enim 
+          <lb ed="#J" n="36"/>cuncta participant animalia, illud pauca: quinimo ne intelligere
+          qui<lb ed="#J" n="37" break="no"/>dem in quo positum est ipsum recte &amp; non recte. ipsum enim recte pru 
+          <lb ed="#J" n="38"/>dentia est &amp; scientia, &amp; uera opinio: non recte autem his contrarium:  
+          <lb ed="#J" n="39"/>neque hoc inquam idem est quod sentire. Sensus enim propriorum uerus 
+          <lb ed="#J" n="40"/>semper est, cunctisque inest animalibus: ratiocinari aut licet etiam falso: 
+          <lb ed="#J" n="41"/>nullique inest, cui non etiamratio.
+        </p>
+        <p xml:id="aristda-l2-gy153X"> <!-- l2-153-soph -->
+          <lb ed="#J" n="39"/>Phantasia nanque diuersum est tum a sensu, tum a dianoea: atque haec 
+          <lb ed="#J" n="40"/>eadem sine sensu non fit: &amp; sine ea non est existimatio. Phantasium
+          au<lb ed="#J" n="41" break="no"/>tem &amp; existimationem non esse idem, perspicuum est: nam affectio haec, 
+          <lb ed="#J" n="42"/>cum uolumus, in nobis est. licet enim ob oculos ponere, quent admodum qui 
+          <!--Averroes_DeAnima_JuntSecunda_11-0273.xml-->
+          <pb ed="#J" n="130-v"/>
+          <lb ed="#J" n="1"/>in mnemonicis colocant, &amp; imagines effingunt. opinari uero non est 
+          <lb ed="#J" n="2"/>in nobis: necesse enim est uel fallamur, uel ueritatem assequamur. 
+        </p>
+        <p xml:id="aristda-l2-gy154X"> <!-- l2-154-soph -->
+          <lb ed="#J" n="36"/>Praeterea cum opinamur rem aliquam atrotem, aut formidolosam, 
+          <lb ed="#J" n="37"/>statim commouemur: itemque siquid fuerit quod fiduciam afferat: at 
+          <lb ed="#J" n="38"/>ex phantasia perinde afficimur, atque, qui spectant in pictura terribilia 
+          <lb ed="#J" n="39"/>&amp; fiduciam afferentia. Sunt porto &amp; ipsius existimationis
+          differen<lb ed="#J" n="40" break="no"/>tiae scientia &amp; opinio &amp; prudentia, &amp; quae his contraria sunt: de quo 
+          <lb ed="#J" n="41"/>rum differentia alia sit disputatio.
+        </p>
+        <p xml:id="aristda-l2-gy155X"> <!-- l2-155-soph -->
+          <lb ed="#J" n="27"/>De intelligendo autem, quia diuersum est a sentiendo: huius autem, 
+          <lb ed="#J" n="28"/>aliud esse phantasia uidetur, aliud existimatio: ubi de phantasia dispu 
+          <lb ed="#J" n="29"/>tauerimus, tunc demum de altero dicemus. Si igitur phantasia est, qua  
+          <lb ed="#J" n="30"/>phantasma aliquod nobis fieri dicimus nec loquor nunc, siquid per tral 
+          <lb ed="#J" n="31"/>lationem dicere consuenimus profecto una earum potentiarum est aut 
+          <lb ed="#J" n="32"/>habituum, quibus iudicamus, uerumque assequimur, aut fallimur, haec 
+          <lb ed="#J" n="33"/>autem sunt, sensus, ompinio, scientia, intellectus. 
+        </p>
+        <p xml:id="aristda-l2-gy156X"> <!-- l2-156-soph -->
+          <lb ed="#J" n="30"/>Ac phantasiam quidem non esse sensum, ex his perspicuum est.
+          Se<lb ed="#J" n="31" break="no"/>sus enim aut potentia est, aut operatio: ut uisus uel uisio: at uero
+          appa<lb ed="#J" n="32" break="no"/>ret aliquid, etiam cum neutrum horum adsit: ueluti ea quae in somni 
+          <lb ed="#J" n="33"/>apparent. Deinde sensus semper adest: phantasia non item. Sin autem 
+          <lb ed="#J" n="34"/>idem est quod operatio, fieri possit ut in omnibus bestiis phantasia insit: 
+          <lb ed="#J" n="35"/>quod tamen no uidetur: ut formicae, aut api, aut uermi. Deinde illi sem 
+          <lb ed="#J" n="36"/>per ueri sut, at phantasiae pleraeque, sut falsa. Huc adde quod neque, dicim, 
+          <lb ed="#J" n="37"/>cum exquisite circa sensibile operamur, hoc nobis apparere hominem:  
+          <lb ed="#J" n="38"/>Ac denique squod superius dicebamus, etiam clausis oculis uisa
+          qua<lb ed="#J" n="39" break="no"/>dam apparere solent. 
+        </p>
+        <p xml:id="aristda-l2-gy157X"> <!-- l2-157-soph -->
+          <!--Averroes_DeAnima_JuntSecunda_11-0277.xml-->
+          <pb ed="#J" n="132-v"/>
+          <lb ed="#J" n="1"/>Neque, uero eorum qui semper ueri sunt ullus erit, ut scientia, aut in,  
+          <lb ed="#J" n="2"/>tellectus: nam est etiam falsa phantasia, restat igitur spectandum
+          an<lb ed="#J" n="3" break="no"/>opinio sit: fit enim opinio &amp; uera &amp; falsa: sed opinionem quidem,
+          sequi<lb ed="#J" n="4" break="no"/>tur fides Ineque enim fieri potest, ut is qui opinatur, ea quae
+          opina<lb ed="#J" n="5" break="no"/>tur, non credat atuero bestiarum nulli inest fides: phantasia multis. 
+          <lb ed="#J" n="6"/>praeterea omnen opinionem sequitur fides: fidem persuasio: per suasionem 
+          <lb ed="#J" n="7"/>ratio. at bestiaru nonnullis phantasia inest, ratio non item. 
+        </p>
+        <p xml:id="aristda-l2-gy158X"> <!-- l2-158-soph -->
+          <!--Averroes_DeAnima_JuntSecunda_11-0278.xml-->
+          <pb ed="#J" n="133-r"/>
+          <lb ed="#J" n="1"/>Constat ergo nec opinionem cum sensu, neque per sensum, neque,
+          conne<lb ed="#J" n="2" break="no"/>xionem opinionis &amp; sensus, esse phantasiam: tum propter haec, tum
+          cer<lb ed="#J" n="3" break="no"/>te, quia no alia quaedam opinio est: sed eiusdem illius, cuius et sensus est:  
+          <lb ed="#J" n="4"/>uerbi causa connexio ex albi opinione et sensu, phantasia est: neque, enim 
+          <lb ed="#J" n="5"/>ex opinione quidem boni erit, sensu autem albi. Apparere igitur est 
+          <lb ed="#J" n="6"/>opinari, quod sentit non per accidens. 
+        </p>
+        <p xml:id="aristda-l2-gy159X"> <!-- l2-159-soph -->
+          <!--Averroes_DeAnima_JuntSecunda_11-0279.xml-->
+          <pb ed="#J" n="133-v"/>
+          <lb ed="#J" n="1"/>Sed apparent etiam falsa, de quibus simul ueram habet existima. 
+          <lb ed="#J" n="2"/>tionem: ut sol apparet pedalis, persuasum est tamen, maiorem eum esse 
+          <lb ed="#J" n="3"/>uniuersa terra. uel igitur accidit ut sua opinione amiserit, quam habebat 
+          <lb ed="#J" n="4"/>ueram, salua re, non oblitus, neque, de sunia depulsus: uel si adhuc habet, necesse 
+          <lb ed="#J" n="5"/>est eandem uera esse et falsa. Atqui tuc falsa fit, cum res mutata latuerit. 
+        </p>
+        <p xml:id="aristda-l2-gy160X"> <!-- l2-160-soph -->
+          <lb ed="#J" n="37"/>Nec ergo horum unum quidpiam, neque ex his phantasiam esse
+          per<lb ed="#J" n="38" break="no"/>spicuum est. Verum quia fieri potest, ut moto hoc, moueatur aliud ab 
+          <lb ed="#J" n="39"/>hoc, phantasia autem quidam esse motus uidetur, nec sine sensu fieri, sed  
+          <lb ed="#J" n="40"/>sentientibus: eoruque esse quorum sensus est, potque, fieri motus abactu sensus, 
+        </p>
+        <p xml:id="aristda-l2-gy161X"> <!-- l2-161-soph -->
+          <lb ed="#J" n="34"/>eumque similem esse sensui necesse est, hic sane motus eiusmodi
+          fue<lb ed="#J" n="35" break="no"/>rit, qui neque, sine sensu, neque, non sentientibus inesse possit: atque fit ut id  
+          <lb ed="#J" n="36"/>quod eam habeat, complura per ipsam &amp; agat &amp; patiatur, ac uera 
+          <lb ed="#J" n="37"/>sit &amp; falsa. quod eo fit quia sensus propriorum uerus est, aut certe 
+          <lb ed="#J" n="38"/>quam minimum habet falsitatis. Secundo eius cui accidunt &amp; haec, 
+          <lb ed="#J" n="39"/>atque hic demum falsus esse potest. album enim esse, non fallitur: sed
+          an<lb ed="#J" n="40" break="no"/>illud album, sit hoc, aut aliud quidpiam, fallitur. Tertio communium, et 
+          <lb ed="#J" n="41"/>consequentium accidentia, quibus insunt propria: uerbi causa, motus 
+          <!--Averroes_DeAnima_JuntSecunda_11-0281.xml-->
+          <pb ed="#J" n="134-v"/>
+          <lb ed="#J" n="1"/>ac magnitudo, quae accidunt sensibilibus: in quibus demum maxime
+          fieri<lb ed="#J" n="2" break="no"/>potest ex sensu deceptio. Motus igitur qui fit ab actu sensus, differens 
+          <lb ed="#J" n="3"/>erit, videlicet is qui ab his tribus fit sensibus. Ac primus quidem prae 
+          <lb ed="#J" n="4"/>sente sensu uerus est, caeteri uero &amp; praesente &amp; absente fuerint falsi, 
+          <lb ed="#J" n="5"/>praesertim cum procul abest sensibile. Si igitur nihil aliud nisiphan 
+          <lb ed="#J" n="6"/>tasia quae iam diximus habet: atque hoc est quod diximus: profecto phan 
+          <lb ed="#J" n="7"/>tasia fuerit motus is, qui fit a sensu qui actu est. 
+        </p>
+        <p xml:id="aristda-l2-gy162X"> <!-- l2-162-soph -->
+          <lb ed="#J" n="10"/>Porro autem quia uisus praecipue sensus est, ideo etiam nomen
+          du<lb ed="#J" n="11" break="no"/>xit Groroum od ous. I. alumine: nimirum quia sine lumine uidere non  
+          <lb ed="#J" n="12"/>possumus: Ac quoniam immanent, similesque, sunt sensibus, multa per  
+          <lb ed="#J" n="13"/>ipsas agunt animalia alia, quod non habeant intellectum, uidolicet bo 
+          <lb ed="#J" n="14"/>stiae: alia, quod interdum intellectus obruitur, aut perturbatione, aut. 
+          <lb ed="#J" n="15"/>morbo, aut somno: ut homines. Ac de phantasia quidem quid sit, &amp;¬  
+          <lb ed="#J" n="16"/>quamobrem sit, tot exposita sint. 
+        </p>
+        
+      </div>
+    </body>
+  </text>
+</TEI>

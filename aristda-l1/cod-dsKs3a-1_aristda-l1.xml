@@ -1,0 +1,893 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 1</title> <!-- De Anima -->
+        <author ref="#Aristotle">Aristotle</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 1</title>
+          <date when="2021-01-16">January 16, 2022</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <!-- manifestation sctar:aristdeanima/cod-dsKs3a-1 in codex sctar:cod-dsKs3a- -->
+          <witness xml:id="J" n="cod-dsKs3a-1">Antiqua Translatio, Venice 1562, volume 11</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#J" n="1-r"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="aristda-l1">
+        <p xml:id="aristda-l1-asf1XY">
+          <!-- l1-1-ant -->
+          <lb ed="#J" n="12"/>ANTIQVA TRANSLATIO.
+          <lb ed="#J" n="13"/>Onorum &amp; honorabilium notitiam opinantes, ma
+          <lb ed="#J" n="14" break="no"/>gis autem alteram altera, aut secundum certitudinem,
+          <lb ed="#J" n="15"/>aut ex eo quod meliorumque &amp; mirabiliorum est, pro
+          <lb ed="#J" n="16"/>pter vtraque haec, animae historiam rationabiliter vtique
+          <lb ed="#J" n="17"/>in primis ponemus. </p>
+        <p xml:id="aristda-l1-asf2XY">
+          <!-- l1-2-ant -->
+          <lb ed="#J" n="15"/>Videtur autem ad veritatem omnem cognitio ipsius multum pro
+          <lb ed="#J" n="16" break="no"/>ficere: maxime autem ad naturam: est enim tanquam principium animalium, </p>
+        <p xml:id="aristda-l1-asf3XY">
+          <!-- l1-3-ant -->
+          <lb ed="#J" n="5"/>Inquirimus autem considerare &amp; cognoscere naturam ipsius &amp;
+          <lb ed="#J" n="6"/>substantiam: postea quaecunque accidunt circa ipsam: quorum aliae
+          <lb ed="#J" n="7"/>propriae passiones animae esse videntur: aliae autem communes et
+          <lb ed="#J" n="8"/>animalibus propter illam inesse. </p>
+        <p xml:id="aristda-l1-asf4XY">
+          <!-- l1-4-ant -->
+          <lb ed="#J" n="38"/>Omnino autem &amp; penitus difficillimorum est, accipere aliquam
+          <lb ed="#J" n="39"/>fidem de ipsa: cum enim sit quaestio communis, &amp; multis aliis: dico autem
+          <lb ed="#J" n="40"/>eam quae est circa substantiam, &amp; eam quae quid est, fortassis ali
+          <lb ed="#J" n="41" break="no"/>eui videbitur vna quaedam methodus esse de omnibus, de quibus
+          <lb ed="#J" n="42"/>volumus cognoscere substantiam, sicut &amp; eorum quae sunt secun¬ <!--Averroes_DeAnima_JuntSecunda_11-0019.xml-->
+          <pb ed="#J" n="2-v"/>
+          <lb ed="#J" n="1"/>dum accidens propriorum, demonstrationem: Quare quaerendum
+          <lb ed="#J" n="2"/>vtique erit methodum istam. </p>
+        <p xml:id="aristda-l1-asf5XY">
+          <!-- l1-5-ant -->
+          <lb ed="#J" n="38"/>Si autem non est vna quaedam &amp; communis methodus de eo quodquid
+          <lb ed="#J" n="39"/>est, amplius difficilius est negociari: oportebit enim accipere circa
+          <lb ed="#J" n="40"/>vnumquodque, quis modus: cum autem manifestum fuerit vtrum
+          <lb ed="#J" n="41"/>demonstratio aliqua sit, aut diuisio, aut aliqua alia methodus, ad¬ <!-- 0059 was OUT OF ORDER and belongs here as folio 3-r -->
+          <!--Averroes_DeAnima_JuntSecunda_11-0059.xml-->
+          <pb ed="#J" n="3-r"/>
+          <lb ed="#J" n="1"/>huc multas habet dubitationes &amp; errores, ex quibus oportet quae
+          <lb ed="#J" n="2" break="no"/>rere: alia enim aliorum principia, sicut numerorum &amp; planorum. </p>
+        <p xml:id="aristda-l1-asf6XY">
+          <!-- l1-6-ant -->
+          <lb ed="#J" n="32"/>Primum autem fortassis necessarium est diuidere in quo gene
+          <lb ed="#J" n="33" break="no"/>rum, &amp; quid sit. Dico autem vtrum hoc aliquid &amp; substantia, aut
+          <lb ed="#J" n="34"/>qualitas, aut quantitas, aut etiam quoddam aliud diuisorum prae
+          <lb ed="#J" n="35" break="no"/>dicamentorum: adhuc autem vtrum eorum quae sunt in potentia
+          <lb ed="#J" n="36"/>aut magis entelechia quaedam, differt enim non aliquid parum. </p>
+        <p xml:id="aristda-l1-asf7XY">
+          <!-- l1-7-ant -->
+          <lb ed="#J" n="17"/>Considerandum autem &amp; si partibilis sit, aut impartibilis. &amp;
+          <lb ed="#J" n="18"/>vtrum sit similis speciei omnis anima, aut non. si autem non sit si
+          <lb ed="#J" n="19" break="no"/>milis speciei, vtrum specie differant aut genere. Nunc quidem enim
+          <lb ed="#J" n="20"/>dicentes &amp; quaerentes de anima, de humana videntur solum intendere. </p>
+        <p xml:id="aristda-l1-asf8XY">
+          <!-- l1-8-ant -->
+          <lb ed="#J" n="8"/>Formidandum autem quatenus non lateat vtrum vna ratio ipsius
+          <lb ed="#J" n="9"/>est, sicut animalis: aut secundum vnunquodque altera, vt equi, canis, homi
+          <lb ed="#J" n="10" break="no"/>nis, dei. quod animal autem vniversalie, aut nihil est, aut posterius: simili
+          <lb ed="#J" n="11" break="no"/>ter autem &amp; si aliquod commune aliud praedicetur. </p>
+        <p xml:id="aristda-l1-asf9XY">
+          <!-- l1-9-ant -->
+          <lb ed="#J" n="4"/>Amplius autem si non multae animae, sed partes, vtrum oportet
+          <lb ed="#J" n="5"/>prius quaerere totam animam, aut partes: difficile autem &amp; harum
+          <lb ed="#J" n="6"/>determinare quales aptae natae alterae ad inuicem esse. </p>
+        <p xml:id="aristda-l1-asf10X">
+          <!-- l1-10-ant -->
+          <lb ed="#J" n="21"/>Et vtrum oportet quaerere prius partes aut opera ipsarum, vt
+          <lb ed="#J" n="22"/>intelligere aut intellectum, et sensibile aut sensitiuum: similiter autem &amp; in
+          <lb ed="#J" n="23"/>aliis. Si autem opera prius, iterum vtique dubitabit aliquis, si obiecta horum
+          <lb ed="#J" n="24"/>prius quaerendum, sicut sensibile, sensitiuo: &amp; intelligibile, intellectiuo. </p>
+        <p xml:id="aristda-l1-asf11X">
+          <!-- l1-11-ant -->
+          <lb ed="#J" n="5"/>Videtur autem non solum quod quid est cognoscere, vtile esse ad
+          <lb ed="#J" n="6"/>cognoscendum causas accidentium in substantijs: sicut in mathe
+          <lb ed="#J" n="7" break="no"/>maticis quid rectum, &amp; quid obliqum, &amp; quid linea, &amp; quid pla
+          <lb ed="#J" n="8" break="no"/>num: ad cognoscendum quot rectis trianguli anguli sunt aequales,
+          <lb ed="#J" n="9"/>sed est conuerso, accidentia conferunt magnam partem ad cognoscen
+          <lb ed="#J" n="10"/>dum quod quid est: cum enim habeamus tradere secundum phantasiam
+          <lb ed="#J" n="11"/>de accidentibus, aut omnibus, aut pluribus, tunc &amp; de substantia
+          <lb ed="#J" n="12"/>habebimus dicere aliquid optime: Omnis enim demonstrationis,
+          <lb ed="#J" n="13"/>principium est quod quid est. Quare secundum quascunque diffinitiones
+          <lb ed="#J" n="14"/>non contingit accidentia cognoscere, sed neque de ipsis imaginari fa
+          <lb ed="#J" n="15" break="no"/>cile, manifestum est quod dialecticem dictae sunt &amp; vane omnes. </p>
+        <p xml:id="aristda-l1-asf12X">
+          <!-- l1-12-ant -->
+          <lb ed="#J" n="31"/>Dubitationem autem habent &amp; passiones animae, vtrum com
+          <lb ed="#J" n="32" break="no"/>munes sint omnes &amp; habentis, an sit &amp; aliqua animae, propria ip
+          <lb ed="#J" n="33" break="no"/>sius: hoc enim accipere quidem necessarium est, non autem le
+          <lb ed="#J" n="34" break="no"/>ue. videtur autem plurimorum nullum sine corpore pati nec face
+          <lb ed="#J" n="35"/>re. vt irasci, confidere, desiderare, &amp; omnino sentire: maxime au
+          <lb ed="#J" n="36" break="no"/>tem assimilatur proprio intelligere. si autem &amp; hoc phantasia quae
+          <lb ed="#J" n="37" break="no"/>dam, aut non sine phantasia, non contingit vtique nec hoc sine cor
+          <lb ed="#J" n="38" break="no"/>pore esse. </p>
+        <p xml:id="aristda-l1-asf13X">
+          <!-- l1-13-ant -->
+          <lb ed="#J" n="16"/>Si quid igitur animae operum aut passionum proprium, con
+          <lb ed="#J" n="17" break="no"/>tinget vtique ipsam separari: si vero nullum est proprium, non erit
+          <lb ed="#J" n="18"/>vtique separabilis: sed sicut recto in quantum rectum, multa acci
+          <lb ed="#J" n="19" break="no"/>dunt, vt tangere aeneam sphaeram secundum punctum: non tamen
+          <lb ed="#J" n="20"/>tanget, ab hoc separatum rectum, inseparabile enim, siquidem sem
+          <lb ed="#J" n="21" break="no"/>per cum quodam corpore est. </p>
+        <p xml:id="aristda-l1-asf14X">
+          <!-- l1-14-ant -->
+          <lb ed="#J" n="24"/>Videntur autem &amp; animae passiones omnes cum corpore esse:
+          <lb ed="#J" n="25"/>ira, mansuetudo, timor, misericordia, confidentia, adhuc gaudium,
+          <lb ed="#J" n="26"/>&amp; amare, &amp; odire, simul enim his patitur aliquid corpus. Indicat
+          <lb ed="#J" n="27"/>autem hoc, aliquando a duris quidem &amp; manifestis passionibus
+          <lb ed="#J" n="28"/>concidentibus, nihil exacerbari aut timere, aliquando autem et
+          <lb ed="#J" n="29"/>paruis &amp; debilibus moueri, cum accendatur corpus, &amp; si sic se ha
+          <lb ed="#J" n="30" break="no"/>beat sicut cum irascitur. adhuc autemmagis hoc manifestum: nullo
+          <lb ed="#J" n="31"/>enim terribili imminente, in pas sionibus siunt his alicuius timen
+          <lb ed="#J" n="32"/>tis, si autem sic se habet, manifestum quoniam passiones rationes
+          <lb ed="#J" n="33"/>in materia sunt. </p>
+        <p xml:id="aristda-l1-asf15X">
+          <!-- l1-15-ant -->
+          <lb ed="#J" n="36"/>Quare termini tales, vt irasci, motus quidam talis corporis, aut
+          <lb ed="#J" n="37"/>partis, aut potentiae, ab hoc, gratia huius: &amp; propter haec iam phy
+          <lb ed="#J" n="38"/>sici est considerare de anima autem omni aut huiusmodi. </p>
+        <p xml:id="aristda-l1-asf16X">
+          <!-- l1-16-ant -->
+          <lb ed="#J" n="13"/>DIfferenter autem diffiniet Physicus &amp; Dialecticus vnunquoque
+          <lb ed="#J" n="14"/>ipsorum, vt iram, quid est: hic quidem enim appetitum recontri
+          <lb ed="#J" n="15"/>stationis: aut aliquid huiusmodi: Ille autem feruorem sanguinis,
+          <lb ed="#J" n="16"/>aut calidi circa cor. Horum autem alius quidem assignat mate
+          <lb ed="#J" n="17" break="no"/>riam: alius vero speciem &amp; rationem. Ratio quidem enim haec,
+          <lb ed="#J" n="18"/>speties rei. necesse est autem hanc esse in materia huiusmodi, si erit.
+          <lb ed="#J" n="19"/>Sicut domus, ratio quidem quaedam talis: quia cooperimentum
+          <lb ed="#J" n="20"/>prohibens corruptiones, a uentis, imbribus, &amp; caumatibus, haec
+          <lb ed="#J" n="21"/>autem dicit lapides, &amp; lateres, &amp; ligna. alia vero in his spetiem, pro
+          <lb ed="#J" n="22" break="no"/>pter ista, quae igitur naturalis harume vtrum quae circa materiam,
+          <lb ed="#J" n="23"/>rationem autem ignorans: aut quae circa rationem solum: aut ma
+          <lb ed="#J" n="24" break="no"/>gis quae est ex vtrisqueelllorum autem iam quis vterqued </p>
+        <p xml:id="aristda-l1-asf17X">
+          <!-- l1-17-ant -->
+          <lb ed="#J" n="30"/>Aut non est aliquis qui circa passiones materiae non separabi
+          <lb ed="#J" n="31" break="no"/>les. sed physicus circa omnes quaecunque huius corporis &amp; huius
+          <lb ed="#J" n="32"/>materiae opera &amp; passiones sunt. Circa quascunque autem non in
+          <lb ed="#J" n="33" break="no"/>quantum huiusmodi, alius: vt de quibusdam quidem artifex est,
+          <lb ed="#J" n="34"/>si contingat, vt instructor, aut medicus. non separabilium, autem
+          <lb ed="#J" n="35"/>In quantum autem non talis corporis passiones, sed ex sequestratione,
+          <lb ed="#J" n="36"/>mathematicus: secundum autem quod omnino separatae, primus philosophus. </p>
+        <p xml:id="aristda-l1-asf18X">
+          <!-- l1-18-ant -->
+          <lb ed="#J" n="28"/>Sed redeundum est vnde sermo. dicebamus autem quod passio
+          <lb ed="#J" n="29" break="no"/>nes animae non separabiles a physica materia animalium inquan
+          <lb ed="#J" n="30"/>tum tales existunt furor &amp; timor: &amp; non sicut linea &amp; planum. </p>
+        <p xml:id="aristda-l1-asf19X">
+          <!-- l1-19-ant -->
+          <lb ed="#J" n="3"/>INtendentes autem de anima, necesse est simul dubitan
+          <lb ed="#J" n="4" break="no"/>tes de quibus abundare oportet, pertranseuntes prio
+          <lb ed="#J" n="5" break="no"/>rum opiniones comprehendere, quicunque de ipsa ali
+          <lb ed="#J" n="6" break="no"/>lquid enuntiarunt: vt bene quidem dicta accipiamus, si
+          <lb ed="#J" n="7"/>vero aliquid non bene, hoc vereamur. Principium autem quae
+          <lb ed="#J" n="8" break="no"/>stionis, apponere quae maxime videntur ipsi inesse secundum na
+          <lb ed="#J" n="9" break="no"/>turam. Animatum igitur ab inanimato in duobus maxime dif
+          <lb ed="#J" n="10" break="no"/>ferre videtur, motu &amp; sensu. Accepimus autem &amp; a progenitori
+          <lb ed="#J" n="11" break="no"/>bus fere haec duo de anima. </p>
+        <p xml:id="aristda-l1-asf20X">
+          <!-- l1-20-ant -->
+          <!--Averroes_DeAnima_JuntSecunda_11-0033.xml-->
+          <pb ed="#J" n="9-r"/>
+          <lb ed="#J" n="1"/>Dicunt enim quidam &amp; maxime primo esse animam id quod
+          <lb ed="#J" n="2"/>est mouens: existimantes autem quod non mouetur ipsum, non
+          <lb ed="#J" n="3"/>contingere mouere alterum, eorum quae mouentur, animam sic
+          <lb ed="#J" n="4"/>arbitrati sunt esse. vnde Democritus quidem ignem quendam &amp;
+          <lb ed="#J" n="5"/>calorem esse dicit ipsam: Infinitis igitur existentibus figuris &amp; a
+          <lb ed="#J" n="6" break="no"/>tomis: quae sunt speciei rotundae, ignem &amp; animam dicit. vt in ae
+          <lb ed="#J" n="7" break="no"/>re mota, quae vocantur decisiones, quae videntur per portas in ra
+          <lb ed="#J" n="8" break="no"/>diis. quarum omne semen elementa dicit Democritus totius natu
+          <lb ed="#J" n="9" break="no"/>rae: Similiter autem &amp; Leucippus: horum autem sphaerica, animam,
+          <lb ed="#J" n="10"/>propter id quod maxime possunt penetrare per omne huiusmo
+          <lb ed="#J" n="11" break="no"/>di figurae, &amp; mouere reliqua cum moueantur &amp; ipsa, arbitrantes
+          <lb ed="#J" n="12"/>animam esse efficiens in animalibus motum. </p>
+        <p xml:id="aristda-l1-asf21X">
+          <!-- l1-21-ant -->
+          <lb ed="#J" n="28"/>Vnde &amp; viuenditerminum esse respirationem. Constringente
+          <lb ed="#J" n="29"/>enim eo quod corpora continet, &amp; extrudente figuras praebentes ani
+          <lb ed="#J" n="30" break="no"/>malibus motum, ex eo quod non est ipsas quiescere nullatenus, au
+          <lb ed="#J" n="31" break="no"/>xilium fieri de foris, ingredientibus aliis huiusmodi in respirando.
+          <lb ed="#J" n="32"/>prohibere enim has, &amp; quae insunt animalibus disgregari, simul
+          <lb ed="#J" n="33"/>prohibentem constringens &amp; comprimens, &amp; viuere autem quam
+          <lb ed="#J" n="34"/>diupossunt hoc facere. </p>
+        <p xml:id="aristda-l1-asf22X">
+          <!-- l1-22-ant -->
+          <lb ed="#J" n="23"/>Videtur autem &amp; a pythagoricis dictum, eandem habere intel
+          <lb ed="#J" n="24"/>ligentiam. Dixerunt enim quidam ipsorum, animam esse quae sunt,
+          <lb ed="#J" n="25"/>in aere decisiones. alii autem has mouens. de his autem dictum est,
+          <lb ed="#J" n="26"/>propter id quod continue videntur moueri, &amp; si sit tranquillitas ni
+          <lb ed="#J" n="27" break="no"/>mia. In idem autem feruntur &amp; quicunque dicunt animam esse quod
+          <lb ed="#J" n="28"/>se ipsum mouens. videntur autem omnes hi existimasse motum
+          <lb ed="#J" n="29"/>maxime proprium esse animae, &amp; alia quidem omnia moueri, pro
+          <lb ed="#J" n="30" break="no"/>pter animam, ipsam autem a seipsa: propter nihil videre nouens,
+          <lb ed="#J" n="31"/>quod non moueatur &amp; ipsum. </p>
+        <p xml:id="aristda-l1-asf23X">
+          <!-- l1-23-ant -->
+          <lb ed="#J" n="15"/>Similiter autem &amp; Anaxagoras animam dicit esse mouentem, &amp; si aliquis alius di
+          <lb ed="#J" n="16" break="no"/>xit quod omne mouit intellectus: non tamen penitus sicut Demo. ille quidem enim di
+          <lb ed="#J" n="17" break="no"/>cit simpescicitur idem esse animam &amp; intellectum, verum enim esse quod videtsalit vnde bamden face
+          <lb ed="#J" n="18" break="no"/>re Homerum, quod Hector iacet aliud sapies: non itaque vtitur intellectu
+          <lb ed="#J" n="19"/>tanque potentia quaedam quae circa veritatem, sed idem dicit animam &amp; intellectum. </p>
+        <p xml:id="aristda-l1-asf24X">
+          <!-- l1-24-ant -->
+          <lb ed="#J" n="40"/>Anaxagoras autem minus cert ificat de ipsa. Multotiens quidem enim causam
+          <lb ed="#J" n="41"/>eius quod bamen &amp; recte, dicit esse intellectum. alibi autem intellectum hunc esse <!--Averroes_DeAnima_JuntSecunda_11-0037.xml-->
+          <pb ed="#J" n="11-r"/>
+          <cb ed="#J" n=""/>
+          <lb ed="#J" n="1"/>animae. In omnibus enim ipsum inesse animalibus, magnis &amp; paruis, &amp; honora
+          <lb ed="#J" n="2"/>bilibus, &amp; inhonorabilibus, non vnidertali autem secundum prudentiam dictus in
+          <lb ed="#J" n="3" break="no"/>tellectus omnibus siliter animalibus inesse, sed neque omnibus hominibus. </p>
+        <p xml:id="aristda-l1-asf25X">
+          <!-- l1-25-ant -->
+          <lb ed="#J" n="22"/>Quicunque igitur in moueri animatum aspexerunt, hi quidem maxime mo
+          <lb ed="#J" n="23" break="no"/>tiuum opinati sunt animam esse. Quicumque autem ad cognoscere &amp; sentire ea
+          <lb ed="#J" n="24"/>quae sunt, isti dicunt animam esse principia, alii quidem facientes plura, haec.
+          <lb ed="#J" n="25"/>alii vero, vnum, hoc: sicut Empedocles quidem ex elementis omnibus, esse
+          <lb ed="#J" n="26"/>autem &amp; vnunquodque eorum animam, dicens sic, terram quidem terra cognosci
+          <lb ed="#J" n="27"/>mus, aquam autem aqua. ethere autem ethera, sed igne ignem mani
+          <lb ed="#J" n="28" break="no"/>festum est. concordia autem concordiam. discordiam autem discordia tristi. </p>
+        <p xml:id="aristda-l1-asf26X">
+          <!-- l1-26-ant -->
+          <lb ed="#J" n="23"/>Eodem autem modo &amp; Plato in timaeo animam ex elementis facit: co
+          <lb ed="#J" n="24" break="no"/>gnosci enim simile simili, res autem ex principiis esse. similitur autem et in his quae sunt de phi
+          <lb ed="#J" n="25"/>losophia dicta, determinatum est: ipsum quidem animal ex ipsa vnius ex idea &amp;
+          <lb ed="#J" n="26"/>prima logitudine &amp; latitudine &amp; altitudine, alia autem simlimodo. </p>
+        <p xml:id="aristda-l1-asf27X">
+          <!-- l1-27-ant -->
+          <lb ed="#J" n="32"/>Adhuc autem &amp; aliter, intellectum quidem, vnum, scientiam au
+          <lb ed="#J" n="33" break="no"/>tem, duo, singulariter enim ad vnum: plani autem numerum, opi
+          <lb ed="#J" n="34"/>nionem, sensum vero, eum qui firmi: hi quidem enim numeri spe
+          <lb ed="#J" n="35" break="no"/>cies &amp; principia entium dicebant: sunt autem ex elementis: Iudican
+          <lb ed="#J" n="36" break="no"/>tur autem res aliae quidem intellectu, aliae vero scientia aliae autem
+          <lb ed="#J" n="37"/>opinione, aliae vero sensu: species autem numeri hi, rerum. </p>
+        <p xml:id="aristda-l1-asf28X">
+          <!-- l1-28-ant -->
+          <lb ed="#J" n="27"/>Quoniam autem &amp; motiuum videbatur anima esse &amp; cogno
+          <lb ed="#J" n="28" break="no"/>scitiuum sic quidam complexi sunt ex vtrisque, enuntiantes animam
+          <lb ed="#J" n="29"/>esse numerum mouentem se ipsum: differunt autem de principiis
+          <lb ed="#J" n="30"/>quae &amp; quot sunt, maxime quidem corporea facientes, &amp; incorpo
+          <lb ed="#J" n="31"/>rea. his autem, miscentes &amp; ab vtrisque principia referentes: differunt
+          <lb ed="#J" n="32"/>autem &amp; circa multitudinem: hi quidem enim vnum, illi vero plura dicunt. </p>
+        <p xml:id="aristda-l1-asf29X">
+          <!-- l1-29-ant -->
+          <lb ed="#J" n="21"/>Consequenter autem his, &amp; animam assignat. motiuum enim
+          <lb ed="#J" n="22"/>secundum naturam primorum existimauerunt, non trrationabiliter. vnde
+          <lb ed="#J" n="23"/>quibusdam visum est ignem esse, etenim hic in partibus subtilisei
+          <lb ed="#J" n="24"/>mus est, &amp; maxime elementorum in corporeus. adhuc autem mo
+          <lb ed="#J" n="25"/>ueturque &amp; mouet alia primo. </p>
+        <p xml:id="aristda-l1-asf30X">
+          <!-- l1-30-ant -->
+          <lb ed="#J" n="6"/>Democritus autem dulcius dixit enuntians propter quid vtrumque
+          <lb ed="#J" n="7"/>horum: animam quidem enim &amp; intellectum idem. Istud autem
+          <lb ed="#J" n="8"/>primorum &amp; indiuisibilium corporum esse: motiuum autem pro
+          <lb ed="#J" n="9"/>pter subtilitatem partium &amp; figuram: Pigurarum autem mobilis
+          <lb ed="#J" n="10"/>simam, quae sphaerica dicit, hoc autem intellectum esse &amp; ignem. </p>
+        <p xml:id="aristda-l1-asf31X">
+          <!-- l1-31-ant -->
+          <lb ed="#J" n="40"/>Anaxagoras autem videtur quidem alterum dicere animam &amp;
+          <lb ed="#J" n="41"/>i. cllectum vt diximus prius: vtitur autem vtrisque sicut vna natura. <!--Averroes_DeAnima_JuntSecunda_11-0043.xml-->
+          <pb ed="#J" n="14-r"/>
+          <lb ed="#J" n="1"/>veruntamen ponit intellectum principium maxime omnium: so
+          <lb ed="#J" n="2" break="no"/>lum quia dicit ipsum eorum quae sunt, simplicem esse &amp; immi
+          <lb ed="#J" n="3" break="no"/>stum &amp; purum: assignat autem vtrunque eidem principio, &amp; co
+          <lb ed="#J" n="4" break="no"/>gnoscere &amp; mouere, dicens intellectum mouisse omne. </p>
+        <p xml:id="aristda-l1-asf32X">
+          <!-- l1-32-ant -->
+          <lb ed="#J" n="31"/>Videtur autem &amp; Thales ex quibus reminiscimur, motiuum ali
+          <lb ed="#J" n="32" break="no"/>quid animam opinari, si quidem dixit lapidem animam habere quoniam
+          <lb ed="#J" n="33"/>ferrum mouet: Diogenes autem sicut &amp; alteri quidam aerem, hunc
+          <lb ed="#J" n="34"/>opinans omnium subtilissimum esse, &amp; principium: &amp; propter hoc
+          <lb ed="#J" n="35"/>cognoscere &amp; mouere animam: secundum quod quidem principium, &amp; ex
+          <lb ed="#J" n="36"/>hoc reliqua, cognoscere. secundum vero quod subtilissimum est, mo
+          <lb ed="#J" n="37" break="no"/>tiuum esses Heraclitus autem animam principium esse dicit, siqui
+          <lb ed="#J" n="38"/>dem vaporem, ex quo alia constituit, &amp; incorporalissimum autem,
+          <lb ed="#J" n="39"/>&amp; fiuens semper: quod vero mouetur motu cognosci: in motu autem
+          <lb ed="#J" n="40"/>esse quae sunt &amp; ille arbitratus est &amp; multi. Similiter autem his &amp;
+          <lb ed="#J" n="41"/>Alcmeon opinari visus est de anima, dicit enim ipsam immortalem <!--Averroes_DeAnima_JuntSecunda_11-0044.xml-->
+          <pb ed="#J" n="15-v"/>
+          <lb ed="#J" n="1"/>propter hoc quod assimilatur immortalibus, hoc autem inesse ipsi tan¬l
+          <lb ed="#J" n="2"/>quam motae semper, moueri enim &amp; diuina omnia continue sem
+          <lb ed="#J" n="3"/>per. Lunam, Solem, Astra, &amp; coelum totum. Magis autem rudium
+          <lb ed="#J" n="4"/>quidam &amp; aquam enunciauerunt, vt Hippo. suaderi enim visi sunt
+          <lb ed="#J" n="5"/>ex genitura, quoniam omnium humida est: &amp; nanque arguit san
+          <lb ed="#J" n="6" break="no"/>guinem dicentes esse animam, quoniam genitura non est sanguis, hanc
+          <lb ed="#J" n="7"/>autem esse primam animam. Alii autem sanguinem, quemadmodum
+          <lb ed="#J" n="8"/>Critias, ipsum sentire animae magis proprium opinantes, hoc autem
+          <lb ed="#J" n="9"/>inesse propter naturam sanguinis. Omnia enim elementa praeter
+          <lb ed="#J" n="10"/>terram iudicem acceperunt, hanc enim nulli protulerunt, nisi si ali
+          <lb ed="#J" n="11" break="no"/>quis dixerit animam esse ex omnibus elementis, aut omnia. </p>
+        <p xml:id="aristda-l1-asf33X">
+          <!-- l1-33-ant -->
+          <lb ed="#J" n="4"/>Diffiniunt autem omnes animam tribus vt est dicere, motu, sen
+          <lb ed="#J" n="5" break="no"/>su, &amp; incorporeo: horum autem vnumquodque reducitur ad prin
+          <lb ed="#J" n="6" break="no"/>cipia. vnde &amp; in cognoscendo diffinientes ipsam, aut elementum,
+          <lb ed="#J" n="7"/>aut ex elementis faciunt, dicentes similiter inuicem, praeter vnum.
+          <lb ed="#J" n="8"/>Dicunt enim sunile cognosci simili: quoniam enim anima omnia
+          <lb ed="#J" n="9"/>cognoscit, constituunt eam ex omnibus principiis. </p>
+        <p xml:id="aristda-l1-asf34X">
+          <!-- l1-34-ant -->
+          <!--Averroes_DeAnima_JuntSecunda_11-0047.xml-->
+          <pb ed="#J" n="16-r"/>
+          <cb ed="#J" n=""/>
+          <lb ed="#J" n="1"/>Quicunque quidem igitur vnam aliquam dicunt causam aut ese
+          <lb ed="#J" n="2" break="no"/>mentum vnum, &amp; animam vnum ponunt, vt ignem aut aerem: plura
+          <lb ed="#J" n="3"/>vero dicentes principia, &amp; animam plura dicunt. Anaxagoras autem
+          <lb ed="#J" n="4"/>solum impassibilem dicit intellectum, &amp; commune nihil nulli aliorum habere.
+          <lb ed="#J" n="5"/>huiusmodi autem cum sit, quomodo cognoscit &amp; propter quam causam:
+          <lb ed="#J" n="6"/>neque ille dixit: neque ex his quae dicta sunt conspicuum est. </p>
+        <p xml:id="aristda-l1-asf35X">
+          <!-- l1-35-ant -->
+          <lb ed="#J" n="35"/>Quicunque autem contrarietates faciunt in principiis, &amp; animam
+          <lb ed="#J" n="36"/>ex contrarijs constituunt: Quicunque autem alterum contrariorum
+          <lb ed="#J" n="37"/>vt calidum, aut frigidum, aut aliud huiusmodi aliud. &amp; animam
+          <lb ed="#J" n="38"/>similiter. vnum aliquid horum ponunt: vnde &amp; nominibus conse
+          <lb ed="#J" n="39" break="no"/>quuntur, qui quidem calidum dicentes, quia propter hoc &amp; viue
+          <lb ed="#J" n="40"/>re nominatum est: qui autem frigidum, propter respirationem &amp; <!--Averroes_DeAnima_JuntSecunda_11-0048.xml-->
+          <pb ed="#J" n="17-v"/>
+          <cb ed="#J" n=""/>
+          <lb ed="#J" n="1"/>refrigerationem, vocari animam. Tradita quidem igitur de anima,
+          <lb ed="#J" n="2"/>&amp; propter quas causas dicunt sic, haec sunt. </p>
+        <p xml:id="aristda-l1-asf36X">
+          <!-- l1-36-ant -->
+          <lb ed="#J" n="5"/>COnsiderandum autem primum quidem de motu: for
+          <lb ed="#J" n="6" break="no"/>tassis enim non solum falsum est substantiam ipsius huiui
+          <lb ed="#J" n="7"/>modi esse, qualem aiunt dicentes animam esse quod est
+          <lb ed="#J" n="8"/>se ipsum mouens, aut possibile mouere, sed vnum quod
+          <lb ed="#J" n="9" break="no"/>dam est impossibilium, inesse ipsi motum. quod quidem igitur non ne
+          <lb ed="#J" n="10"/>cesse sit mouens, &amp; ipsum moueri, dictum est prius. </p>
+        <p xml:id="aristda-l1-asf37X">
+          <!-- l1-37-ant -->
+          <lb ed="#J" n="36"/>Dupliciter enim cum mouetur omne, aut enim secundum alte
+          <lb ed="#J" n="37"/>rum, aut secundum se ipsum: Secundum autem alterum dicimus, quaecunque
+          <lb ed="#J" n="38"/>mouentur ex esse in eo quod mouetur, vt nautae: non enim similiter mo
+          <lb ed="#J" n="39"/>uentur naui: haec quidem enim secundum scipsam mouetur, illi autem ex <!--Averroes_DeAnima_JuntSecunda_11-0050.xml-->
+          <pb ed="#J" n="18-v"/>
+          <lb ed="#J" n="1"/>esse in eo quod mouetur: Manifestum autem in partibus est: pro
+          <lb ed="#J" n="2" break="no"/>prius quidem enim motus pedum, ambulatio. hoc autem &amp; homi
+          <lb ed="#J" n="3" break="no"/>num est: non inest autem nautis tunc. </p>
+        <p xml:id="aristda-l1-asf38X">
+          <!-- l1-38-ant -->
+          <lb ed="#J" n="36"/>Dupliciter autem vtique dicto moueri, nunc intendimus de anima
+          <lb ed="#J" n="37"/>si per se ipsam mouetur &amp; participat motu. Quatuor autem motus
+          <lb ed="#J" n="38"/>cum sint, loci mutationis, alterationis, augmenti, &amp; decrementi,
+          <lb ed="#J" n="39"/>aut secundum vnum horum mouebitur, aut secundum plures, aut omnes.
+          <lb ed="#J" n="40"/>Si vero mouetur non secundum accidens, natura inerit motus ipsi: si au
+          <lb ed="#J" n="41" break="no"/>tem hoc, &amp; locus: omnes enim dicti motus in loco sunt. </p>
+        <p xml:id="aristda-l1-asf39X">
+          <!-- l1-39-ant -->
+          <lb ed="#J" n="12"/>Si autem est substantia animae, mouere se ipsam, non secundum
+          <lb ed="#J" n="13"/>accidens moueri ipsi inerit, sicut albo &amp; tricubito: mouentur enim
+          <lb ed="#J" n="14"/>&amp; haec, sed secundum accidens: cui enim haec insunt, mouetur illud
+          <lb ed="#J" n="15"/>corpus. vnde non est locus ipsorum: animae autem erit, siquidem,
+          <lb ed="#J" n="16"/>natura motu participat. </p>
+        <p xml:id="aristda-l1-asf40X">
+          <!-- l1-40-ant -->
+          <lb ed="#J" n="10"/>Amplius autem &amp; si natura mouetur &amp; violentia: mouetur, &amp;
+          <lb ed="#J" n="11"/>si violentia, &amp; natura: eodem autem modo se habet &amp; de quiete: in
+          <lb ed="#J" n="12"/>quod enim mouetur natura, &amp; in hoc quiescit natura: in quod au
+          <lb ed="#J" n="13" break="no"/>tem violentia, quiescit in hoc violentia. quales autem violenti mo
+          <lb ed="#J" n="14" break="no"/>tus animae erunt &amp; quietes, neque fingere volentibus facile est red
+          <lb ed="#J" n="15" break="no"/>dere. Amplius autem siquidem sursum mouebitur ignis erit, si ve
+          <lb ed="#J" n="16"/>ro deorsum, terra: Horum enim corporum motus hi: eadem autem
+          <lb ed="#J" n="17"/>ratio &amp; de mediis. </p>
+        <p xml:id="aristda-l1-asf41X">
+          <!-- l1-41-ant -->
+          <lb ed="#J" n="33"/>Quoniam autem videtur mouere corpus, rationabile est his mo
+          <lb ed="#J" n="34" break="no"/>uere motibus, quibus &amp; ipsa mouetur: si autem hoc, &amp; conuerten
+          <lb ed="#J" n="35"/>tibus dicere verum, quod secundum quod corpus mouetur, hoc &amp; ipsa:
+          <lb ed="#J" n="36"/>Corpus autem mouetur secundum loci mutationem, quare &amp; ani
+          <lb ed="#J" n="37" break="no"/>ma mutabitur secundum corpus, aut tota, aut secundum partes trans
+          <lb ed="#J" n="38"/>lata: Si autem hoc, contingit &amp; exeuntem iterum ingredi: ad hoc au
+          <lb ed="#J" n="39" break="no"/>tem sequitur, resurgere mortua animalium. </p>
+        <p xml:id="aristda-l1-asf42X">
+          <!-- l1-42-ant -->
+          <lb ed="#J" n="6"/>Secundum accidens, autem motu si ab altero moueatur: depel
+          <lb ed="#J" n="7" break="no"/>letur enim vtique violentia animal. non oportet autem cui a se ipso
+          <lb ed="#J" n="8"/>moueri inest in substantia, hoc ab alio moueri: nisi secundum acci
+          <lb ed="#J" n="9"/>dens: sicut neque quod secundum se bonum aut propter se ipsum, hoc qui
+          <lb ed="#J" n="10" break="no"/>dem propter aliud esse, hoc autem alterius causa. </p>
+        <p xml:id="aristda-l1-asf43X">
+          <!-- l1-43-ant -->
+          <lb ed="#J" n="31"/>Animam autem maxime dicet aliquis vtique a sensibilibus mo
+          <lb ed="#J" n="32" break="no"/>ueri si quidem mouetur. At vero &amp; si mouet ipsa se ipsam, &amp; ipsa
+          <lb ed="#J" n="33"/>mouebitur vtique. Quare quoniam omnis motus exdistantia est
+          <lb ed="#J" n="34"/>eius quod mouetur secundum quod mouetur: &amp; anima vtique distabit a substam
+          <lb ed="#J" n="35"/>tia ipsius secundum se ipsam, nisi secundum accidens se moueat,
+          <lb ed="#J" n="36"/>sed est motus ipsius substantiae per se. </p>
+        <p xml:id="aristda-l1-asf44X">
+          <!-- l1-44-ant -->
+          <lb ed="#J" n="35"/>Quidam autem &amp; mouere animam dicunt corpus in quo est, si
+          <lb ed="#J" n="36"/>cut ipsa mouetur, vt Democritus: similiter dicens Philippo co
+          <lb ed="#J" n="37" break="no"/>maediarum Didascalo: ait enim Daedalum fecisse mobilem ligneam
+          <lb ed="#J" n="38"/>venerem, infundens argentum fusile. Similiter autem &amp; Demo
+          <lb ed="#J" n="39" break="no"/>critus dicit: motas enim inquit indiuisibiles sphaeras, propter id
+          <lb ed="#J" n="40"/>quod aptae natae sunt nusquam manere, contrahereque &amp; mouere corpus
+          <lb ed="#J" n="41"/>omne. Nos autem interrogabimus si &amp; quiescere facit hoc idem e
+          <lb ed="#J" n="42"/>Quomodo autem faciat difficile, aut impossibile dicere. Omni¬ <!--Averroes_DeAnima_JuntSecunda_11-0058.xml-->
+          <pb ed="#J" n="22-v"/>
+          <lb ed="#J" n="1"/>no autem non sic videtur anima mouere animal, sed per volunta D
+          <lb ed="#J" n="2"/>tem quandam &amp; intellectum. </p>
+        <p xml:id="aristda-l1-asf45X">
+          <!-- l1-45-ant -->
+          <!-- 0059 is out of order and is the missing page 3r -->
+          <!--Averroes_DeAnima_JuntSecunda_11-0060.xml-->
+          <pb ed="#J" n="23-v"/>
+          <lb ed="#J" n="1"/>Eodem autem modo &amp; Timaeus physiologixat animam mo
+          <lb ed="#J" n="2" break="no"/>uerem corpus. in eo enim quod est moueri ipsam, &amp; corpus mouet, pro
+          <lb ed="#J" n="3"/>pter id quod complexa est ad ipsum. constitutam enim ex elemen
+          <lb ed="#J" n="4"/>tis, &amp; dispartitam secundum harmonicos numeros, quatenus connatu
+          <lb ed="#J" n="5" break="no"/>ralem fensum harmoniae habeat, &amp; vt omnen feratur secundum com
+          <lb ed="#J" n="6"/>sonantes motus, aspectum rectum in circulum ressexit, &amp; diuidens
+          <lb ed="#J" n="7"/>ex vno in duos circulos dupliciter coordinatos, iterum vnum di
+          <lb ed="#J" n="8"/>uisit in septem circulos: tanquam essent coeli motus, animae motus. </p>
+        <p xml:id="aristda-l1-asf46X">
+          <!-- l1-46-ant -->
+          <lb ed="#J" n="19"/>Primum quidem igitur non bene, dicere animam magnitudi
+          <lb ed="#J" n="20" break="no"/>nem esse: eam enim quae omnis, talem esse vult, qualis est aliquan
+          <lb ed="#J" n="21"/>do vocatus intellectus: Non enim velut sensitiua est: neque vt desi
+          <lb ed="#J" n="22" break="no"/>deratiua: Harum enim motus non circulatio. </p>
+        <p xml:id="aristda-l1-asf47X">
+          <!-- l1-47-ant -->
+          <lb ed="#J" n="39"/>Intellectus autem vnus &amp; continuus est, sicut intelligentia: In
+          <lb ed="#J" n="40" break="no"/>telligentia autem sicut intelligibilia: Haec autem eo quod conse
+          <lb ed="#J" n="41" break="no"/>quenter, vnum: sicut numerus, sed non sicut magnitudo: propter.
+          <lb ed="#J" n="42"/>quod quidem neque intellectus sic continuus, sed aut impartibilis, <!--Averroes_DeAnima_JuntSecunda_11-0064.xml-->
+          <pb ed="#J" n="25-v"/>
+          <lb ed="#J" n="1"/>aut non sicut magnitudo aliqua continuus. Qualiter enim intelli
+          <lb ed="#J" n="2" break="no"/>get magnitudo cum sit qualibet partium ipsius: parte autem aut fe
+          <lb ed="#J" n="3" break="no"/>cundum magnitudinem, aut secundum punctum: si oportet &amp; hoc
+          <lb ed="#J" n="4"/>dicere partem. siquidem igitur secundum punctum, haec autem
+          <lb ed="#J" n="5"/>infinita, manifestum est quoniam nequaquam per transibit: Si ve
+          <lb ed="#J" n="6"/>ro secundum magnitudinem, multotiens &amp; infinities intelliget
+          <lb ed="#J" n="7"/>idem: videtur autem &amp; semel contingens. Si autem sufficiens qua
+          <lb ed="#J" n="8"/>libet partium tangere: quid oportet circulo moueri, aut &amp; omni
+          <lb ed="#J" n="9" break="no"/>no magnitudinem habere¬ </p>
+        <p xml:id="aristda-l1-asf48X">
+          <!-- l1-48-ant -->
+          <lb ed="#J" n="38"/>Si autem necessarium est intelligere tangentem toto circulo, quis
+          <lb ed="#J" n="39"/>est partibus tactus Amplius, quomodo intelliget partibile impartibili,
+          <lb ed="#J" n="40"/>aut impartibile partibili: Necessarium autem intellectum esse cir
+          <lb ed="#J" n="41" break="no"/>culum hunc: Intellectus quidem enim motus, intelligentia: circu
+          <lb ed="#J" n="42" break="no"/>li autem, circulatio. si igitur intelligentia, circulatio, &amp; intellectus
+          <lb ed="#J" n="43"/>vtique erit circulus, cuius huiusmodi circulatio intelligentia, semper <!--Averroes_DeAnima_JuntSecunda_11-0066.xml-->
+          <pb ed="#J" n="26-v"/>
+          <cb ed="#J" n=""/>
+          <lb ed="#J" n="1"/>autem aliquid intelliget, siquidem perpetua circulatio. Practica
+          <lb ed="#J" n="2" break="no"/>rum quidem enim intelligentiarum, termini sunt: omnes enim al
+          <lb ed="#J" n="3"/>terius causa sunt. Speculatiuae autem rationibus terminantur simili
+          <lb ed="#J" n="4"/>ter. Ratio autem omnis, deffinitio est aut demonstratio: Demon
+          <lb ed="#J" n="5" break="no"/>strationes vero &amp; a principio sunt, &amp; habent quodammodo finem,
+          <lb ed="#J" n="6"/>syllogismum, aut conclusionem: si autem non concludantur, sed
+          <lb ed="#J" n="7"/>non ressectuntur iterum in principium, accipientes autem semper
+          <lb ed="#J" n="8"/>medium &amp; extremitatem, rectem procedunt: sed circulatio iterum
+          <lb ed="#J" n="9"/>in principium reflectitur. Diffinitiones autem omnes finitae sunt.
+          <lb ed="#J" n="10"/>Amplius autem, si eadem circulatio multotiens est, oportebit mul
+          <lb ed="#J" n="11" break="no"/>totiens intelligere idem. Adhuc autem intelligentia assimilatur cui
+          <lb ed="#J" n="12" break="no"/>dam quieti &amp; statui magis quad motui: eodem modo &amp; syllogismus. </p>
+        <p xml:id="aristda-l1-asf49X">
+          <!-- l1-49-ant -->
+          <lb ed="#J" n="31"/>At vero neque beatum, quod non facile, sed violentum: si autem est
+          <lb ed="#J" n="32"/>motus ipsius non substantia, extra naturam vtique mouebitur. laborio
+          <lb ed="#J" n="33"/>sum autem &amp; commisceri animam corpori, nec posse absolui, &amp; ad
+          <lb ed="#J" n="34"/>huc fugiendum: siquidem melius est intellectui non cum corpore
+          <lb ed="#J" n="35"/>esse: quemadmodum &amp; consuetum est dici, &amp; multis videtur. </p>
+        <p xml:id="aristda-l1-asf50X">
+          <!-- l1-50-ant -->
+          <lb ed="#J" n="15"/>Immanifesta autem &amp; circulariter ferri coelum causa: neque enim
+          <lb ed="#J" n="16"/>animae substantia cam est circulariter ferri: sed secundum accidens sic mo
+          <lb ed="#J" n="17" break="no"/>uetur: neque corpus cam: sed anima magis illi. At vero quia neque me
+          <lb ed="#J" n="18" break="no"/>lius dicitur oportebit perper hoc deum facere circuliter ferri animam, quia di
+          <lb ed="#J" n="19" break="no"/>gnius sit ipsam moueri quae manere: moueri autem sic, quaed aliter. </p>
+        <p xml:id="aristda-l1-asf51X">
+          <!-- l1-51-ant -->
+          <lb ed="#J" n="4"/>Quoniam autem huiusmodi intentio est alteris rationibus magis pro
+          <lb ed="#J" n="5" break="no"/>pria, hanc quidem dimittamus nunc. Illud autem inconueniens
+          <lb ed="#J" n="6"/>accidit &amp; huic rationi, &amp; pluribus quae de anima sunt: copulant enim
+          <lb ed="#J" n="7"/>&amp; ponunt in corpus animam nihil determinantes, prper quam causam
+          <lb ed="#J" n="8"/>&amp; quomodo habente corpore. </p>
+        <p xml:id="aristda-l1-asf52X">
+          <!-- l1-52-ant -->
+          <lb ed="#J" n="29"/>Et tamen videtur hoc vtique necessarium esse: perper enim communitatem, hoc
+          <lb ed="#J" n="30"/>quidem agit, illud autem patitur: &amp; hoc quidem mouet, illud autem
+          <lb ed="#J" n="31"/>mouetur: Horum autem nihil inest ad inuicem quibuscunque. </p>
+        <p xml:id="aristda-l1-asf53X">
+          <!-- l1-53-ant -->
+          <lb ed="#J" n="12"/>Hi autem solum conantur dicere qualequid sit anima: de susceptiuo autem
+          <lb ed="#J" n="13"/>corpore nihil adhuc determinant, tanque contingens sit secundum pythago
+          <lb ed="#J" n="14" break="no"/>ricas fsabulas, quamlibet animam quodlibet corpus ingredi. Simile
+          <lb ed="#J" n="15"/>itaque dicunt aliquid: sicut si aliquis dicat tectonicam in fistulis in
+          <lb ed="#J" n="16" break="no"/>gredi. Oportet enim artem quidem vti organis: animam autem corpore.
+          <lb ed="#J" n="17"/>videtur enim vnumquodque propriam habere speciem &amp; formam. </p>
+        <p xml:id="aristda-l1-asf54X">
+          <!-- l1-54-ant -->
+          <lb ed="#J" n="2"/>ALia autem opinio quaedam tradita est de anima, credibilis
+          <lb ed="#J" n="3"/>quidem multis: &amp; neque vna minor his quae dicta sunt: ratio
+          <lb ed="#J" n="4"/>nes autem tanquam directiuas praebens, &amp; in communi fa
+          <lb ed="#J" n="5"/>ctis rationibus. Harmoniam enim quandam ipsam dicunt. Etenim
+          <lb ed="#J" n="6"/>harmoniam temperamentum, &amp; compositionem contrariorum
+          <lb ed="#J" n="7"/>esse: &amp; corpus componi ex contrarijs. </p>
+        <p xml:id="aristda-l1-asf55X">
+          <!-- l1-55-ant -->
+          <lb ed="#J" n="27"/>Et quidem harmonia, quaedam ratio compositerum est, aut com
+          <lb ed="#J" n="28"/>positio: animam autem neutrum possibile est esse horum. Amplius
+          <lb ed="#J" n="29"/>autem mouere non est harmoniae: animae autem attribuunt omnes hoc. </p>
+        <p xml:id="aristda-l1-asf56X">
+          <!-- l1-56-ant -->
+          <lb ed="#J" n="6"/>Congruit autem magis de sanitate dicere harmoniam, &amp; om
+          <lb ed="#J" n="7" break="no"/>nino de corporeis virtutibus, quae de anima: Manifestum autem si ali
+          <lb ed="#J" n="8" break="no"/>quis tentauerit reddere passiones &amp; opera animae harmonia qua
+          <lb ed="#J" n="9" break="no"/>dam: difficile enim adaptare. </p>
+        <p xml:id="aristda-l1-asf57X">
+          <!-- l1-57-ant -->
+          <lb ed="#J" n="34"/>Amplius autem quoniam dicimus harmoniam in duo respicientes,
+          <lb ed="#J" n="35"/>maxime quidem propria magnitudinum in habentibus motum
+          <lb ed="#J" n="36"/>&amp; posstionem, compositionem ipsorum: cum sic cogruant, vt nul
+          <lb ed="#J" n="37"/>lum congeneum permittatur, hinc autem &amp; eorum quae miscen
+          <lb ed="#J" n="38" break="no"/>tur rationem, neutro quidem igitur modo rationabile est: com
+          <lb ed="#J" n="39" break="no"/>positio autem partium corporis, multum inuestigabilis est: mul
+          <lb ed="#J" n="40" break="no"/>tae enim compositiones partium, &amp; multipliciter sunt. cuius igitur <!--Averroes_DeAnima_JuntSecunda_11-0074.xml-->
+          <pb ed="#J" n="30-v"/>
+          <lb ed="#J" n="1"/>&amp; quomodo congruit accipere intellectum compositionem esse:
+          <lb ed="#J" n="2"/>aut &amp; sensitiuum, aut appetitiuum. </p>
+        <p xml:id="aristda-l1-asf58X">
+          <!-- l1-58-ant -->
+          <lb ed="#J" n="6"/>Similiter autem inconueniens &amp; rationem mistionis esse ani
+          <lb ed="#J" n="7" break="no"/>mam: non enim eandem habet rationem commistio elementorum
+          <lb ed="#J" n="8"/>secundum quam caro, &amp; secundum quam os. accidet igitur multas animas ha
+          <lb ed="#J" n="9" break="no"/>bere, &amp; secundum omne corpus. siquidem omnia ex elementis commistis
+          <lb ed="#J" n="10"/>sunt: commistionis autem ratio harmonia &amp; anima. </p>
+        <p xml:id="aristda-l1-asf59X">
+          <!-- l1-59-ant -->
+          <lb ed="#J" n="34"/>Inuestigabit autem hoc vtique aliquis ab Empedocle: vnunquodque
+          <lb ed="#J" n="35"/>enim horum, ratione quadam dicit esse. vtrum igitur haec ratio ani
+          <lb ed="#J" n="36" break="no"/>ma est, aut magis alterum aliquod cum sit, in partibus infit. Amplius
+          <lb ed="#J" n="37"/>autem vtrum concordia cuiuslibet mistionis causa, aut eius quae secundum
+          <lb ed="#J" n="38"/>rationem: &amp; hoc vtrum ratio est, aut aliquid praeter rationem. </p>
+        <p xml:id="aristda-l1-asf60X">
+          <!-- l1-60-ant -->
+          <lb ed="#J" n="29"/>Haec quidem igitur habent huiusmodi dubitationes. si vero al
+          <lb ed="#J" n="30" break="no"/>terum est a mistione anima, quid igitur aliquando simul carnis es
+          <lb ed="#J" n="31"/>se, interimitur &amp; aliis partibus animalisu Adhuc autem siquidem
+          <lb ed="#J" n="32"/>non vnaquaeque partium habet animam, &amp; si non est anima ratio com
+          <lb ed="#J" n="33" break="no"/>positionis, quid est perper quod corrumpitur, anima deficientes </p>
+        <p xml:id="aristda-l1-asf61X">
+          <!-- l1-61-ant -->
+          <lb ed="#J" n="13"/>Quod quidem igitur non harmoniam possibile est esse animam,
+          <lb ed="#J" n="14"/>neque circulariter moueri, manifestum est ex dictis: Secundum autem
+          <lb ed="#J" n="15"/>accidens moueri sicut diximus est, &amp; mouere se ipsam: vt moueri
+          <lb ed="#J" n="16"/>quidem in quo est, hoc autem moueri ab anima. aliter autem non est
+          <lb ed="#J" n="17"/>possibile moueri secundum locum ipsam. </p>
+        <p xml:id="aristda-l1-asf62X">
+          <!-- l1-62-ant -->
+          <lb ed="#J" n="2"/>RAtionabilius autem dubitabit vtique aliquis de ipsa tanqua
+          <lb ed="#J" n="3"/>quae mouetur, in huiusmodi considerans: dicimus enim animam
+          <lb ed="#J" n="4"/>tristari, gaudere, confidere, timere: amplius autem, irasci,
+          <lb ed="#J" n="5"/>&amp; sentire, &amp; intelligere: haec autem omnia motus esse videntur.
+          <lb ed="#J" n="6"/>vnde opinabitur aliquis ipsam moueri. </p>
+        <p xml:id="aristda-l1-asf63X">
+          <!-- l1-63-ant -->
+          <lb ed="#J" n="21"/>Hoc autem non est necesse: si enim &amp; maxime gaudere, aut do
+          <lb ed="#J" n="22" break="no"/>lere, aut intelligere, motus sunt: &amp; vnumquodque moueri aliquid,
+          <lb ed="#J" n="23"/>moueri autem est ab anima, vt irasci, aut timere, in eo quod cor quodam
+          <lb ed="#J" n="24"/>modo mouetur: Intelligere autem forsitan huiusmodi est, aut alte
+          <lb ed="#J" n="25"/>rum aliquod. Horum autem accidunt, alia quidem secundum loci muta
+          <lb ed="#J" n="26"/>tionem quorundam motorum: alia autem, secundum alterationem:
+          <lb ed="#J" n="27"/>qualia autem &amp; quomodo, alterius rationis est. </p>
+        <p xml:id="aristda-l1-asf64X">
+          <!-- l1-64-ant -->
+          <lb ed="#J" n="25"/>Dicere autem irasci animam simile est, et si aliquis dicat eam te
+          <lb ed="#J" n="26"/>xere vel aedificare: melius est enim fortassis non dicere animam mi
+          <lb ed="#J" n="27" break="no"/>sereri, aut addiscere, aut intelligere, sed hominem anima: hoc autem
+          <lb ed="#J" n="28"/>non tanquam motu in illa existente: sed aliquando quidem vsque
+          <lb ed="#J" n="29"/>ad illam, aliquando autem ab illa: vt sensus quidem ab his, remini
+          <lb ed="#J" n="30"/>scentia vero ab illa, ad eos qui sunt insensitiuis motus, aut quietes. </p>
+        <p xml:id="aristda-l1-asf65X">
+          <!-- l1-65-ant -->
+          <lb ed="#J" n="37"/>Intellectus autem videtur infieri substantia quaedam existens,
+          <lb ed="#J" n="38"/>&amp; non corrumpi. maxime enim corrumpetur vtique ab ea quae est
+          <lb ed="#J" n="39"/>in senio debilitate: nunc autem fortassis quemadmodum in sensi
+          <lb ed="#J" n="40" break="no"/>tiuis accidit: si enim accipiat senior oculum huiusmodi, videbit
+          <lb ed="#J" n="41"/>vtique sicut &amp; iuuenis. Quare senium non est in sustinendo aliquid
+          <lb ed="#J" n="42"/>animam, sed in quo, sicut in ebrietatibus &amp; infirmitatibus. </p>
+        <p xml:id="aristda-l1-asf66X">
+          <!-- l1-66-ant -->
+          <lb ed="#J" n="4"/>Intelligere autem &amp; considerare marcescunt alio quodam inte
+          <lb ed="#J" n="5"/>rius corrupto: ipsum autem impassibile est. Intelligere autem aut
+          <lb ed="#J" n="6"/>amare &amp; odire, non sunt illius passiones, sed huius, habentis illud
+          <lb ed="#J" n="7"/>secundum quod illud habet: quare &amp; hoc corrupto, neque memoratur, neque
+          <lb ed="#J" n="8"/>amat: non enim illius erant, sed communis, quod quidem destructum est: In
+          <lb ed="#J" n="9"/>tellectus autem fortassis diuinum aliquid &amp; impassibile. Quod quidem
+          <lb ed="#J" n="10"/>igitur non possibile moueri animam, manifestum est ex his: si autem
+          <lb ed="#J" n="11"/>penitus non mouetur, manifestum quoniam neque a se ipsa. </p>
+        <p xml:id="aristda-l1-asf67X">
+          <!-- l1-67-ant -->
+          <lb ed="#J" n="31"/>Multum autem his quae dicta sunt irrationabilius, dicere ani
+          <lb ed="#J" n="32" break="no"/>mam esse numerum mouentem se ipsum: insunt enim his impossi
+          <lb ed="#J" n="33"/>bilia, primo quidem ex ipso moueri accidentia, propria autem, ex
+          <lb ed="#J" n="34"/>eo quod dicunt ipsam esse numerum. Quomodo enim oportet intel
+          <lb ed="#J" n="35" break="no"/>ligere vnitatem motam, &amp; a quo, &amp; quomodo, impartibilem &amp; indiffe
+          <lb ed="#J" n="36" break="no"/>rentem existentemesi nanque est mota &amp; mobilis, differre oportet. </p>
+        <p xml:id="aristda-l1-asf68X">
+          <!-- l1-68-ant -->
+          <lb ed="#J" n="25"/>Amplius autem, quoniam dicunt lineam motam facere planum,
+          <lb ed="#J" n="26"/>punctum autem lineam: &amp; vnitatum motus, lineae erunt: punctus
+          <lb ed="#J" n="27"/>enim est vnitas positionem habens: numerus autem animae iam ali
+          <lb ed="#J" n="28" break="no"/>cubi est, &amp; positionem habet. Amplius autem a numero si auferat
+          <lb ed="#J" n="29"/>quis numerum aut vnitatem, relinquitur alius numerus: plantae autem
+          <lb ed="#J" n="30"/>&amp; animalium multa, diuisa viuunt &amp; videntur eandem animam hbere specie. </p>
+        <p xml:id="aristda-l1-asf69X">
+          <!-- l1-69-ant -->
+          <lb ed="#J" n="17"/>Videbitur autem vtique nihil differre dicere vnitates, aut corpo
+          <lb ed="#J" n="18"/>ra parua. et nanque ex Democriti sphaeris si fiant puncta, maneat
+          <lb ed="#J" n="19"/>autem solum quantitas, erit aliquid in ipso, hoc quidem mou ens,
+          <lb ed="#J" n="20"/>illud autem quod mouetur: sicut in continuo: non enim propter.
+          <lb ed="#J" n="21"/>hoc quod est magnitudine differe, aut paruitate, accidit quod di
+          <lb ed="#J" n="22" break="no"/>ctum est, sed quia quantum: vnde necesse est aliquid esse motiuum
+          <lb ed="#J" n="23"/>vnitatum. Si autem in animali mouens anima, &amp; in numero. Qua
+          <lb ed="#J" n="24"/>re non mouens &amp; quod mouetur est anima, sed mouens solum. </p>
+        <p xml:id="aristda-l1-asf70X">
+          <!-- l1-70-ant -->
+          <lb ed="#J" n="30"/>Contingit autem hanc vnitatem quodammodo esse: oportet
+          <lb ed="#J" n="31"/>enim quandam inesse ipsi differentiam ad alias. puncti autem so
+          <lb ed="#J" n="32" break="no"/>litarum, quae vtique differentia erit, nisi positioSiquidem igitur sunt
+          <lb ed="#J" n="33"/>alterae in corpore vnitates &amp; puncta, in eodem erunt vnitates, ob
+          <lb ed="#J" n="34"/>tinebit enim locum puncti: &amp; tamen quid prohibet in eodem esse, si
+          <lb ed="#J" n="35"/>duo sunt, &amp; infinitas: quorum enim locus indiuisibilis est, &amp; ipsa. </p>
+        <p xml:id="aristda-l1-asf71X">
+          <!-- l1-71-ant -->
+          <lb ed="#J" n="29"/>Si autem quae in corpore puncta, numerus animae, aut si qui eorum
+          <lb ed="#J" n="30"/>quae in corpore punctorum, numerus anima, quare non omnia ha
+          <lb ed="#J" n="31" break="no"/>bent animam corporaupuncta enim in omnibus videntur esse, &amp; in
+          <lb ed="#J" n="32"/>finita. Amplius autem quomodo possibile est separari puncta &amp; ab
+          <lb ed="#J" n="33"/>solui a corporibus, nisi diuidantur lineae in puncta¬ </p>
+        <p xml:id="aristda-l1-asf72X">
+          <!-- l1-72-ant -->
+          <lb ed="#J" n="22"/>ACcidit autem sicut diximus, sic quidem idem dicere corpus
+          <lb ed="#J" n="23"/>quoddam subtilium partium ipsam ponentibus, sic autem,
+          <lb ed="#J" n="24"/>sicut Democritus moueri dicit ab anima, proprium incon
+          <lb ed="#J" n="25"/>ueniens. Siquidem enim est anima in omni eo quod sentit corpo
+          <lb ed="#J" n="26" break="no"/>re, necesse est in eodem duo esse corpora, si corpus aliquod anima.
+          <lb ed="#J" n="27"/>Numerum autem dicentibus, in vno puncto, puncta multa, &amp; omne
+          <lb ed="#J" n="28"/>corpus animam habere: nisi quidam numerus differens siat, &amp; a
+          <lb ed="#J" n="29" break="no"/>lius ab his qui in corpore punctorum. </p>
+        <p xml:id="aristda-l1-asf73X">
+          <!-- l1-73-ant -->
+          <lb ed="#J" n="30"/>Acciditque animal moueri a numero, sicut &amp; Democritum dixi
+          <lb ed="#J" n="31"/>mus ipsum mouere. Quid est enim differre dicere sphaeras paruas,
+          <lb ed="#J" n="32"/>aut vnitates magnas, aut omnino vnitates ferri. vtrobique enim est
+          <lb ed="#J" n="33"/>necesse moueri animal, in eo quod mouentur ipsae. </p>
+        <p xml:id="aristda-l1-asf74X">
+          <!-- l1-74-ant -->
+          <lb ed="#J" n="11"/>Complectentibus igitur in vnum numerum &amp; motum, haec
+          <lb ed="#J" n="12"/>quidem accidunt &amp; multa alia huiusmodi: Non enim solum diffi
+          <lb ed="#J" n="13" break="no"/>nitionem animae huiusmodi impossibile esse, sed &amp; accidens. Ma
+          <lb ed="#J" n="14" break="no"/>nifestum autem si quis argumentauerit ex ratione hac animae red
+          <lb ed="#J" n="15"/>dere passiones &amp; opera, vt cogitationes, sensus, laetitias, tristitias,
+          <lb ed="#J" n="16"/>&amp; quaecunque alia huiusmodi: sicut enim diximus prius, neque diui
+          <lb ed="#J" n="17" break="no"/>nare facile est ex ipsis. </p>
+        <p xml:id="aristda-l1-asf75X">
+          <!-- l1-75-ant -->
+          <lb ed="#J" n="39"/>Tribus autem modis traditis secundum quos diffiniunt animam. <!--Averroes_DeAnima_JuntSecunda_11-0091.xml-->
+          <pb ed="#J" n="38-r"/>
+          <cb ed="#J" n=""/>
+          <lb ed="#J" n="1"/>Alii quidem motiuum maxime enunciauerunt, in mouendo se ip:
+          <lb ed="#J" n="2"/>sam. Alii autem corpus subtilissimum, aut in corporalissimum a
+          <lb ed="#J" n="3" break="no"/>liorum. Haec autem quas dubitationes &amp; subcontrarietates habent,
+          <lb ed="#J" n="4"/>praeterijmus fere. Relinquitur autem considerare, qualiter dici
+          <lb ed="#J" n="5" break="no"/>tur ex elementis ipsam esse. dicunt enim quatenus sentiat ea quae
+          <lb ed="#J" n="6"/>sunt, &amp; vnum quodque cognoscat. </p>
+        <p xml:id="aristda-l1-asf76X">
+          <!-- l1-76-ant -->
+          <lb ed="#J" n="35"/>Necessarium autem est accidere multa &amp; impossibilia rationi,
+          <lb ed="#J" n="36"/>ponunt enim cognoscere sinile simili, tanque ac si animam res ponen
+          <lb ed="#J" n="37"/>tes: non sunt autem haec sola, multa vero &amp; alia: magis autem for
+          <lb ed="#J" n="38" break="no"/>tassis infinita numero quae sunt ex his. </p>
+        <p xml:id="aristda-l1-asf77X">
+          <!-- l1-77-ant -->
+          <lb ed="#J" n="18"/>Ex quibus quidem igitur vnum quodque horum, sit cognoscere
+          <lb ed="#J" n="19"/>animam &amp; sentire: sed compositum non cognoscet, neque sentiet.
+          <lb ed="#J" n="20"/>vt quid est Deus, aut homo, aut caro, aut os, similiter autem quod
+          <lb ed="#J" n="21"/>libet aliud compositorum: non enim quolibet modo se habentia
+          <lb ed="#J" n="22"/>elementa horum vnumquodque, sed ratione quadam &amp; composi
+          <lb ed="#J" n="23" break="no"/>tione, quemadmodum dicit Empedocles os: terraque humus coapta
+          <lb ed="#J" n="24" break="no"/>ta in amiplis diffusionibus, duas ex octo partibus fortita est: aquae
+          <lb ed="#J" n="25"/>luminis, quattuor autem vulcano: ossa autem alba facta sunt: Ni
+          <lb ed="#J" n="26" break="no"/>hil igitur profectus elementa in anima esse, nisi rationes inerunt &amp;
+          <lb ed="#J" n="27"/>compositio: cognoscet enim vnunquodque simile, os autem aut ho
+          <lb ed="#J" n="28" break="no"/>minem, nihilinisi &amp; haec inerunt. hoc autem quod impossibile sit
+          <lb ed="#J" n="29"/>nihil oportet dicere. quis enim dubitabit, si inerit in anima lapis aut
+          <lb ed="#J" n="30"/>homo: similiter autem bonum &amp; non bonum, eodem modo &amp; de aliis. </p>
+        <p xml:id="aristda-l1-asf78X">
+          <!-- l1-78-ant -->
+          <!--Averroes_DeAnima_JuntSecunda_11-0094.xml-->
+          <pb ed="#J" n="40-v"/>
+          <lb ed="#J" n="1"/>Amplius autem cum multipliciter dicatur id quod est: signisi
+          <lb ed="#J" n="2" break="no"/>cat enim aliud quidem hoc aliquid, aliud quantitatem, aut quali
+          <lb ed="#J" n="3" break="no"/>tatem, aut &amp; quoddam aliud diuisorum praedicamentorum: vtrum
+          <lb ed="#J" n="4"/>ex omnibus erit anima, aut non. sed non videntur communia om
+          <lb ed="#J" n="5"/>nium elementa esseci igitur quaecunque substantiarum sunt, ex his
+          <lb ed="#J" n="6"/>solum, quomodo igitur cognoscet &amp; aliorum vnunquodque est aut
+          <lb ed="#J" n="7"/>dicent vniuscuiusque generis elementa esse &amp; principia propria: ex
+          <lb ed="#J" n="8"/>quibus animam constarecerit ergo qualitas &amp; quantitas, &amp; sub
+          <lb ed="#J" n="9" break="no"/>stantia: sed impossibile est ex quantitatis elementis substan
+          <lb ed="#J" n="10" break="no"/>tiam esse, &amp; non quantitatem. Dicentibus itaque ex omnibus, haec
+          <lb ed="#J" n="11"/>&amp; huiusmodi alia accidunt. </p>
+        <p xml:id="aristda-l1-asf79X">
+          <!-- l1-79-ant -->
+          <lb ed="#J" n="14"/>Inconueniens autem est dicere quidem impassibile esse simile
+          <lb ed="#J" n="15"/>a simili, sentire autem simile simile, &amp; cognoscere simile simili: sen
+          <lb ed="#J" n="16"/>tire autem pati aliquid &amp; moueri ponunt: similiter autem &amp; co
+          <lb ed="#J" n="17" break="no"/>gnoscere &amp; intelligere. Multas autem difficultates &amp; dubitatio
+          <lb ed="#J" n="18" break="no"/>nes habente ipso dicere sicut Empedocles, quod corporeis elementis
+          <lb ed="#J" n="19"/>siligula cognoscuntur, &amp; ad simile, testatur quod nunc dictum est.
+          <lb ed="#J" n="20"/>quaecunque enim insunt in animalium corporibus simpliciter ter
+          <lb ed="#J" n="21"/>rae, vt ossa, nerui, pili, nihil sentire videntur: quare neque simi
+          <lb ed="#J" n="22" break="no"/>lia, &amp; tamen conueniret. </p>
+        <p xml:id="aristda-l1-asf80X">
+          <!-- l1-80-ant -->
+          <lb ed="#J" n="21"/>Amplius autem, vnumquodque principiorum ignorantia plu
+          <lb ed="#J" n="22" break="no"/>rium quam intelligentia existet. cognoscet quidem enim vnum,
+          <lb ed="#J" n="23"/>quodlibet: multa autem ignorabit, omnia enim alia. accidit autem
+          <lb ed="#J" n="24"/>&amp; Empedocli insipientissimum esse Deum. solus enim elemento
+          <lb ed="#J" n="25" break="no"/>rum vnum non cognoscet, discordiam: Mortalia autem, omnia: ex
+          <lb ed="#J" n="26"/>omnibus enim vnumquodque est. </p>
+        <p xml:id="aristda-l1-asf81X">
+          <!-- l1-81-ant -->
+          <lb ed="#J" n="14"/>Omnino autem propter quam causam, non omnia habent ani
+          <lb ed="#J" n="15" break="no"/>mam quae sunt: quoniam omne, aut elementum, aut ex elemento
+          <lb ed="#J" n="16"/>aut vno, aut pluribus, aut omnibus: necesse est enim vnum aliquod
+          <lb ed="#J" n="17"/>cognoscere, aut quaedam, aut omnia. </p>
+        <p xml:id="aristda-l1-asf82X">
+          <!-- l1-82-ant -->
+          <lb ed="#J" n="32"/>Dubitabit autem aliquis, &amp; quid est vnum faciens ipsa: mate
+          <lb ed="#J" n="33" break="no"/>riae enim comparantur elementa. Maxime enim proprium est il
+          <lb ed="#J" n="34" break="no"/>lud continens quodcunque est: anima autem aliquid melius esse &amp;
+          <lb ed="#J" n="35"/>antiquius impossibile est: impossibilius autem adhuc intellectu:
+          <lb ed="#J" n="36"/>Rationabilissimum enim hunc esse nobilissimum &amp; diuinum se
+          <lb ed="#J" n="37" break="no"/>cundum naturam. Elementa autem dicunt esse prima entium. </p>
+        <p xml:id="aristda-l1-asf83X">
+          <!-- l1-83-ant -->
+          <lb ed="#J" n="26"/>Omnes autem &amp; qui ex eo quod sentit &amp; cognoscit anima qua
+          <lb ed="#J" n="27"/>sunt, ex elementis dicunt ipsam, &amp; qui maxime motiuum, non de
+          <lb ed="#J" n="28"/>omni dicunt anima: neque enim sensitiua omnia, motiua, videntur
+          <lb ed="#J" n="29"/>enim esse quaedam animalium, manentia secundum locum: &amp; tamen videtur
+          <lb ed="#J" n="30"/>hoc solo motu mouere anima animal. Similiter autem &amp; quicunque
+          <lb ed="#J" n="31"/>intellectiuum &amp; sensitiuum faciunt ex elementis. videntur enim plantae
+          <lb ed="#J" n="32"/>viuere non participantes loci mutatione, neque sensu: &amp; animalium
+          <lb ed="#J" n="33"/>multa intelligentiam non habere. </p>
+        <p xml:id="aristda-l1-asf84X">
+          <!-- l1-84-ant -->
+          <lb ed="#J" n="28"/>Si autem aliquis &amp; haec segregauerit, posueritque intellectum par
+          <lb ed="#J" n="29" break="no"/>tem aliquam animae. Similiter autem &amp; sensitiuum, neque vtique sic di
+          <lb ed="#J" n="30" break="no"/>cet de omni anima, neque de tota vel vna: Haec autem sustinuit &amp;
+          <lb ed="#J" n="31"/>quae est in orpheicis vocatis carminibus ratio. Dicit enim animam
+          <lb ed="#J" n="32"/>ex toto ingredi, respirantium, quae fertur a ventis: non possibile
+          <lb ed="#J" n="33"/>itaque plantis hoc accidere, neque animalium quibusdam, siquidem
+          <lb ed="#J" n="34"/>non omnia respirant. </p>
+        <p xml:id="aristda-l1-asf85X">
+          <!-- l1-85-ant -->
+          <lb ed="#J" n="22"/>Hoc autem latuit sic opinantes. si vero ex elementis animam fa
+          <lb ed="#J" n="23"/>cere oportet, nihil oportet ex omnibus. sufficiens enim est altera
+          <lb ed="#J" n="24"/>pars contrarietatis, se ipsam diiudicare &amp; oppositam. Recto enim &amp;
+          <lb ed="#J" n="25"/>ipsum &amp; obliqum cognoscimus. Iudex enim vtrorumque canon est. Ob
+          <lb ed="#J" n="26"/>bliqum autem neque sui ipsius, neque recti. </p>
+        <p xml:id="aristda-l1-asf86X">
+          <!-- l1-86-ant -->
+          <lb ed="#J" n="5"/>Et in toto autem quidam misceri ipsam dicunti. vnde fortassis
+          <lb ed="#J" n="6"/>&amp; Thales opinatus est omnia esse plena diis. hoc autem habet quasdam
+          <lb ed="#J" n="7"/>dubitationes. propter quam enim causam in aere aut in igne anima cum
+          <lb ed="#J" n="8"/>sit, non facit animal, in mixtis autem: &amp; hoc in his melior esse pu
+          <lb ed="#J" n="9" break="no"/>tata. Quaeret enim vtique aliquis, quam ob causam quae in aere anima,
+          <lb ed="#J" n="10"/>ea quae in animalibus melior &amp; immortalior.¬ </p>
+        <p xml:id="aristda-l1-asf87X">
+          <!-- l1-87-ant -->
+          <lb ed="#J" n="39"/>Accidit autem vtrobique inconueniens &amp; irrationabile. &amp; nanque
+          <lb ed="#J" n="40"/>animal dicere ignem aut aerem, magis irrationabilium est: &amp; non
+          <lb ed="#J" n="41"/>dicere animalia cum anima insit, inconuenitus est. </p>
+        <p xml:id="aristda-l1-asf88X">
+          <!-- l1-88-ant -->
+          <lb ed="#J" n="14"/>Opinari autem videntur animam esse in his: quoniam totum
+          <lb ed="#J" n="15"/>partibus simile speciei, quare naecessarium ipsis dicere &amp; animam
+          <lb ed="#J" n="16"/>similis speciei partibus esse, si propter intercipi aliquid continen
+          <lb ed="#J" n="17" break="no"/>tis in animalibus, animata animalia fiunt. si autem aer quidem di
+          <lb ed="#J" n="18" break="no"/>scerptus similis speciei, anima autem dissimilis partis, hoc quidem
+          <lb ed="#J" n="19"/>aliquid ipsius existet, videlicet, aliud autem non existet. necesse est igi
+          <lb ed="#J" n="20" break="no"/>tur ipsam similis partis esse: aut non inesse in qualibet parte om
+          <lb ed="#J" n="21" break="no"/>nis. Manifestum igitur ex dictis, quod neque cognoscere inest animae
+          <lb ed="#J" n="22"/>pper id quod est ex elementis, neque moueri ipsam bene neque vere dicitur </p>
+        <p xml:id="aristda-l1-asf89X">
+          <!-- l1-89-ant -->
+          <lb ed="#J" n="14"/>QVoniam autem cognoscere inest animae, &amp; sentire, &amp; opi
+          <lb ed="#J" n="15" break="no"/>nari: adhuc concupiscere, &amp; deliberare, &amp; omnino appeti
+          <lb ed="#J" n="16" break="no"/>tus: sit autem &amp; secundum locum motus ab anima in anima
+          <lb ed="#J" n="17" break="no"/>libus: adhuc autem augmentum &amp; status &amp; decrementum: vtrum
+          <lb ed="#J" n="18"/>toti animae vnumquodque horum insit, &amp; omni intelligimus &amp; sen
+          <lb ed="#J" n="19" break="no"/>timus, &amp; aliorum vnumquodque facimus &amp; patimur, aut partibus
+          <lb ed="#J" n="20"/>alteris altera: &amp; viuere igitur vtrum in aliquo horum sit vno, aut
+          <lb ed="#J" n="21"/>in pluribus, aut in omnibus: aut aliqua alia causa¬ </p>
+        <p xml:id="aristda-l1-asf90X">
+          <!-- l1-90-ant -->
+          <lb ed="#J" n="22"/>Dicunt itaque quidam partibilem ipsam: &amp; alio quidem intelli
+          <lb ed="#J" n="23" break="no"/>gere, alio autem concupiscere. Quid igitur continet animam si par
+          <lb ed="#J" n="24" break="no"/>tibilis est apta natacnon enim vtique corpus: videtur enim contrarium
+          <lb ed="#J" n="25"/>magis, anima corpus continere: egrediente enim spirat &amp; marcescit. </p>
+        <p xml:id="aristda-l1-asf91X">
+          <!-- l1-91-ant -->
+          <lb ed="#J" n="14"/>Si igitur alterum aliquid vnam ipsam facit, illud maxime erit
+          <lb ed="#J" n="15"/>anima. oportebit autem iterum illud quaerere, vtrum vnum aut
+          <lb ed="#J" n="16"/>multipartium sit: siquidem enim est vnum, propter quid non mox
+          <lb ed="#J" n="17"/>&amp; animam vnumesi vero diuisibile, iterum ratio quaeret, quid est
+          <lb ed="#J" n="18"/>continens: &amp; sic vtique procedet in insinitum. </p>
+        <p xml:id="aristda-l1-asf92X">
+          <!-- l1-92-ant -->
+          <lb ed="#J" n="36"/>Dubitabit autem aliquis &amp; de partibus ipsius, quam positionem
+          <lb ed="#J" n="37"/>habet vnaquaeque in corpore. si enim tota anima omne corpus com
+          <lb ed="#J" n="38" break="no"/>tinet, conuenit &amp; partium vnamquamque continere aliquid corpo
+          <lb ed="#J" n="39" break="no"/>ris: hoc autem assimilatur impossibili: qualem enim partem aut quo
+          <lb ed="#J" n="40" break="no"/>modo intellectus continebit graue est fingere. </p>
+        <p xml:id="aristda-l1-asf93X">
+          <!-- l1-93-ant -->
+          <lb ed="#J" n="32"/>Videntur autem &amp; plantae decisae viuere: &amp; animalium quaedam
+          <lb ed="#J" n="33"/>incisorum, tanquam eandem habentia animam specie, &amp; si non nume
+          <lb ed="#J" n="34"/>ro: vnaquaeque quidem enim partium sensum habet &amp; mouetur se
+          <lb ed="#J" n="35"/>cundum locum in quoddam tempus. </p>
+        <p xml:id="aristda-l1-asf94X">
+          <!-- l1-94-ant -->
+          <lb ed="#J" n="31"/>Si autem non permanent, nullum inconueniens est: instrumenta
+          <lb ed="#J" n="32"/>enim non habent quibus saluent naturam: sed nihilominus in vtraque
+          <lb ed="#J" n="33"/>partium omnes inexistunt partes animae, &amp; similis speciei sunt ad
+          <lb ed="#J" n="34"/>inuicem &amp; toti: ad inuicem quidem, sicut quae non separabiles sunt:
+          <lb ed="#J" n="35"/>toti autem animae, tanquam indiuisibili existente. </p>
+        <p xml:id="aristda-l1-asf95X">
+          <!-- l1-95-ant -->
+          <lb ed="#J" n="34"/>Videtur autem &amp; quae in plantis anima, principium quoddam
+          <lb ed="#J" n="35"/>esse: hac enim solum communicant &amp; animalia &amp; plantae, &amp; ipsa
+          <lb ed="#J" n="36"/>quidem separatur a sensibili principio: sensum autem nullum sine
+          <lb ed="#J" n="37"/>hac habet. </p>
+      </div>
+    </body>
+  </text>
+</TEI>
